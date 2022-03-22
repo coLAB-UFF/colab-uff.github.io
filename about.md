@@ -23,7 +23,11 @@ Individualmente ou em grupo, os membros do coLAB já foram contemplados em varia
 Pesquisador: Viktor Chagas
 Projeto: “PAREM AS PRENSAS: as mudanças tecnológicas e culturais na economia política da distribuição da imprensa escrita no contexto fluminense”
 
-### Edital CNPq/Universal nº 14/2013
+#### Edital CNPq/Universal nº 14/2013
+Pesquisador: Viktor Chagas
+Projeto: “PAREM AS PRENSAS: as mudanças tecnológicas e culturais na economia política da distribuição da imprensa escrita no contexto fluminense”
+
+##### Edital CNPq/Universal nº 14/2013
 Pesquisador: Viktor Chagas
 Projeto: “PAREM AS PRENSAS: as mudanças tecnológicas e culturais na economia política da distribuição da imprensa escrita no contexto fluminense”
 
