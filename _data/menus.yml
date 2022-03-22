@@ -2,15 +2,12 @@ main:
   - name: "Sobre"
     url: "/about/"
     weight: 2
-  - name: "Interesses"
+  - name: "Projetos"
     url: "/services/"
     weight: 3
   - name: "Integrantes"
     url: "/team/"
     weight: 4
-  - name: "Projetos"
-    url: "/projects/"
-    weight: 5
   - name: "Publicações"
     url: "/publications/"
     weight: 6
