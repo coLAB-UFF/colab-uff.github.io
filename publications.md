@@ -1,6 +1,6 @@
 ---
 title: Publicações
-layout: services
+layout: about
 description: Publications
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true
