@@ -15,9 +15,9 @@ O coLAB é responsável por um conjunto de projetos de grande porte, desenvolvid
 
 Para mais detalhes sobre algumas das atividades desenvolvidas pelo coLAB, acesse a seção <a href="https://colab-uff.github.io/services/">Projetos</a>.
 
-## Premiações e Auxílios
+## Bolsas e Auxílios
 
-Individualmente ou em grupo, os membros do coLAB já foram contemplados em variados editais de premiações, auxílios à pesquisa, bolsas e outros títulos. Vários dos estudantes associados ao grupo de pesquisa se beneficiam de bolsas de doutorado, mestrado, iniciação científica, iniciação à inovação tecnológica e extensão de diferentes órgãos e agências de fomento, como CNPq, Capes, Faperj e as Pró-Reitorias de Pesquisa, Pós-Graduação e Inovação (PROPPI) e de Extensão (PROEX). Além destas bolsas, destacam-se os seguintes auxílios recebidos por pesquisadores integrantes do grupo:
+Individualmente ou em grupo, os membros do coLAB já foram contemplados em variados editais de fomento e auxílio à pesquisa, bolsas e outros títulos. Vários dos estudantes associados ao grupo de pesquisa se beneficiam de bolsas de doutorado, mestrado, iniciação científica, iniciação à inovação tecnológica e extensão de diferentes órgãos e agências de fomento, como CNPq, Capes, Faperj e as Pró-Reitorias de Pesquisa, Pós-Graduação e Inovação (PROPPI) e de Extensão (PROEX). Além destas bolsas, destacam-se os seguintes auxílios recebidos por pesquisadores integrantes do grupo:
 
 
 ### Bolsa de Produtividade em Pesquisa PQ-2 2021 (CNPq)
@@ -131,7 +131,22 @@ Projeto: “Parem as prensas: as mudanças tecnológicas e culturais na economia
 ### Edital nº 4 PROEXT / 2011 (MEC)
 
 Proponente: Viktor Chagas
-
 Equipe: Viktor Chagas e Emmanoel Ferreira
-
 Projeto: “Polo de Produção e Pesquisa Aplicada em Jogos Eletrônicos e Redes Colaborativas (P3)”
+
+## Premiações
+
+Diversos pesquisadores e integrantes do coLAB já foram também contemplados com prêmios e honrarias concedidos por várias instituições. Uma relação concisa destas premiações segue abaixo:
+
+### Prêmio UFF Vasconcelos Torres de Iniciação Científica
+
+Contemplados: Milena Pereira (PIBIC/CNPq), Viktor Chagas (orientador)
+Posição: 2º Lugar
+Categoria: Ciências Sociais Aplicadas
+Projeto: “O ESTATUTO DA COLABORAÇÃO: apropriações da web para processos de construção coletiva de narrativas”
+
+
+
+
+
+
