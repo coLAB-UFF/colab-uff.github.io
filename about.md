@@ -131,21 +131,84 @@ Projeto: “Parem as prensas: as mudanças tecnológicas e culturais na economia
 ### Edital nº 4 PROEXT / 2011 (MEC)
 
 Proponente: Viktor Chagas
+
 Equipe: Viktor Chagas e Emmanoel Ferreira
+
 Projeto: “Polo de Produção e Pesquisa Aplicada em Jogos Eletrônicos e Redes Colaborativas (P3)”
+
 
 ## Premiações
 
 Diversos pesquisadores e integrantes do coLAB já foram também contemplados com prêmios e honrarias concedidos por várias instituições. Uma relação concisa destas premiações segue abaixo:
 
-### Prêmio UFF Vasconcelos Torres de Iniciação Científica
+### Prêmio IX Semana de Iniciação Científica e Tecnológica/PIBITI-CNPq 2019 (UFF)
 
-Contemplados: Milena Pereira (PIBIC/CNPq), Viktor Chagas (orientador)
+Contemplados: Carlos Bonifácio (PIBINOVA/UFF) e Viktor Chagas (Orientador)
+
+Posição: 3º lugar
+
+Categoria: Ciências Humanas/Sociais/Linguística
+
+Projeto: “Escritório Modelo de Memes”
+
+
+### Prêmio Destaque na Iniciação Científica e Tecnológica 2016 (CNPq)
+
+Contemplados: Luan Dutra (PIBITI/CNPq) e Viktor Chagas (Orientador)
+
+Posição: 1º lugar
+
+Categoria: Humanidades
+
+Projeto: “Jogos de Cooperação: Dinâmicas de conflito e negociação em materiais educativos para jovens em idade universitária”
+
+
+### Prêmio Adelmo Genro Filho de Pesquisa em Jornalismo 2014 (SBPJor)
+
+Contemplado: Viktor Chagas
+
+Posição: 1º Lugar
+
+Categoria: Melhor Tese de Doutorado
+
+Tese: “EXTRA! EXTRA! Os jornaleiros e as bancas de jornais como espaço de disputas pelo controle da distribuição da imprensa e da economia política dos meios”
+
+
+### Prêmio Semana de Iniciação Científica e Tecnológica/PIBITI-CNPq 2014 (UFF)
+
+Contemplados: Luan Dutra (PIBITI/CNPq) e Viktor Chagas (Orientador)
+
+Posição: 1º Lugar
+
+Categoria: Geral
+
+Projeto: “Jogos de Cooperação: Dinâmicas de conflito e negociação em materiais educativos para jovens em idade universitária”
+
+
+### XII Prêmio Josué de Castro de Extensão 2014 (UFF)
+
+Contemplados: Janderson Pereira Santa Clara (Bolsista Extensão), Viktor Chagas (Orientador)
+
+Posição: 1º Lugar
+
+Categoria: Comunicação
+
+Projeto: “Escritório de Big Data: Estudo e Aplicação de Análise de Big Data na Wikipédia”
+
+
+### Early-Stage Scholars Grant, Travel Grant 2014 (IAMCR)
+
+Contemplado: Viktor Chagas
+
+Projeto: “Overlapping webs: An analytical model for use in works on the political economy of printed media”
+
+
+### Prêmio Vasconcelos Torres de Iniciação Científica 2012 (UFF)
+
+Contemplados: Milena Pereira (PIBIC/CNPq), Viktor Chagas (Orientador)
+
 Posição: 2º Lugar
+
 Categoria: Ciências Sociais Aplicadas
+
 Projeto: “O ESTATUTO DA COLABORAÇÃO: apropriações da web para processos de construção coletiva de narrativas”
-
-
-
-
-
