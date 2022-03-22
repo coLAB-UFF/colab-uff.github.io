@@ -49,4 +49,25 @@
       }
     }
   }
+  @media screen and (max-width: 600px) {
+  .dgp-container {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+    @media screen and (max-width: 600px) {
+  .flex-container {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+  
 }
