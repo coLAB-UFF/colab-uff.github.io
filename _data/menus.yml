@@ -1,5 +1,5 @@
 main:
-  - name: "Histórico"
+  - name: "Sobre"
     url: "/about/"
     weight: 2
   - name: "Interesses"
@@ -11,6 +11,9 @@ main:
   - name: "Projetos"
     url: "/projects/"
     weight: 5
+  - name: "Publicações"
+    url: "/publications/"
+    weight: 6
   - name: "Contato"
     url: "/contact/"
     weight: 7
