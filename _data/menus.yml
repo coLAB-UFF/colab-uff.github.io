@@ -8,6 +8,9 @@ main:
   - name: "Integrantes"
     url: "/team/"
     weight: 4
+  - name: "Projetos"
+    url: "/projects/"
+    weight: 5
   - name: "Contato"
     url: "/contact/"
     weight: 7
