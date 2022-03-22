@@ -1,22 +1,17 @@
 [
   {
-    "name": "Github",
-    "link": "https://github.com/zerostaticthemes/jekyll-serif-theme",
-    "image": "images/social/github.svg"
-  },
-  {
-    "name": "Twitter",
-    "link": "https://twitter.com/zerostaticio",
-    "image": "images/social/twitter.svg"
-  },
-  {
-    "name": "DGP",
-    "link": "https://google.com",
+    "name": "Diretório de Grupos de Pesquisa CNPq",
+    "link": "http://dgp.cnpq.br/dgp/espelhogrupo/8743613284400394",
     "image": "images/social/logo_dgp.svg"
   },
   {
     "name": "Figshare",
-    "link": "https://figshare.com",
+    "link": "https://figshare.com/projects/Papers_coLAB/35102",
     "image": "images/social/logo_figshare.svg"
+  },
+    {
+    "name": "Github",
+    "link": "https://github.com/coLAB-UFF",
+    "image": "images/social/github.svg"
   }
 ]
