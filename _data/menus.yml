@@ -1,21 +1,27 @@
 main:
-  - name: "Services"
-    url: "/services/"
-    weight: 2
-  - name: "Team"
-    url: "/team/"
-    weight: 3
-  - name: "About"
+  - name: "Histórico"
     url: "/about/"
+    weight: 2
+  - name: "Interesses"
+    url: "/services/"
+    weight: 3
+  - name: "Integrantes"
+    url: "/team/"
     weight: 4
-  - name: "Contact"
-    url: "/contact/"
+  - name: "Projetos"
+    url: "/projects/"
     weight: 5
+  - name: "Produção C&T"
+    url: "/products/"
+    weight: 6
+  - name: "Contato"
+    url: "/contact/"
+    weight: 7
 
 footer:
   - name: "Home"
     url: "/"
     weight: 1
-  - name: "Contact"
+  - name: "Contato"
     url: "/contact/"
     weight: 2
