@@ -8,12 +8,6 @@ main:
   - name: "Integrantes"
     url: "/team/"
     weight: 4
-  - name: "Projetos"
-    url: "/projects/"
-    weight: 5
-  - name: "Produção C&T"
-    url: "/products/"
-    weight: 6
   - name: "Contato"
     url: "/contact/"
     weight: 7
