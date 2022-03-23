@@ -5,48 +5,16 @@ featured: true
 weight: 4
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+O box Jogos de Cooperação consiste de uma experiência lúdica com reflexões profundas sobre dilemas filosóficos
 
-## Ne verba patulosque numen vix libet
+## Um pouco mais sobre o projeto
 
-Agitabitur signa lympha; **non lacunae** mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+O projeto Jogos de Cooperação teve por objetivo de traduzir em jogos e materiais educativos problemas clássicos da teoria da cooperação. A proposta era de materializar formulações filosóficas próprias da chamada teoria da cooperação, um ramo específico da teoria dos jogos, dando origem a uma série de jogos, que fariam uso de elementos como tabuleiros, cartas e dados. Com isso, os conceitos evocados pela teoria da cooperação seriam capazes de despertar diferentes públicos para situações inspiradas por esses problemas.
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+Situações como o Dilema do Prisioneiro, a Tragédia dos Comuns, e outras variantes, trabalham noções relacionadas à confiança, comprometimento, generosidade, compartilhamento de responsabilidades e muito mais, e seriam portanto traduzíveis em situações comuns em jogos e brincadeiras reais, especialmente os voltados para crianças e adolescentes. Buscou-se transformar estas formulações em jogos voltados para um público universitário, sem restrição à área de formação, visto a aplicação destes problemas em diferentes campos, como a Ciência Política, Biologia, Relações Internacionais, Psicologia e vários outros em que os problemas propostos têm repercussão. Assim, através de uma provocação lúdica e interativa, que explora os limites conceituais e aplicações práticas para a teoria da cooperação, o presente projeto se ancorou na pesquisa, planejamento e elaboração dos materiais componentes desta série de jogos. Fazendo uso de materiais simples e prezando pelo bom acabamento de suas peças, o projeto consolidou uma experiência no âmbito dos chamados “serious games”, isto é, jogos pensados com propósitos que não puramente entreter, mas estimular a reflexão sobre determinadas situações.
 
-Locus evicit __loquuntur Tyrrhena omnes__, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+## Repercussões
 
-## Postquam tamen
+O projeto Jogos de Cooperação foi desenvolvido entre 2013 e 2017. Em 2014, foi reconhecido com o prêmio da Semana de Inovação Tecnológica da UFF, que premia os melhores trabalhos de bolsistas de iniciação à inovação tecnológica da universidade. No mesmo ano, o projeto foi contemplado com o Edital APQ1 da Faperj e obteve recursos para o desenvolvimento dos materiais didáticos. Em 2015, concorrendo entre todas as áreas, o projeto foi premiado com o Prêmio Destaque na Iniciação Científica e Tecnológica do CNPq, o principal prêmio de iniciação científica do país.
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
-
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
-
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
-
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+<a class="button button-primary" href="http://www.colab.uff.br/wp-content/uploads/2014/04/jogos-de-cooperacao.zip">Facas Gráficas</a>
