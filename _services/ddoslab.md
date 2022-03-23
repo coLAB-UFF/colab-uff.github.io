@@ -8,7 +8,7 @@ layout: service
 
 Rebater ou refutar uma única mensagem ou conter e bloquear um único ator é observar a desinformação de modo isolado, não em rede.
 
-![DDoS Lab](/images/services/ddoslab.png)
+![DDoS Lab](/images/services/ddoslab.jpeg)
 
 ## Um pouco mais sobre o projeto
 
