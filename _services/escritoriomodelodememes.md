@@ -6,48 +6,8 @@ weight: 5
 layout: service
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+O Escritório Modelo de Memes é um misto de agência e consultoria, projeto acadêmico e startup. Seu principal objetivo é desenvolver um espaço de pesquisa e formação voltado para o aprofundamento das metodologias relacionadas à coleta e análise de memes de internet
 
-## Ne verba patulosque numen vix libet
+## Um pouco mais sobre o projeto
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
-
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
-
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
-
-## Postquam tamen
-
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
-
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
-
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
-
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+O Escritório Modelo é orientado a implementar um ambiente de monitoramento de mídias sociais, análise de tráfego e moderação de comunidades virtuais, e ações pontuais de inteligência, atuando especificamente em contextos de farta produção de conteúdos gerados por usuários de internet, em particular os chamados memes de internet. O Escritório Modelo oferece, em sua carteira de ações a parceiros interinstitucionais, ações de pesquisa e consultoria; formação de profissionais de comunicação, educação, marketing e outras áreas para o desenvolvimento de estratégias relacionadas ao universo dos memes de internet; planejamento de acervo, roteiro expográfico e curadoria de exposições, físicas e virtuais, sobre conteúdos da cultura popular de internet que se entrelacem com temáticas indicadas por eventuais contratantes. Em seu formato atual, o projeto surge como um desdobramento de uma série de ações continuadas levadas a efeito pela ação extensionista Escritório de Big Data, em sua segunda fase (2014-2015), e pelo #MUSEUdeMEMES. Entre os clientes atendidos, o portfólio do projeto soma a Fundação Wikimedia, a ong Ação Educativa, o bloco de carnaval Cordão do Boi Tolo, a Secretaria de Educação do Estado do Rio de Janeiro (SEEDUC-RJ) e a Rede Globo.
