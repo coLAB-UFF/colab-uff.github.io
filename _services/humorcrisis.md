@@ -2,7 +2,7 @@
 title: "Humor during the global crisis"
 date: 2018-11-28T15:14:39+10:00
 featured: false
-weight: 9
+weight: 10
 ---
 
 Projeto liderado por Giselinde Kuipers e Mark Bouke, e em parceria com a University of Amsterdam.
