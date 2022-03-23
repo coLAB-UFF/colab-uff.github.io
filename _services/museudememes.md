@@ -5,77 +5,10 @@ featured: true
 weight: 1
 ---
 
-Financial accounting (or financial accountancy) is the field of accounting concerned with the **summary, analysis and reporting** of financial transactions related to a business.
+Memes são um fenômeno típico da internet, e podem se apresentar como imagens legendadas, vídeos virais ou expressões difundidas pelas mídias sociais. Próprios do universo das comunidades virtuais, portanto, os memes são geralmente elementos efêmeros, vulgarmente encarados como ‘besteirol’ passageiro ou ‘cultura inútil’, fruto de sua utilização da linguagem do humor. O webmuseu em questão procura reunir conteúdo acerca destes fenômenos e discuti-los no âmbito das teorias da Comunicação, evidenciando seu papel na formação de identidades em comunidades virtuais e nas interações em redes sociais na internet.
 
-![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
+![#MUSEUdeMEMES](/images/services/museudememes-layout.png)
 
-# Objectives 
+Desse modo, o projeto #MUSEUdeMEMES se ocupa (1) da constituição de um acervo diversificado a respeito dos memes brasileiros ou que circularam pelo Brasil em algum momento de sua trajetória na internet, (2) da organização de um conjunto de referências bibliográficas e orientações e debates de ordem teórico-metodológicas para pesquisadores e pesquisadoras interessadas na investigação de fenômenos relacionados ao universo dos memes de internet, (3) da realização de eventos e exposições, físicas ou virtuais, abertas ao público em geral, com o intuito de fomentar o debate sobre temas congêneres.
 
-Financial accounting and financial reporting are often used as synonyms.
-
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
-
-## Relevance
-
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance. 
-
-> The ingredients of relevance are the predictive value and confirmatory value. 
-
-Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
-
-## Faithful Representation
-
-Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.
-
-## Enhancing Qualitative Characteristics
-
-### Verifiability
-Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity.
-
-### Comparability
-Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity.
-
-### Understandability
-Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
-Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
-
----
-
-## Statement of cash flows
-The statement of cash flows considers the inputs and outputs in concrete cash within a stated period. The general template of a cash flow statement is as follows: Cash Inflow - Cash Outflow + Opening Balance = Closing Balance
-
-Cash Inflow | Outflow | Opening Balance
---- | --- | ---
-*Monday* | `Tuesday` | **Wednesday**
-1 | 2 | 3
-
-
-**Example 1:** in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen's cash flow statement for the month of September looks like this:
-
-* Cash inflow: $20
-* Cash outflow:$7
-* Opening balance: $5
-* Closing balance: $20 – $7 + $5 = $18
-
-**Example 2:** in the beginning of June, WikiTables, a company that buys and resells tables, sold 2 tables. They'd originally bought the tables for $25 each, and sold them at a price of $50 per table. The first table was paid out in cash however the second one was bought in credit terms. WikiTables' cash flow statement for the month of June looks like this:
-
-> **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
-
-## Statement of financial position (balance sheet)
-The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement. 
-
-- **fixed assets**
-    - property
-    - building
-    - equipment (such as factory machinery)
-- **intangible assets**
-    - copyrights
-    - trademarks
-    - patents
-        - pending
-        - international
-- goodwill
-
-Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.
+Em sentido estrito, o #MUSEU consiste em uma atividade que envolve pesquisa, ensino e extensão, e tem como escopo a implementação de um foro de referência para leigos e acadêmicos. O acervo de memes compilados pelos nossos curadores é apenas uma pequena parte do trabalho, que consiste também em mapear e monitorar os conteúdos que circulam nas mídias sociais e também em catalogar livros e artigos publicados em periódicos científicos de mais de 50 países diferentes. Além disso, procura-se sistematizar práticas de pesquisa e compartilhar discussões com outros pesquisadores, de modo que temos, hoje, múltiplas frentes de interesse e investigação, dos memes políticos ao universo do entretenimento midiático, dos esportes aos memes feministas e LGBTQ.
