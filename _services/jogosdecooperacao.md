@@ -17,4 +17,4 @@ Situações como o Dilema do Prisioneiro, a Tragédia dos Comuns, e outras varia
 
 O projeto Jogos de Cooperação foi desenvolvido entre 2013 e 2017. Em 2014, foi reconhecido com o prêmio da Semana de Inovação Tecnológica da UFF, que premia os melhores trabalhos de bolsistas de iniciação à inovação tecnológica da universidade. No mesmo ano, o projeto foi contemplado com o Edital APQ1 da Faperj e obteve recursos para o desenvolvimento dos materiais didáticos. Em 2015, concorrendo entre todas as áreas, o projeto foi premiado com o Prêmio Destaque na Iniciação Científica e Tecnológica do CNPq, o principal prêmio de iniciação científica do país.
 
-<a class="button button-primary" href="http://www.colab.uff.br/wp-content/uploads/2014/04/jogos-de-cooperacao.zip">Facas Gráficas</a>
+<a class="button button-primary" href="https://github.com/coLAB-UFF/data_cooperationgames">Facas Gráficas</a>
