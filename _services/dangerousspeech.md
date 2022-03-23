@@ -1,7 +1,7 @@
 ---
 title: "The circulation of dangerous speech in the 2020 Brazilian elections"
 date: 2018-11-28T15:14:39+10:00
-featured: false
+promoted: false
 weight: 9
 ---
 
