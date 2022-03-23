@@ -6,41 +6,16 @@ weight: 6
 layout: service
 ---
 
-Lorem markdownum **Achaica revolutaque amore**, penitus puppes nec furit,
-clipeus fatetur, mira inter accedere. Dedit dum raptoresque Oete dolorem
-Cretaeas enim [ipse pectora excusat](#in-poscat) candentibus fertur? Furtiva
-Orontes Erysicthona dona, est per Achille viridi draconis cultis mota milia.
+Rebater ou refutar uma única mensagem ou conter e bloquear um único ator é observar a desinformação de modo isolado, não em rede.
 
-- Nata perque
-- Et ferrugine laedam
-- Cedere tandem Atlante maiestas Italicis ut forma
+![DDoS Lab](/images/services/ddoslab.png)
 
-Levat austroque ilia castos, postquam petit confessis ad caput, ille rerum
-precor facitote nubemque. Potuit Celadon Martem?
+## Um pouco mais sobre o projeto
 
-1. Imagine Assaracus victori petet femina mea haustos
-2. Sicaniam quibus agro magni
-3. In utque Troica pedum caelestia hunc tempto
-4. Gregibus certare tamen turbatque qui
+A grande maioria dos projetos de combate à desinformação se fundamenta na tentativa, muitas vezes inglória, de produzir contradiscursos que se prestam a esclarecer determinados aspectos e informar corretamente à população. Os chamados fact-checkers, por exemplo, têm investido em sistemas de selos de verificação de notícias falsas ou na circulação de campanhas educativas com ênfase em ações de media literacy que sugerem que apenas os grandes meios de comunicação têm condições de afirmar o que é uma notícia verdadeira ou não. Os resultados, até esse momento, são tímidos ou contraproducentes, já que a mídia tradicional, ela própria, é vista com descrédito por grande parte desses grupos. O grande problema desses projetos, portanto, é que eles parecem compreender a dinâmica de difusão de fake news nas mídias sociais a partir de uma perspectiva restrita ao conteúdo, sem reconhecer que este problema não pode ser enfrentado a partir de uma abordagem factual e corretiva, já que esses conteúdos não atuam isoladamente, mas em rede, compondo imaginários coletivos e sendo propagados por diferentes atores políticos em consonância, na expectativa de constituir um senso comum em torno de determinada pauta.
 
-## Patulis Veneris est expulit adversaque magnum mediaque
+Por isso, a proposta deste laboratório é mapear amplamente a rede de influenciadores políticos online, identificando comportamentos de usuários cuja atuação se assemelhe à de agentes profissionais do campo político, e evidenciando o papel desempenhado por ações coordenadas por milícias digitais. Da difusão em massa de fake news às chamadas à ação para linchamento online contra adversários políticos específicos, o laboratório centrará sua análise em grupos de discussão política no WhatsApp, mas desenvolverá paralelamente investigações de caráter comparativo em ambientes multiplataforma, apoiando-se em outras mídias sociais populares, como YouTube, Facebook, Twitter e Instagram.
 
-Omnis est signa cum nec inplevit vivit et insania Orpheu, an abit. Nimbi
-subversaque et micant suumque, tibi ipse; sed. **Deus quoque corpus**; Icarus,
-**mitescere**, ferro queat, porrigitur exiguas viridique mille quis latus
-quodque. Non una genuisse ullis efficiet ad corpore nunc mentesque praestant?
+A constituição de redes de desinformação em aplicativos como o WhatsApp representa um enorme desafio para agentes políticos e midiáticos. Iniciativas de fact-checking, por exemplo, apresentam efeitos limitados nesse ambiente, à medida que a circulação de conteúdos que procuram combater fake news é normalmente rechaçada em grupos de discussão política. Esses grupos têm organização homofílica e avessa à diversidade de opiniões. Por essa razão, esforços para verificar a veracidade de conteúdos são sumariamente barrados por usuários e administradores. Por outro lado, projetos que confiam na arquitetura digital da plataforma para etiquetar automaticamente conteúdos falsos geralmente esbarram nas particularidades da criptografia de ponta-a-ponta, cuja principal vantagem é garantir o sigilo da informação aos usuários em redes de comunicação privada. Combater a desinformação nesses ambientes não é tarefa simples. E é ainda mais difícil se não se conhece a rede e a atuação de seus principais participantes.
 
-_Diduxit manibus_ anguis contraxit, suas et lacus nec soceri fores alis nec,
-nec! Data pater Perseu minanti animam operitur illa dolorem.
-
-Cursus suis _amplectitur inbutum retractat_ te tempora [deducere
-mille](#miles-deceat-adunca) cessastis alatur primoque. Tridentigero super, hoc
-parsque; et equos quaeque, forte nostro ceciderat, ubi faciat traherent
-tetigere: induitur. Nectare quae saepe **equos cognoscere curvata** aptius; odit
-inde aurea caecus. Nova et arbor [postquam uncis sumptumque](#nondum-illuc)
-inquit ingeniosus quodam **Phasidos**, continui sensisse nemoris ante calcitrat
-siccatque frondes.
-
-Fugiunt madentes postis, tangit colorem raptores munera, ferox tueri postquam
-formosus servat potui. Luce ebur, pulcherrimus plus tradere! _Quam perque
-semper_?
+A maior parte dos projetos de lei que tramitam hoje no Congresso sobre a regulamentação de fake news não leva em consideração o ambiente de aplicativos de comunicação móvel, achatando a realidade ao nível de outras plataformas que se caracterizam mais claramente como redes sociais online. Nesse sentido, embora algumas ações apresentem resultados pontuais no combate à desinformação, em grande medida, no longo prazo, as redes de distribuição de conteúdos desinformativos e discurso de ódio tendem a se reestruturar e continuar em atividade. Conhecer o modus operandi dessa rede, entender quais são seus mecanismos, ler quais são os principais atores integrantes, e avaliar modelos de viralidade é fundamental para planejar ações de sanção e contenção desses grupos. O Laboratório de Combate à Desinformação e ao Discurso de Ódio em Sistemas de Comunicação em Rede (DDoS), uma espécie de subprojeto do Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB), da Universidade Federal Fluminense, pretende dar vazão a esses esforços.
