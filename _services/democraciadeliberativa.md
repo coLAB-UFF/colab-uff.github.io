@@ -1,10 +1,3 @@
----
-title: "A democracia deliberativa em face da crise da democracia: contribuições, dilemas e trilhas"
-date: 2018-11-28T15:14:39+10:00
-featured: false
-weight: 9
----
-
 Projeto liderado por Ricardo Fabrino Mendonça e desenvolvido em parceria com a UFMG, a UFPA, e a UFG.
 
 ## Resumo
