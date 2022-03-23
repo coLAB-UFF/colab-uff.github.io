@@ -7,6 +7,8 @@ weight: 4
 
 O box Jogos de Cooperação consiste de uma experiência lúdica com reflexões profundas sobre dilemas filosóficos
 
+![Jogos de Cooperação](/images/services/caixa.png)
+
 ## Um pouco mais sobre o projeto
 
 O projeto Jogos de Cooperação teve por objetivo de traduzir em jogos e materiais educativos problemas clássicos da teoria da cooperação. A proposta era de materializar formulações filosóficas próprias da chamada teoria da cooperação, um ramo específico da teoria dos jogos, dando origem a uma série de jogos, que fariam uso de elementos como tabuleiros, cartas e dados. Com isso, os conceitos evocados pela teoria da cooperação seriam capazes de despertar diferentes públicos para situações inspiradas por esses problemas.
