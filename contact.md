@@ -1,6 +1,6 @@
 ---
 title: Contato
-layout: contact
+layout: page
 description: Contact
 ---
 
