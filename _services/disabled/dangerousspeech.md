@@ -1,9 +1,4 @@
----
-title: "The circulation of dangerous speech in the 2020 Brazilian elections"
-date: 2018-11-28T15:14:39+10:00
-promoted: false
-weight: 9
----
+
 
 Este projeto foi contemplado pelo edital _Foundational Integrity Research: Misinformation and Polarization request for proposals_, promovido pelo Facebook Research, em 2020. A proposta é liderada pela Diretoria de Análises de Políticas Públicas da Fundação Getulio Vargas (DAPP-FGV) e conta com o coLAB como parceiro interinstitucional.
 
