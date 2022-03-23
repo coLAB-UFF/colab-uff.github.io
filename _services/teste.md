@@ -1,9 +1,16 @@
 ---
-title: "Mapa do Ativismo Digital Humorístico 2"
+title: "The circulation of dangerous speech in the 2020 Brazilian elections"
 date: 2018-11-28T15:14:39+10:00
 featured: false
 weight: 9
 ---
+
+Este projeto foi contemplado pelo edital _Foundational Integrity Research: Misinformation and Polarization request for proposals_, promovido pelo Facebook Research, em 2020. A proposta é liderada pela Diretoria de Análises de Políticas Públicas da Fundação Getulio Vargas (DAPP-FGV) e conta com o coLAB como parceiro interinstitucional.
+
+## Resumo
+
+This research project aims to identify the online distribution network of dangerous political content by radicalized constituencies during the 2020 Brazilian municipal elections. We have assumed that dangerous and uncivil messages based on longitudinal prejudices or latent social anxieties gain greater engagement online, fostering a climate of opinion conducive to the creation and circulation of fake news. Additionally, our second assumption is that the more rooted is the social conviction on untruthful and conspiratorial facts, the more implications dangerous speeches can generate for the distortion of public opinion and for undemocratic behavior of the voter. Based on the mapping of pages and public groups on Brazilian politics with a radicalized bias, ranging from far-right to far-left networks, we propose 1. to monitor the influx of dangerous messages; 2. to detect the most viral dangerous contents; 3. to detect the formation of communities of cohesive interests through which these messages are amplified; and 4. to identify the participation of micro-influencers (ordinary accounts) and macro-influencers (public figures) to foster dangerous arguments and content for the electoral and democratic processes. Thus, the research also aims to analyze the connection of dangerous and hateful speeches with social and political reality.
+
 
 <!--
 # Objectives 
