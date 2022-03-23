@@ -5,6 +5,8 @@ featured: true
 weight: 1
 ---
 
+O #MUSEUdeMEMES nasceu de uma dupla provocação. De um lado, como todo museu, ele tem o objetivo de apresentar ao grande público um pouco da memória a respeito de um dado tema. De outro, ele é, em si, um meme, isto é, uma brincadeira, um artifício, cujo principal propósito é estimular a reflexão sobre o papel que ocupam os memes na cultura contemporânea. Em suma, o museu é uma ferramenta de comunicação, mas também é ativismo político, é teoria mas também é práxis.
+
 Memes são um fenômeno típico da internet, e podem se apresentar como imagens legendadas, vídeos virais ou expressões difundidas pelas mídias sociais. Próprios do universo das comunidades virtuais, portanto, os memes são geralmente elementos efêmeros, vulgarmente encarados como ‘besteirol’ passageiro ou ‘cultura inútil’, fruto de sua utilização da linguagem do humor. O webmuseu em questão procura reunir conteúdo acerca destes fenômenos e discuti-los no âmbito das teorias da Comunicação, evidenciando seu papel na formação de identidades em comunidades virtuais e nas interações em redes sociais na internet.
 
 ![#MUSEUdeMEMES](/images/services/museudememes-layout.png)
