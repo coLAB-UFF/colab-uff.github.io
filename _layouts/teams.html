@@ -39,7 +39,7 @@ bodyClass: "page-teams"
                     <a target="_blank" href="{{ team.orcidurl }}" rel="noreferrer">OrcID</a>
                     {% endif %}
                 </div>
-                <div class="team-content">{{ team.content | truncate: 120 }}</div>
+                <div class="team-content">{{ team.content | truncate: 160 }}</div>
             </div>
         </div>
         {% endfor %}
