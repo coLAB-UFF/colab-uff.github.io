@@ -6,7 +6,7 @@ image: "images/team/profile_dandaramagalhaes.jpg"
 jobtitle: "Doutoranda (Comunicação, UFF)"
 lattesurl: "http://lattes.cnpq.br/9469262980027220"
 promoted: false
-weight: 7
+weight: 3
 layout: team
 ---
 
