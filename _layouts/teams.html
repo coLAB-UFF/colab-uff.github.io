@@ -36,7 +36,10 @@ bodyClass: "page-teams"
                     <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
                     {% endif %}
                     {% if team.lattesurl %}
-                    <a target="_blank" href="{{ team.lattesurl }}" rel="noreferrer"><i class="fa fa-graduation-cap"></i> Lattes</a>
+                    <a target="_blank" href="{{ team.lattesurl }}" rel="noreferrer">Lattes</a>
+                    {% endif %}
+                    {% if team.orcidnurl %}
+                    <a target="_blank" href="{{ team.orcidurl }}" rel="noreferrer">OrcID</a>
                     {% endif %}
                 </div>
                 <div class="team-content">{{ team.content | truncate: 120 }}</div>
