@@ -7,6 +7,7 @@ jobtitle: "Graduanda (Estudos de Mídia, UFF)"
 promoted: false
 lattesurl: "http://lattes.cnpq.br/8497014929756649"
 weight: 2
+layout: team
 ---
 
 Cursa Estudos de Mídia na Universidade Federal Fluminense. É bolsista PIBIC do projeto A Política dos Memes e os Memes da Política desde 2018.
