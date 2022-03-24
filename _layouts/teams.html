@@ -32,11 +32,8 @@ bodyClass: "page-teams"
                 <div class="team-meta">
                     <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
-                    {% if team.linkedinurl %}
-                    <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
-                    {% endif %}
                     {% if team.lattesurl %}
-                    <a target="_blank" href="{{ team.lattesurl }}" rel="noreferrer">Lattes</a>
+                    <a target="_blank" href="{{ team.lattesurl }}" rel="noreferrer">Lattes</a> | 
                     {% endif %}
                     {% if team.orcidurl %}
                     <a target="_blank" href="{{ team.orcidurl }}" rel="noreferrer">OrcID</a>
