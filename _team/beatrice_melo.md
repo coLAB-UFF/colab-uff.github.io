@@ -2,7 +2,7 @@
 title: "Beatrice de Melo"
 date: 2018-12-20T13:44:55+10:00
 draft: false
-image: "images/team/profile_beatrice_melo.png"
+image: "images/team/profile_beatrice_melo.jpg"
 jobtitle: "Graduanda (Estudos de Mídia, UFF)"
 promoted: false
 lattesurl: "http://lattes.cnpq.br/8497014929756649"
