@@ -6,7 +6,7 @@ image: "images/team/profile_beatricemelo.jpg"
 jobtitle: "Graduanda (Estudos de Mídia, UFF)"
 promoted: false
 lattesurl: "http://lattes.cnpq.br/8497014929756649"
-weight: 4
+weight: 2
 ---
 
 Cursa Estudos de Mídia na Universidade Federal Fluminense. É bolsista PIBIC do projeto A Política dos Memes e os Memes da Política desde 2018.
