@@ -17,4 +17,4 @@ Em sentido estrito, o #MUSEU consiste em uma atividade que envolve pesquisa, ens
 
 <a class="button button-primary" href="http://museudememes.com.br">Acesse o #MUSEUdeMEMES</a>
 
-<a href=""><img src="/images/social/icon-fb.png" width="80"></a> <a href=""><img src="/images/social/icon-tt.png"></a> <a href=""><img src="/images/social/icon-ig.png"></a> <a href=""><img src="/images/social/icon-yt.png"></a> <a href=""><img src="/images/social/icon-tg.png"></a>
+<a href=""><img src="/images/social/icon-fb.png" width="40"></a> <a href=""><img src="/images/social/icon-tt.png"></a> <a href=""><img src="/images/social/icon-ig.png"></a> <a href=""><img src="/images/social/icon-yt.png"></a> <a href=""><img src="/images/social/icon-tg.png"></a>
