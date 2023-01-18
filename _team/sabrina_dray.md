@@ -2,7 +2,7 @@
 title: "Sabrina Dray"
 date: 2023-12-17T13:44:55+10:00
 draft: false
-image: "images/team/profile_sabrinadray.jpg"
+image: "images/team/profile_sabrinadray.png"
 jobtitle: "Graduanda (Estudos de Mídia, UFF)"
 promoted: false
 lattesurl: "http://lattes.cnpq.br/9669395808859104"
