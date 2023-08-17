@@ -2,7 +2,7 @@
 title: "Viktor Chagas"
 date: 2018-11-19T10:47:58+10:00
 draft: false
-image: "images/team/colab-avatar-kvadrat.jpg"
+image: "images/team/profile_viktor.jpg"
 jobtitle: "Professor Doutor"
 lattesurl: "http://lattes.cnpq.br/5832049847796420"
 orcidurl: "http://orcid.org/0000-0002-1806-6062"
