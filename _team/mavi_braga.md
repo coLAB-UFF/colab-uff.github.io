@@ -1,5 +1,5 @@
 ---
-title: "Maria Vitória (Mavi) Leal Braga"
+title: "Maria Vitória (Mavi) Braga"
 date: 2023-12-17T13:44:55+10:00
 draft: false
 image: "images/team/profile_mavi_braga.png"
