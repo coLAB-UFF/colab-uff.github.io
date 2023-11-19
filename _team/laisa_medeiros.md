@@ -5,7 +5,7 @@ draft: false
 image: "images/team/profile_sabrinadray.png"
 jobtitle: "Graduanda (Estudos de Mídia, UFF)"
 promoted: false
-lattesurl: "http://lattes.cnpq.br/9669395808859104"
+lattesurl: "[http://lattes.cnpq.br/9669395808859104](http://lattes.cnpq.br/9199079255925440)"
 weight: 2
 layout: team
 ---
