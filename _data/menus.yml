@@ -2,14 +2,17 @@ main:
   - name: "Sobre"
     url: "/about/"
     weight: 2
-  - name: "Projetos"
-    url: "/services/"
-    weight: 3
   - name: "Integrantes"
     url: "/team/"
+    weight: 3
+  - name: "Projetos"
+    url: "/services/"
     weight: 4
   - name: "Publicações"
     url: "/publications/"
+    weight: 5
+  - name: "Clipping"
+    url: "https://colab-uff.github.io/clipping/"
     weight: 6
   - name: "Contato"
     url: "/contact/"
