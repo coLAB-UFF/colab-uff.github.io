@@ -9,11 +9,20 @@ O Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da C
 
 Associado ao Instituto Nacional de Ciência e Tecnologia em Democracia Digital (INCT.dd), o grupo reúne pesquisadores dedicados à área da comunicação política, em diferentes níveis de formação. As linhas de pesquisa contemplam estudos sobre: estratégias de comunicação e opinião pública, culturas políticas e ação coletiva, e humor e discussão política.
 
+
 ## Projetos em Andamento
 
-O coLAB é responsável por um conjunto de projetos de grande porte, desenvolvidos de modo interdisciplinar e com apoio de vários de seus integrantes e de parceiros interinstitucionais. Além do Instituto Nacional de Ciência e Tecnologia em Democracia Digital (INCT.dd), o laboratórios é parceiro da Diretoria de Análise de Políticas Públicas (DAPP) da Fundação Getulio Vargas, e já desenvolveu projetos conjuntos com outros vários grupos, como o Margem (UFMG), o COPS (UFMA), e muito mais. 
+O coLAB é responsável por um conjunto de projetos de grande porte, desenvolvidos de modo interdisciplinar e com apoio de vários de seus integrantes e de parceiros interinstitucionais. Além do Instituto Nacional de Ciência e Tecnologia em Democracia Digital (INCT.dd), o laboratórios é parceiro da Diretoria de Análise de Políticas Públicas (DAPP) da Fundação Getulio Vargas, e já desenvolveu projetos conjuntos com outros vários grupos, como o Margem (UFMG), o COPS (UFMA), o MiDiCom (UFF), e muito mais. 
 
 Para mais detalhes sobre algumas das atividades desenvolvidas pelo coLAB, acesse a seção <a href="https://colab-uff.github.io/services/">Projetos</a>.
+
+
+## coLAB na Mídia
+
+Para um pequeno portfólio de menções na imprensa a estudos e projetos desenvolvidos pelos pesquisadores do Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB-UFF), visite nosso clipping. O clipping é atualizado periodicamente com algumas notícias sobre as nossas atividades.
+
+Acesse o <a href="https://colab-uff.github.io/clipping/">Clipping</a>.
+
 
 ## Bolsas e Auxílios
 
