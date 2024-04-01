@@ -10,6 +10,6 @@ weight: 11
 layout: team
 ---
 
-Doutorando pelo Programa de Pós-Graduação em Comunicação da UFF. Mestre em Mídia e Cotidiano pelo PPGMC da UFF. Possui MBA em Administração e Marketing pelo Centro Universitário Internacional de Curitiba (Uninter), Pós-Graduação Latu Sensu em Comunicação Pública pela Faculdade UniBF; Especializando-se em Marketing, Branding e Experiência Digital pela UNESC Digital. MBA em Gestão de Eventos pela Faculdade Unyleya. Graduado em Comunicação Social, com habilitação em Jornalismo, pelo Centro Universitário Geraldo Di Biase - UGB, de Volta Redonda, e graduando em Eventos pelo Centro Universitário Leonardo da Vinci.
+Atua no segmento de Comunicação, Marketing e Eventos. Graduado em Comunicação Social com habilitação em Jornalismo. Suas experiências profissionais passam por veículos de comunicação referência na região Sul Fluminense (RJ), do impresso ao digital passando por rádio e TV. Mestre em Mídia e Cotidiano pelo PPGMC-UFF e Doutorando em Comunicação PPGCOM-UFF; possui MBA em Administração e Marketing; Comunicação Pública; Marketing, Branding e Experiência Digital; Gestão de Eventos.
 
 <a href="http://lattes.cnpq.br/9651385818281744">Lattes</a>
