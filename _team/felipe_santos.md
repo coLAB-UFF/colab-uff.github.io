@@ -1,6 +1,6 @@
 ---
 title: "Felipe Santos"
-date: 2018-12-20T13:44:55+10:00
+date: 2023-02-14 13:44:55 +1000
 draft: false
 image: "images/team/profile_felipe.jpeg"
 jobtitle: "Doutorando (Comunicação, UFF)"
