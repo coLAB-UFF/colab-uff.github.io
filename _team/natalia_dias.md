@@ -3,7 +3,7 @@ title: "Natalia Dias"
 date: 2018-11-19T10:47:58+10:00
 draft: false
 image: "images/team/profile_nataliadias.jpg"
-jobtitle: "Doutoranda (Comunicação, UFF)"
+jobtitle: "Doutora (Comunicação, UFF)"
 lattesurl: "http://lattes.cnpq.br/1925000538931385"
 promoted: false
 weight: 10
