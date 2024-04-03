@@ -1,6 +1,6 @@
 ---
 title: "Ana Dindara Rocha Novaes"
-date: 2023-02-14 13:44:55 +1000
+date: 2023-02-14T13:44:55+10:00
 draft: false
 image: "images/team/profile_anadindara.jpeg"
 jobtitle: "Mestranda (Comunicação, UFF)"
