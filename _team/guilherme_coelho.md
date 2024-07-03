@@ -2,7 +2,7 @@
 title: "Guilherme Coelho Sala"
 date: 2023-12-17T13:44:55+10:00
 draft: false
-image: "images/team/profile_guilherme_coelho.jpg"
+image: "images/team/profile_guilherme_coelho.png"
 jobtitle: "Graduando (Ciências Sociais, UFF)"
 promoted: false
 lattesurl: "http://lattes.cnpq.br/4828979462952171"
