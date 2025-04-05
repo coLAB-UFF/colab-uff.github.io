@@ -95,7 +95,7 @@ bodyClass: "page-home"
         {% endfor %}
     </div>
     <div class="row pt-6 pb-6">
-        {% assign teams = site.team | where: "promoted", false | sort: "weight" %}
+        {% assign teams = site.team | where: "promoted", false | sort: "title" %}
         {% for team in teams %}
         <div class="col-12 col-md-4 mb-3">
             <div class="team team-summary">
