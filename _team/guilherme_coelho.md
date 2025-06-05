@@ -10,6 +10,6 @@ weight: 2
 layout: team
 ---
 
-Cursa Ciências Sociais na Universidade Federal Fluminense. É bolsista PROEX do projeto #MUSEUdeMEMES.
+Cursa Ciências Sociais na Universidade Federal Fluminense. É atualmente bolsista PIBIC/CNPq e foi bolsista de extensão do projeto #MUSEUdeMEMES.
 
 <a href="http://lattes.cnpq.br/4828979462952171">Lattes</a>
