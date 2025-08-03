@@ -1,6 +1,6 @@
 ---
 title: "#MUSEUdeMEMES"
-date: 2015-06-15T12:00:00-3:00
+date: 2015-06-15 15:00:00 Z
 featured: true
 weight: 1
 ---

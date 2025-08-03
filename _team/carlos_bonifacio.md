@@ -1,11 +1,10 @@
 ---
-title: "Carlos Bonifácio"
-date: 2025-04-04T13:44:55+10:00
-draft: false
-image: "images/team/profile_carlosbonifacio.png"
-jobtitle: "Mestrando (Comunicação, UFF)"
+title: Carlos Bonifácio
+date: 2025-04-04 03:44:55 Z
+image: images/team/profile_carlosbonifacio.png
+jobtitle: Mestrando (Comunicação, UFF)
 promoted: false
-lattesurl: "http://lattes.cnpq.br/9246303950178335"
+lattesurl: http://lattes.cnpq.br/9246303950178335
 weight: 2
 layout: team
 ---

@@ -1,11 +1,10 @@
 ---
-title: "Gabriella da Costa"
-date: 2018-12-20T13:44:55+10:00
-draft: false
-image: "images/team/profile_gabriellacosta.png"
-jobtitle: "Doutoranda (Comunicação, UFF)"
+title: Gabriella da Costa
+date: 2018-12-20 03:44:55 Z
+image: images/team/profile_gabriellacosta.png
+jobtitle: Doutoranda (Comunicação, UFF)
 promoted: false
-lattesurl: "http://lattes.cnpq.br/3400008724673293"
+lattesurl: http://lattes.cnpq.br/3400008724673293
 weight: 4
 layout: team
 ---

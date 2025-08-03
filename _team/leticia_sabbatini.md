@@ -1,11 +1,10 @@
 ---
-title: "Letícia Sabbatini"
-date: 2018-12-20T13:45:06+10:00
-draft: false
+title: Letícia Sabbatini
+date: 2018-12-20 03:45:06 Z
 promoted: false
-image: "images/team/profile_leticiasabbatini.jpg"
-jobtitle: "Doutoranda (Comunicação, UFF)"
-lattesurl: "http://lattes.cnpq.br/7022267616600463"
+image: images/team/profile_leticiasabbatini.jpg
+jobtitle: Doutoranda (Comunicação, UFF)
+lattesurl: http://lattes.cnpq.br/7022267616600463
 weight: 8
 layout: team
 ---

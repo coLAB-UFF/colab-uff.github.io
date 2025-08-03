@@ -1,11 +1,10 @@
 ---
-title: "Karen de Paula Santos"
-date: 2023-02-14T13:44:55+10:00
-draft: false
-image: "images/team/profile_karen.png"
-jobtitle: "Mestra (Mídia e Cotidiano, UFF)"
+title: Karen de Paula Santos
+date: 2023-02-14 03:44:55 Z
+image: images/team/profile_karen.png
+jobtitle: Mestra (Mídia e Cotidiano, UFF)
 promoted: false
-lattesurl: "http://lattes.cnpq.br/6681379248597018"
+lattesurl: http://lattes.cnpq.br/6681379248597018
 weight: 11
 layout: team
 ---

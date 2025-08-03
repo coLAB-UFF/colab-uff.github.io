@@ -1,6 +1,6 @@
 ---
-title: "Observatório de Tretas"
-date: 2018-11-28T15:15:26+10:00
+title: Observatório de Tretas
+date: 2018-11-28 05:15:26 Z
 featured: true
 weight: 3
 ---

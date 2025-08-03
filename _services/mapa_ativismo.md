@@ -1,6 +1,6 @@
 ---
-title: "Mapeamento de Repertórios da Brincadeira Política"
-date: 2018-11-28T15:14:39+10:00
+title: Mapeamento de Repertórios da Brincadeira Política
+date: 2018-11-28 05:14:39 Z
 featured: true
 weight: 2
 ---

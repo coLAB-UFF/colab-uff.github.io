@@ -1,11 +1,10 @@
 ---
-title: "Clara Balbi"
-date: 2025-04-04T13:44:55+10:00
-draft: false
-image: "images/team/profile_clarabalbi.png"
-jobtitle: "Mestranda (Comunicação, UFF)"
+title: Clara Balbi
+date: 2025-04-04 03:44:55 Z
+image: images/team/profile_clarabalbi.png
+jobtitle: Mestranda (Comunicação, UFF)
 promoted: false
-lattesurl: "http://lattes.cnpq.br/2261240746938622"
+lattesurl: http://lattes.cnpq.br/2261240746938622
 weight: 2
 layout: team
 ---

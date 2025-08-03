@@ -1,11 +1,10 @@
 ---
-title: "Luiza de Mello Stefano"
-date: 2018-12-20T13:44:23+10:00
-draft: false
+title: Luiza de Mello Stefano
+date: 2018-12-20 03:44:23 Z
 promoted: false
-image: "images/team/profile_luizastefano.jpg"
-jobtitle: "Doutora (Comunicação, UFF)"
-lattesurl: "http://lattes.cnpq.br/6516902893493632"
+image: images/team/profile_luizastefano.jpg
+jobtitle: Doutora (Comunicação, UFF)
+lattesurl: http://lattes.cnpq.br/6516902893493632
 weight: 9
 layout: team
 ---

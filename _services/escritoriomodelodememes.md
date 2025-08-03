@@ -1,6 +1,6 @@
 ---
-title: "Escritório Modelo de Memes"
-date: 2018-11-28T15:14:54+10:00
+title: Escritório Modelo de Memes
+date: 2018-11-28 05:14:54 Z
 featured: true
 weight: 5
 layout: service

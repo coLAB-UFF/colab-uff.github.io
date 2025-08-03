@@ -1,11 +1,10 @@
 ---
-title: "Ivanildo Carvalho"
-date: 2025-04-04T13:44:55+10:00
-draft: false
-image: "images/team/profile_ivanildocarvalho.png"
-jobtitle: "Doutorando (Comunicação, UFF)"
+title: Ivanildo Carvalho
+date: 2025-04-04 03:44:55 Z
+image: images/team/profile_ivanildocarvalho.png
+jobtitle: Doutorando (Comunicação, UFF)
 promoted: false
-lattesurl: "https://lattes.cnpq.br/3250082397924019"
+lattesurl: https://lattes.cnpq.br/3250082397924019
 weight: 2
 layout: team
 ---

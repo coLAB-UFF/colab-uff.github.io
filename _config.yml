@@ -1,49 +1,53 @@
-baseurl: '/'
-permalink: pretty
-title: 'coLAB'
-
-logo:
-  mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "32px"
-  mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
-
+---
+title: coLAB
+timezone: UTC
 collections:
+  posts:
+    title: Posts
+    output: true
   services:
+    title: Services
     output: true
   team:
+    title: Team
     output: true
-
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  - scope:
-      path: ""
-      type: "services"
-    values:
-      layout: "service"
-  - scope:
-      path: ""
-      type: "team"
-    values:
-      layout: "team"
-
+- scope:
+    path: ''
+    type: services
+  values:
+    layout: service
+- scope:
+    path: ''
+    type: team
+  values:
+    layout: team
+baseurl: "/"
+permalink: pretty
+logo:
+  mobile: images/logo/logo-mobile.svg
+  mobile_height: 32px
+  mobile_width: 32px
+  desktop: images/logo/logo.svg
+  desktop_height: 32px
+  desktop_width: 120px
 sass:
   indentWidth: 4
-  style: compressed # possible values: nested expanded compact compressed
+  style: compressed
   precision: 10
-
 plugins:
-  - jekyll-environment-variables
-
+- jekyll-environment-variables
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - LICENSE.md
-  - LICENSE
-  - README.md
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+- LICENSE.md
+- LICENSE
+- README.md

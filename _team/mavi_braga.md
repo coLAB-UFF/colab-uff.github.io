@@ -1,11 +1,10 @@
 ---
-title: "Maria Vitória (Mavi) Braga"
-date: 2023-12-17T13:44:55+10:00
-draft: false
-image: "images/team/profile_mavi_braga.jpg"
-jobtitle: "Graduanda (Estudos de Mídia, UFF)"
+title: Maria Vitória (Mavi) Braga
+date: 2023-12-17 03:44:55 Z
+image: images/team/profile_mavi_braga.jpg
+jobtitle: Graduanda (Estudos de Mídia, UFF)
 promoted: false
-lattesurl: "http://lattes.cnpq.br/3527538128932383"
+lattesurl: http://lattes.cnpq.br/3527538128932383
 weight: 2
 layout: team
 ---

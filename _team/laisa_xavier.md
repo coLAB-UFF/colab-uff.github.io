@@ -1,11 +1,10 @@
 ---
-title: "Laisa Xavier"
-date: 2023-12-17T13:44:55+10:00
-draft: false
-image: "images/team/profile_laisa_medeiros.jpg"
-jobtitle: "Graduanda (Estudos de Mídia, UFF)"
+title: Laisa Xavier
+date: 2023-12-17 03:44:55 Z
+image: images/team/profile_laisa_medeiros.jpg
+jobtitle: Graduanda (Estudos de Mídia, UFF)
 promoted: false
-lattesurl: "http://lattes.cnpq.br/9199079255925440"
+lattesurl: http://lattes.cnpq.br/9199079255925440
 weight: 2
 layout: team
 ---
