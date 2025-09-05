@@ -1,5 +1,5 @@
 ---
-title: Ana Dindara Rocha Novaes
+title: Ana Dindara Rocha
 date: 2023-02-14 03:44:55 Z
 image: images/team/profile_anadindara.jpeg
 jobtitle: Mestranda (Comunicação, UFF)
