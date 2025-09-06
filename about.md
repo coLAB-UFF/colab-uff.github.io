@@ -29,9 +29,8 @@ Acesse o <a href="https://colab-uff.github.io/clipping/">Clipping</a>.
 Individualmente ou em grupo, os membros do coLAB já foram contemplados em variados editais de fomento e auxílio à pesquisa, bolsas e outros títulos. Vários dos estudantes associados ao grupo de pesquisa se beneficiam de bolsas de doutorado, mestrado, iniciação científica, iniciação à inovação tecnológica e extensão de diferentes órgãos e agências de fomento, como CNPq, Capes, Faperj e as Pró-Reitorias de Pesquisa, Pós-Graduação e Inovação (PROPPI) e de Extensão (PROEX). Além destas bolsas, destacam-se os seguintes auxílios recebidos por pesquisadores integrantes do grupo:
 
 
-<p class="team-description dgp-team" style="text-transform: uppercase; font-size: 12px; color: #2f2f41; font-weight: 500;">Bolsa de Produtividade em Pesquisa PQ-2 2021 (CNPq)</p>
-
-<p class="team-description dgp-team" style="text-transform: uppercase; font-size: 12px; color: #2f2f41; font-weight: 500;">Proponente: Viktor Chagas</p>
+<p class="team-description dgp-team" style="text-transform: uppercase; font-size: 12px; color: #2f2f41; font-weight: 500;">Bolsa de Produtividade em Pesquisa PQ-2 2021 (CNPq)<br>
+Proponente: Viktor Chagas</p>
 
 <p class="team-description dgp-team" style="text-transform: uppercase; font-size: 12px; color: #2f2f41; font-weight: 500;">Projeto: “A política dos memes e os memes da política...”</p>
 
