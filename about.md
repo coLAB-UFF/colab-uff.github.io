@@ -8,9 +8,9 @@ bodyClass: page-about
 O Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB/UFF) é um grupo de pesquisa criado em novembro de 2010, e liderado, desde a sua fundação, por Viktor Chagas, professor associado do Departamento de Estudos Culturais e Mídia e do Programa de Pós-Graduação em Comunicação da Universidade Federal Fluminense. O coLAB desenvolve investigações orientadas a compreender as interfaces entre cultura digital e cultura política, com ênfase nos estudos sobre repertórios contenciosos e usos estratégicos das affordances em plataformas digitais, cultura de plataforma e política online, operações de influência, circulação de desinformação e discurso de ódio, entre outros temas. Associado ao Instituto Nacional de Ciência e Tecnologia em Democracia Digital (INCT.dd), o grupo reúne pesquisadores dedicados à área da comunicação política, em diferentes níveis de formação. As linhas de pesquisa contemplam estudos sobre: estratégias de comunicação e opinião pública, culturas políticas e ação coletiva, e humor e discussão política.
 
 <div class="flex-container">
-  <div class="flex-item"><a href="https://inctdd.org"><img src="./images/logo_footer_inctdd.png" style="width: 200px"></a><br><br><br></div>
-  <div class="flex-item"><a href="https://uff.br/"><img src="./images/logo_footer_uff.png" style="width: 100px"></a><br><br><br></div>
-  <div class="flex-item"><a href="https://ppgcom.uff.br/"><img src="./images/logo_footer_ppgcomuff.png" style="width: 200px"></a><br><br><br></div> 
+  <div class="flex-item"><a href="https://inctdd.org"><img src="./images/logo_footer_inctdd_cinza.png" style="width: 200px"></a><br><br><br></div>
+  <div class="flex-item"><a href="https://uff.br/"><img src="./images/logo_footer_uff_cinza.png" style="width: 100px"></a><br><br><br></div>
+  <div class="flex-item"><a href="https://ppgcom.uff.br/"><img src="./images/logo_footer_ppgcomuff_cinza.png" style="width: 200px"></a><br><br><br></div> 
 </div>
 
 ## Projetos em Andamento
