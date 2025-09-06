@@ -8,15 +8,18 @@ main:
   - name: "Projetos"
     url: "/services/"
     weight: 4
-  - name: "Publicações"
+  - name: "Publicações Científicas"
     url: "/publications/"
     weight: 5
+  - name: "Relatórios DDoS Lab"
+    url: "/ddoslab/"
+    weight: 6
   - name: "Clipping"
     url: "https://colab-uff.github.io/clipping/"
-    weight: 6
+    weight: 7
   - name: "Contato"
     url: "/contact/"
-    weight: 7
+    weight: 8
 
 footer:
   - name: "Home"
