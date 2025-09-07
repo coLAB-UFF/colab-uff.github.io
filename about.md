@@ -29,6 +29,8 @@ Para um pequeno portfólio de menções na imprensa a estudos e projetos desenvo
 
 Acesse o <a href="https://colab-uff.github.io/clipping/">Clipping</a>.
 
+<img src="https://colab-uff.github.io/clipping/images/16.jpg" style="position: relative; transform: translate(0); padding-top: 70%; min-height: 240px; border-radius: 22px; overflow: hidden; background: var(--background-alt-color); opacity: 1;">
+*Photo by [Freepik](https://www.freepik.com/)*
 
 ## Bolsas e Auxílios
 
