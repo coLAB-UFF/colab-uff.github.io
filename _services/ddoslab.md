@@ -2,7 +2,7 @@
 title: DDoS Lab
 date: 2018-11-18 02:33:46 Z
 featured: true
-weight: 6
+weight: 3
 layout: service
 ---
 
