@@ -14,12 +14,15 @@ main:
   - name: "Relatórios DDoS Lab"
     url: "/ddoslab/"
     weight: 6
+  - name: "Dados Abertos"
+    url: "/data/"
+    weight: 7
   - name: "Clipping"
     url: "https://colab-uff.github.io/clipping/"
-    weight: 7
+    weight: 8
   - name: "Contato"
     url: "/contact/"
-    weight: 8
+    weight: 9
 
 footer:
   - name: "Home"
