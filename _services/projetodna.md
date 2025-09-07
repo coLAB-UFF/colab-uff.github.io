@@ -2,7 +2,7 @@
 title: Painel informacional on-line de detecção de narrativas antivacina (DNA)
 date: 2018-11-18 02:33:46 Z
 featured: true
-weight: 6
+weight: 5
 layout: service
 ---
 
