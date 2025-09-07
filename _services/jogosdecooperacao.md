@@ -2,7 +2,7 @@
 title: Jogos de Cooperação
 date: 2018-11-28 05:15:34 Z
 featured: true
-weight: 4
+weight: 6
 ---
 
 O box Jogos de Cooperação consiste de uma experiência lúdica com reflexões profundas sobre dilemas filosóficos
