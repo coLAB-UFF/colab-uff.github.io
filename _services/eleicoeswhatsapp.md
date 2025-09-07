@@ -2,7 +2,7 @@
 title: Eleições no WhatsApp
 date: 2018-11-18 02:33:46 Z
 featured: true
-weight: 6
+weight: 4
 layout: service
 ---
 
