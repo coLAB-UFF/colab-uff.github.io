@@ -5,7 +5,7 @@ description: About
 bodyClass: page-about
 ---
 
-<img src="https://colab-uff.github.io/clipping/images/01-1.jpg" style="position: relative; transform: translate(0); min-height: 240px; border-radius: 22px; overflow: hidden; background: var(--background-alt-color); opacity: 1; padding-top: 70%; box-sizing: border-box;">
+<img src="https://colab-uff.github.io/clipping/images/01-1.jpg" style="position: relative; transform: translate(0); min-height: 240px; border-radius: 22px; overflow: hidden; background: var(--background-alt-color); opacity: 1; box-sizing: border-box;">
 
 O Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB/UFF) é um grupo de pesquisa criado em novembro de 2010, e liderado, desde a sua fundação, por Viktor Chagas, professor associado do Departamento de Estudos Culturais e Mídia e do Programa de Pós-Graduação em Comunicação da Universidade Federal Fluminense. O coLAB desenvolve investigações orientadas a compreender as interfaces entre cultura digital e cultura política, com ênfase nos estudos sobre repertórios contenciosos e usos estratégicos das affordances em plataformas digitais, cultura de plataforma e política online, operações de influência, circulação de desinformação e discurso de ódio, entre outros temas. Associado ao Instituto Nacional de Ciência e Tecnologia em Democracia Digital (INCT.dd), o grupo reúne pesquisadores dedicados à área da comunicação política, em diferentes níveis de formação. As linhas de pesquisa contemplam estudos sobre: estratégias de comunicação e opinião pública, culturas políticas e ação coletiva, e humor e discussão política.
 
@@ -30,7 +30,6 @@ Para um pequeno portfólio de menções na imprensa a estudos e projetos desenvo
 Acesse o <a href="https://colab-uff.github.io/clipping/">Clipping</a>.
 
 <img src="https://colab-uff.github.io/clipping/images/16.jpg" style="position: relative; transform: translate(0); min-height: 240px; border-radius: 22px; overflow: hidden; background: var(--background-alt-color); opacity: 1;">
-*Photo by [Freepik](https://www.freepik.com/)*
 
 ## Bolsas e Auxílios
 
