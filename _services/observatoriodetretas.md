@@ -2,7 +2,7 @@
 title: Observatório de Tretas
 date: 2018-11-28 05:15:26 Z
 featured: true
-weight: 3
+weight: 7
 ---
 
 O Observatório de Tretas é um projeto idealizado por Rodrigo Carreiro e desenvolvido em parceria entre o Instituto Nacional de Ciência e Tecnologia em Democracia Digital (INCT.dd) e o Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB).
