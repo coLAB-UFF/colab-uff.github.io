@@ -1,7 +1,7 @@
-  ---
+---
 title: Luiza Vimercate
 date: 2026-04-11 03:44:55 Z
-image: images/team/profile_luizavimercate.jpg
+image: images/team/profile_luizavimercate.png
 jobtitle: Graduanda (Estudos de Mídia, UFF)
 promoted: false
 lattesurl: https://lattes.cnpq.br/2118962208639708
