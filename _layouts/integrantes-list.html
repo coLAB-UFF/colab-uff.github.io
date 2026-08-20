@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<!-- ==========================================================================
+     Página list de Integrantes — mesmo hero das demais páginas internas
+     (_includes/page-hero.html) seguido do bloco "Conheça nossos integrantes"
+     (_includes/team.html), o mesmo componente usado na home.
+     ========================================================================== -->
+{% include page-hero.html
+   eyebrow=page.hero_eyebrow
+   title=page.hero_title
+   description=page.hero_description
+   images=page.hero_images
+   divider_class="hero--page__divider--tight"
+%}
+
+{% include team.html show_button=false pagination_mode="all" order="alphabetical" %}

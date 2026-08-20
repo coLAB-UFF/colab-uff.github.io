@@ -1,0 +1,1466 @@
+/* ==========================================================================
+   coLAB — variáveis e estilos globais
+   ========================================================================== */
+:root {
+  --colab-accent: #ffb351;
+  --colab-accent-dark: #f29a2e;
+  --bs-navy-rgb: 30, 33, 48;
+  --colab-navy: rgb(30, 33, 48);
+  --colab-text: rgb(47, 47, 65);
+  --colab-muted: #6b6b7b;
+  --colab-cream: #fbf1e4;
+  --font-heading: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-body: "Source Serif 4", Georgia, serif;
+  --font-script: "Caveat", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--colab-text);
+  background: #fff;
+}
+
+h1, h2, h3, h4, h5,
+.font-heading {
+  font-family: var(--font-heading);
+  color: var(--colab-text);
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-accent { color: var(--colab-accent-dark); }
+.bg-accent { background-color: var(--colab-accent); }
+
+.eyebrow {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--colab-accent-dark);
+  margin-bottom: 0.75rem;
+  display: inline-block;
+}
+
+/* Buttons ------------------------------------------------------------- */
+.btn,
+.form-control,
+.hero__form input {
+  font-family: var(--font-heading);
+}
+.btn-colab {
+  background-color: var(--colab-navy);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 0.85rem 1.75rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.btn-colab:hover {
+  background-color: #12141f;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.btn-colab-accent {
+  background-color: var(--colab-accent);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 0.85rem 1.75rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.btn-colab-accent:hover {
+  background-color: var(--colab-accent-dark);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.btn-primary,
+.btn.btn-primary {
+  background-color: var(--colab-accent) !important;
+  border-color: var(--colab-accent) !important;
+  color: var(--colab-navy) !important;
+  font-weight: 600;
+  margin-left: 300px;
+}
+.btn-primary:hover {
+  background-color: var(--colab-accent-dark) !important;
+  border-color: var(--colab-accent-dark) !important;
+}
+
+/* Scroll reveal (.animate) -------------------------------------------- */
+.animate .reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.animate.in-view .reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
+.animate .reveal:nth-child(1) { transition-delay: 0.05s; }
+.animate .reveal:nth-child(2) { transition-delay: 0.12s; }
+.animate .reveal:nth-child(3) { transition-delay: 0.19s; }
+.animate .reveal:nth-child(4) { transition-delay: 0.26s; }
+.animate .reveal:nth-child(5) { transition-delay: 0.33s; }
+.animate .reveal:nth-child(6) { transition-delay: 0.4s; }
+
+/* Espaçamento extra entre blocos ---------------------------------------- */
+.section-gap {
+  margin-top: clamp(3rem, 6vw, 6rem);
+}
+
+/* ==========================================================================
+   1. Header + Hero (nuntu.netlify.app)
+   ========================================================================== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: #fff;
+  border-bottom: 1px solid #eef0f4;
+}
+.site-header .navbar-brand {
+  display: inline-block;
+  line-height: 0;
+}
+.site-header .navbar-brand img {
+  height: 32px;
+  width: auto;
+}
+.site-header .nav-link {
+  font-family: var(--font-heading);
+  position: relative;
+  color: var(--colab-text);
+  font-weight: 500;
+  padding: 0.5rem 0.75rem !important;
+  white-space: nowrap;
+}
+.site-header .d-flex.align-items-center .btn {
+  padding: 0.65rem 1.25rem;
+  white-space: nowrap;
+}
+.site-header .nav-link::before {
+  content: "";
+  position: absolute;
+  top: 0.1rem;
+  right: 0.55rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--colab-navy);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.site-header .nav-link:hover::before {
+  opacity: 1;
+}
+.site-header .nav-link.active {
+  color: var(--colab-text);
+}
+.site-header .nav-link.active::after {
+  content: "";
+  position: absolute;
+  top: 0.1rem;
+  right: 0.55rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--colab-accent);
+}
+.site-header .nav-link.active:hover::before {
+  opacity: 0;
+}
+
+.hero {
+  padding: 4.5rem 0 5rem;
+  overflow: hidden;
+}
+.hero--page__divider {
+  border: none;
+  height: 2px;
+  background-color: var(--colab-accent);
+  margin: clamp(2.5rem, 5vw, 4rem) 0;
+  opacity: 1;
+}
+/* Usado só na página /integrantes/, onde o espaçamento inferior padrão do
+   divisor ficava grande demais antes do bloco "Conheça nossos integrantes". */
+.hero--page__divider--tight {
+  margin-bottom: clamp(0.5rem, 1vw, 0.85rem);
+}
+.hero__eyebrow {
+  font-family: var(--font-script);
+  font-size: 2rem;
+  color: var(--colab-accent-dark);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+.hero__title {
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+}
+.hero__desc {
+  color: var(--colab-muted);
+  font-size: 1.05rem;
+  max-width: 34rem;
+  margin-bottom: 2rem;
+}
+.hero__form {
+  display: flex;
+  gap: 0.5rem;
+  background: #f2f2f5;
+  padding: 0.4rem;
+  border-radius: 999px;
+  max-width: 30rem;
+}
+.hero__form input {
+  border: none;
+  background: transparent;
+  padding: 0.6rem 1rem;
+  flex: 1;
+  outline: none;
+}
+.hero__form button {
+  white-space: nowrap;
+}
+.newsletter-form__message {
+  margin: 0.6rem 0 0;
+  font-size: 0.85rem;
+}
+.newsletter-form__message.is-success {
+  color: var(--colab-accent);
+}
+.newsletter-form__message.is-error {
+  color: #c0392b;
+}
+footer.bg-navy .newsletter-form__message.is-error {
+  color: #ff9b9b;
+}
+
+/* hero_images composition */
+.hero-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  height: 450px;
+}
+.hero-images__col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  height: 100%;
+}
+.hero-images img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.75rem;
+  box-shadow: 0 20px 40px -20px rgba(30, 33, 48, 0.25);
+}
+.hero-images__col1 img {
+  align-self: end;
+  height: 280px;
+}
+.hero-images__col2 img:first-child { height: 215px; }
+.hero-images__col2 img:last-child { height: 215px; }
+.hero-images__col3 img { height: 100%; }
+
+@media (max-width: 991.98px) {
+  .hero-images { display: none; }
+}
+
+/* ==========================================================================
+   2. Section logos animate (akio-jekyll.netlify.app)
+   ========================================================================== */
+.section.logos {
+  padding: 3rem 0;
+  border-top: 1px solid #eef0f4;
+  border-bottom: 1px solid #eef0f4;
+}
+.section.logos .section__caption {
+  font-family: var(--font-heading);
+  text-align: center;
+  color: var(--colab-muted);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1.75rem;
+}
+.logos__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1.5rem 1rem;
+}
+.logos__item {
+  flex: 0 0 auto;
+}
+.logos__link {
+  display: block;
+  opacity: 0.6;
+  transition: opacity 0.25s ease, filter 0.25s ease;
+}
+.logos__link img {
+  display: block;
+  height: 36px;
+  width: auto;
+  filter: grayscale(1);
+  transition: filter 0.25s ease;
+}
+.logos__link:hover {
+  opacity: 1;
+}
+.logos__link:hover img {
+  filter: grayscale(0);
+}
+
+/* ==========================================================================
+   3. Features Section 2 — adaptado para 3 colunas (tortoiz)
+   ========================================================================== */
+.features2 {
+  padding-top: clamp(3.5rem, 7vw, 6rem);
+  padding-bottom: clamp(3.5rem, 7vw, 6rem);
+}
+.features2 .icon-badge {
+  width: 64px;
+  height: 64px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.features2 .icon-badge.soft-accent {
+  background: rgba(255, 179, 81, 0.18);
+  color: var(--colab-accent-dark);
+}
+.features2 .icon-badge.soft-navy {
+  background: rgba(30, 33, 48, 0.08);
+  color: var(--colab-navy);
+}
+.features2 .more {
+  font-family: var(--font-heading);
+  color: var(--colab-accent-dark);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.features2 .more i { transition: transform 0.2s ease; }
+.features2 .more:hover i { transform: translateX(4px); }
+
+/* ==========================================================================
+   4. Bloco Time — coluna fixa + cards paginados (3 em 3, dots)
+   ========================================================================== */
+.team-block {
+  background: var(--colab-cream);
+  padding-top: clamp(4.5rem, 9vw, 8rem);
+  padding-bottom: clamp(4.5rem, 9vw, 8rem);
+}
+.team-block__intro .eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.eyebrow-dash {
+  color: var(--colab-accent-dark);
+  font-weight: 400;
+}
+
+.team-carousel__page {
+  display: none;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3rem;
+  column-gap: 2rem;
+}
+.team-carousel__page.is-active {
+  display: grid;
+}
+@media (max-width: 767.98px) {
+  .team-carousel__page {
+    grid-template-columns: 1fr;
+  }
+}
+
+.team-card {
+  text-align: center;
+}
+.team-card__avatar {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  display: block;
+}
+.team-card__name {
+  font-size: 1.15rem;
+  margin-bottom: 0.2rem;
+}
+.team-card__name a {
+  color: inherit;
+  text-decoration: none;
+}
+.team-card__name a:hover {
+  color: var(--colab-accent-dark);
+}
+.team-card__avatar-link {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+.team-card__meta {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--colab-muted);
+  margin-bottom: 0.85rem;
+}
+.team-card__bio {
+  color: var(--colab-muted);
+  font-size: 0.92rem;
+  margin-bottom: 0.85rem;
+}
+.team-card .social a {
+  font-size: 1.05rem;
+  margin: 0 0.3rem;
+  color: var(--colab-muted);
+  transition: transform 0.2s ease, color 0.2s ease;
+  display: inline-block;
+}
+.team-card .social a:hover { color: var(--colab-accent-dark); transform: translateY(-2px); }
+.team-card .social a.ig:hover { color: #e1306c; }
+.team-card .social a.tw:hover { color: #1da1f2; }
+.team-card .social a svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  display: inline-block;
+}
+.team-card .social a .icon-letter {
+  font-size: 0.95em;
+}
+
+/* Integrante em destaque — opcional, aplique a classe a qualquer .team-card
+   para realçar o perfil e priorizá-lo (ele deve ser o 1º card da página). */
+.team-card__badge {
+  display: none;
+}
+.team-card--featured .team-card__avatar {
+  width: 128px;
+  height: 128px;
+  box-shadow: 0 0 0 4px var(--colab-cream), 0 0 0 7px var(--colab-accent);
+}
+.team-card--featured .team-card__badge {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--colab-navy);
+  background: var(--colab-accent);
+  border-radius: 999px;
+  padding: 0.25rem 0.75rem;
+  margin-bottom: 0.65rem;
+}
+
+.team-carousel__dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 3rem;
+}
+.team-carousel__dots button {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  background: rgba(30, 33, 48, 0.18);
+  transition: background-color 0.2s ease, width 0.2s ease;
+}
+.team-carousel__dots button.is-active {
+  width: 22px;
+  background: var(--colab-accent-dark);
+}
+
+/* ==========================================================================
+   5. Section works animate (akio-jekyll.netlify.app)
+   ========================================================================== */
+.section.works {
+  padding-bottom: 2rem;
+}
+.section.works .section__title {
+  margin-bottom: 0.75rem;
+}
+.section.works .section__description {
+  margin-bottom: 1.25rem;
+}
+.section.works .section__link {
+  font-family: var(--font-heading);
+  color: var(--colab-accent-dark);
+  font-weight: 600;
+}
+.work {
+  margin-bottom: 2rem;
+}
+.work__image {
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.work__image img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.work__image:hover img { transform: scale(1.05); }
+.work__category {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--colab-accent-dark);
+  margin-bottom: 0.35rem;
+}
+.work__title {
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+}
+.work__title a { color: var(--colab-text); }
+.work__description {
+  color: var(--colab-muted);
+  font-size: 0.92rem;
+}
+
+/* ==========================================================================
+   7. Bloco portfolio6 (tortoiz) — referência: sandbox.tortoizthemes.com/docs/blocks/portfolio
+   ========================================================================== */
+.portfolio6 {
+  padding-top: clamp(3.5rem, 7vw, 6rem);
+  padding-bottom: clamp(3.5rem, 7vw, 6rem);
+}
+.portfolio6__header {
+  margin-bottom: 3rem;
+}
+.portfolio6__subtitle {
+  font-size: 1.15rem;
+}
+.portfolio6__small-row {
+  --bs-gutter-x: 2.5rem;
+  row-gap: 2.5rem;
+}
+
+/* Fundos suaves (equivalente a bg-soft-* do Tortoiz, na paleta do coLAB) */
+.bg-soft-accent { background-color: rgba(255, 179, 81, 0.18); }
+.bg-soft-navy { background-color: rgba(30, 33, 48, 0.06); }
+.text-navy { color: var(--colab-navy); }
+
+.portfolio-card {
+  border: none;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+}
+.portfolio-card__body {
+  padding: 3rem;
+}
+.portfolio-card--small .portfolio-card__body {
+  padding-bottom: 0;
+}
+.portfolio-card__image {
+  border-radius: 1.25rem;
+}
+.portfolio-card .card-img-bottom {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+.portfolio-card .post-category {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.5rem;
+}
+.portfolio-card .post-title {
+  margin-bottom: 0.85rem;
+}
+.portfolio-card .post-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.portfolio-card .post-title a:hover {
+  text-decoration: underline;
+}
+.portfolio-card--small .post-title {
+  font-size: 1.75rem;
+}
+.portfolio-card p {
+  color: var(--colab-text);
+  margin-bottom: 1.25rem;
+}
+
+/* Link "more" com seta — equivalente ao .more.hover.link-* do Tortoiz */
+.portfolio-card .more {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.portfolio-card .more i { transition: transform 0.2s ease; }
+.portfolio-card .more:hover i { transform: translateX(4px); }
+.portfolio-card .more.link-accent { color: var(--colab-accent-dark); }
+.portfolio-card .more.link-navy { color: var(--colab-navy); }
+
+@media (max-width: 767.98px) {
+  .portfolio-card__body { padding: 2rem; }
+}
+
+/* ==========================================================================
+   6. Section author (nuntu.netlify.app)
+   ========================================================================== */
+.author-section {
+  background: #f8f7f4;
+  padding: 5rem 0;
+}
+.author-section .author__label {
+  font-family: var(--font-heading);
+  color: var(--colab-accent-dark);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.author-section p {
+  color: var(--colab-muted);
+  margin-bottom: 1.5rem;
+}
+.author-section .author__link {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--colab-accent);
+}
+.author-section .author__link i { transition: transform 0.2s ease; }
+.author-section .author__link:hover {
+  color: var(--colab-accent-dark);
+}
+.author-section .author__link:hover i { transform: translateX(4px); }
+.author-section img {
+  border-radius: 1.75rem;
+  width: 100%;
+  object-fit: cover;
+  max-height: 420px;
+}
+
+/* ==========================================================================
+   9. Footer bg-navy text-inverse (ishs2026.org)
+   ========================================================================== */
+.bg-navy {
+  background-color: rgba(var(--bs-navy-rgb), var(--bs-bg-opacity, 1));
+}
+footer.bg-navy {
+  padding-top: clamp(4.5rem, 8vw, 7rem);
+  padding-bottom: clamp(3rem, 6vw, 5rem);
+}
+.text-inverse { color: rgba(255, 255, 255, 0.85); }
+.text-inverse a { color: rgba(255, 255, 255, 0.85); }
+.text-inverse a:hover { color: var(--colab-accent); }
+
+footer.bg-navy .widget-title {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+footer.bg-navy .footer-cta h3 {
+  color: #fff;
+  font-family: var(--font-heading);
+}
+footer.bg-navy .footer-cta {
+  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+}
+footer.bg-navy hr {
+  margin: 0 0 clamp(2.5rem, 5vw, 4rem);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+footer.bg-navy .list-unstyled li {
+  margin-bottom: 0.5rem;
+}
+footer.bg-navy .list-unstyled a,
+footer.bg-navy a[href^="mailto"] {
+  font-family: var(--font-heading);
+}
+.newsletter-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem;
+}
+footer.bg-navy .form-control {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.6rem 1.1rem;
+  width: 100%;
+}
+.newsletter-form .btn {
+  white-space: nowrap;
+  margin-left: 0;
+}
+footer.bg-navy .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+footer.bg-navy .form-control:focus {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: var(--colab-accent);
+  color: #fff;
+  box-shadow: none;
+  outline: none;
+}
+footer.bg-navy .social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-right: 0.5rem;
+  color: rgba(255, 255, 255, 0.85);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+footer.bg-navy .social a svg {
+  display: block;
+}
+footer.bg-navy .social a:hover {
+  color: var(--colab-accent);
+  border-color: var(--colab-accent);
+}
+footer.bg-navy .logo-mark {
+  display: block;
+  height: 48px;
+  width: auto;
+}
+
+/* ==========================================================================
+   10. Publicações — páginas single e list
+   referência (single): akio-jekyll.netlify.app/work/music-festival
+   referência (Créditos / Como citar): colab.meme/ddoslab/project/report-gender-violence
+   ========================================================================== */
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Single: cabeçalho (.work-head) ------------------------------------- */
+.work-head {
+  padding: clamp(3rem, 7vw, 5rem) 0 3rem;
+}
+.work-head__image img {
+  width: 100%;
+  border-radius: 1.5rem;
+  object-fit: cover;
+  aspect-ratio: 4 / 5;
+}
+.work-head .page-image-caption {
+  color: var(--colab-muted);
+  font-size: 0.85rem;
+  margin-top: 0.75rem;
+}
+.work-head__right {
+  padding-top: 0.5rem;
+}
+.work-head .work-category {
+  font-family: var(--font-heading);
+  color: var(--colab-accent-dark);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+.work-head .page-title {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  margin-bottom: 1rem;
+}
+.work-head .page-description {
+  color: var(--colab-muted);
+  font-size: 1.15rem;
+  margin-bottom: 1.5rem;
+}
+.work-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #eef0f4;
+}
+.work-meta__item {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--colab-text);
+}
+.work-meta__item strong {
+  font-family: var(--font-heading);
+  color: var(--colab-muted);
+  font-weight: 600;
+  margin-right: 0.35rem;
+}
+
+/* Redes sociais/acadêmicas do single de Integrante (Lattes, ORCID, Google
+   Scholar, Academia.edu, ResearchGate, Instagram, Twitter — exibidos
+   apenas quando informados no front matter, ver page.social_links). */
+.author-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+}
+.author-social a {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--colab-cream);
+  color: var(--colab-navy);
+  font-size: 1.05rem;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+.author-social a:hover {
+  background: var(--colab-accent);
+  color: var(--colab-navy);
+  transform: translateY(-2px);
+}
+.author-social a svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+.icon-letter {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1;
+}
+.author-social a .icon-letter {
+  font-size: 1.05rem;
+}
+
+/* Ícones institucionais do single Sobre (DGP/CNPq, Figshare, GitHub,
+   Instagram — ver _data/site.yml -> social, mesma lista do rodapé). Os SVGs
+   de DGP/Figshare são brancos (pensados para o fundo navy do rodapé), por
+   isso aqui o selo é navy em vez do cream usado em .author-social. */
+.about-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+}
+.about-social a {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--colab-navy);
+  color: #fff;
+  font-size: 1.05rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.about-social a:hover {
+  background: var(--colab-accent-dark);
+  transform: translateY(-2px);
+}
+.about-social a svg,
+.about-social a img {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+/* --- Single: corpo do texto (.page) -------------------------------------- */
+.page {
+  max-width: 780px;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+  font-size: 1.1rem;
+  line-height: 1.75;
+}
+.page p {
+  margin-bottom: 1.5rem;
+}
+.page h3,
+.page h4 {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: 0.75rem;
+}
+.page h3 { font-size: 2rem; }
+.page h4 { font-size: 1.4rem; }
+.page hr {
+  border: none;
+  height: 2px;
+  background-color: var(--colab-accent);
+  margin: 2.5rem 0;
+  opacity: 1;
+}
+
+/* Botão de destaque dentro do corpo do texto (ex.: "Ler o estudo completo") */
+.btn-report {
+  display: inline-block;
+  background-color: var(--colab-accent);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 0.8rem 1.4rem;
+  border-radius: 999px;
+  transition: background-color 0.2s ease;
+}
+.btn-report:hover {
+  background-color: var(--colab-accent-dark);
+  color: #fff;
+}
+
+/* Blockquote — quote-mark em caixa com fundo suave */
+.page blockquote {
+  position: relative;
+  margin: 2.5rem 0;
+  padding: 2.5rem 2rem 2rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--colab-text);
+  border-radius: 1rem;
+}
+.page blockquote::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--colab-accent);
+  opacity: 0.12;
+  border-radius: 1rem;
+}
+.page blockquote::after {
+  content: "\201C";
+  position: absolute;
+  top: 0.5rem;
+  left: 1.75rem;
+  font-size: 4.5rem;
+  line-height: 1;
+  color: var(--colab-accent-dark);
+  font-family: Georgia, serif;
+}
+.page blockquote p {
+  position: relative;
+  margin: 0;
+}
+
+/* Galeria */
+.gallery-box { margin: 2rem 0; }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.gallery__item {
+  position: relative;
+  display: block;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+.gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.gallery__zoom {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(30, 33, 48, 0.45);
+  color: #fff;
+  font-size: 1.75rem;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+.gallery__item:hover .gallery__zoom { opacity: 1; }
+.gallery__item:hover img { transform: scale(1.06); }
+
+/* Lightbox das "Imagens em Destaque" */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: rgba(15, 16, 23, 0.92);
+}
+.lightbox.is-open { display: flex; }
+.lightbox img {
+  max-width: 100%;
+  max-height: 90vh;
+  border-radius: 0.75rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+.lightbox__close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+.lightbox__close:hover { background-color: rgba(255, 255, 255, 0.22); }
+
+/* Bloco "Como citar" — citação em formato código, igual a colab.meme */
+.page .language-plaintext {
+  margin: 1.75rem 0 2.5rem;
+}
+.page pre.highlight {
+  background-color: rgba(var(--bs-navy-rgb), var(--bs-bg-opacity, 1));
+  padding: 1.25rem 1.5rem;
+  border-radius: 0.75rem;
+  overflow-x: auto;
+  margin: 0;
+}
+.page .highlight,
+.page .highlight code {
+  font-family: "Ubuntu Mono", "Courier New", monospace;
+  font-size: 0.95rem;
+}
+.page .rouge-table {
+  border-collapse: collapse;
+}
+.page .rouge-table td {
+  border: none;
+  padding: 0;
+  vertical-align: top;
+}
+.page .rouge-gutter {
+  color: rgba(248, 248, 242, 0.4);
+  text-align: right;
+  padding-right: 1.5rem;
+  user-select: none;
+}
+.page .rouge-code pre {
+  color: #f8f8f2;
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.7;
+}
+.page ul {
+  margin-bottom: 1rem;
+}
+
+/* Pílula com o DOI do estudo, no bloco "Como citar" */
+.doi-pill {
+  display: inline-flex;
+  align-items: stretch;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0.5rem 0 2rem;
+  transition: opacity 0.2s ease;
+}
+.doi-pill:hover {
+  opacity: 0.85;
+}
+.doi-pill__label {
+  background-color: var(--colab-navy);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  padding: 0.55rem 0.9rem;
+  display: flex;
+  align-items: center;
+}
+.doi-pill__value {
+  background-color: var(--colab-accent);
+  color: var(--colab-navy);
+  font-family: "Ubuntu Mono", "Courier New", monospace;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.55rem 0.9rem;
+  display: flex;
+  align-items: center;
+}
+.doi-pill__value a { color: inherit; }
+
+/* Ícone de ORCID iD ao lado do nome de autores, no bloco Créditos */
+.orcid-icon {
+  display: inline-block;
+  margin: 0 0.3rem;
+  line-height: 1;
+  vertical-align: super;
+  position: relative;
+  top: -0.15em;
+}
+.orcid-icon svg {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  color: var(--colab-muted);
+}
+
+/* --- List: cabeçalho + grade de cards ------------------------------------ */
+.page-section-head {
+  padding: clamp(3rem, 7vw, 5rem) 0 2.5rem;
+  max-width: 700px;
+}
+.page-section-head .page-title {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  margin-bottom: 0.75rem;
+}
+.page-section-head .page-description {
+  color: var(--colab-muted);
+  font-size: 1.15rem;
+}
+.pub-list {
+  padding-bottom: 5rem;
+}
+.pub-card {
+  margin-bottom: 2.5rem;
+}
+.pub-card__image {
+  display: block;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  margin-bottom: 1.1rem;
+}
+.pub-card__image img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.pub-card__image:hover img { transform: scale(1.05); }
+.pub-card__category {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--colab-accent-dark);
+  margin-bottom: 0.4rem;
+}
+.pub-card__title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.pub-card__title a { color: var(--colab-text); }
+.pub-card__description {
+  color: var(--colab-muted);
+  font-size: 0.92rem;
+  margin-bottom: 0.6rem;
+}
+.pub-card__meta {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  color: var(--colab-muted);
+  margin-bottom: 0;
+}
+.pub-card__authors {
+  color: var(--colab-text);
+  font-weight: 600;
+}
+.pub-card__sep {
+  margin: 0 0.4rem;
+  color: #cfcfd6;
+}
+
+/* --- List de Projetos: um projeto por linha (imagem 4:5 + texto) -------- */
+.project-list {
+  padding-bottom: 5rem;
+}
+.project-row {
+  padding: 2.75rem 0;
+  border-bottom: 1px solid #eef0f4;
+}
+.project-row:first-child {
+  padding-top: 0;
+}
+.project-row:last-child {
+  border-bottom: none;
+}
+.project-row__image {
+  display: block;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+.project-row__image img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.project-row__image:hover img {
+  transform: scale(1.05);
+}
+.project-row__category {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--colab-accent-dark);
+  margin-bottom: 0.5rem;
+}
+.project-row__title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-bottom: 0.85rem;
+}
+.project-row__title a {
+  color: var(--colab-text);
+}
+.project-row__description {
+  color: var(--colab-muted);
+  font-size: 1.05rem;
+}
+
+/* --- List de Clipping: notícias vindas da planilha (ver assets/js/clipping.js) --- */
+.clipping-list {
+  padding-bottom: 5rem;
+}
+.clipping-summary {
+  color: var(--colab-muted);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+.clipping-status {
+  text-align: center;
+  color: var(--colab-muted);
+  padding: 4rem 0;
+}
+.clipping-status__icon {
+  display: block;
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+  animation: clipping-spin 1s linear infinite;
+}
+@keyframes clipping-spin {
+  to { transform: rotate(360deg); }
+}
+
+.clipping-card {
+  margin-bottom: 3.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.clipping-card__image {
+  display: block;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  margin-bottom: 1.1rem;
+  background: var(--colab-cream);
+  /* Borda + sombra suaves para o print/captura da notícia continuar
+     "descolando" do fundo branco da página, mesmo quando a imagem em si
+     também tem fundo branco/claro. */
+  border: 1px solid #eef0f4;
+  box-shadow: 0 2px 10px rgba(30, 33, 48, 0.07);
+}
+.clipping-card__image img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  height: auto;
+  object-fit: cover;
+}
+.clipping-card__placeholder {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clipping-card__placeholder i {
+  font-size: 2.25rem;
+  color: var(--colab-muted);
+  opacity: 0.4;
+}
+.clipping-card__info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.clipping-card__category {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--colab-accent-dark);
+  margin-bottom: 0.4rem;
+}
+.clipping-card__title {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+.clipping-card__description {
+  color: var(--colab-muted);
+  font-size: 0.92rem;
+  margin-bottom: 0.75rem;
+}
+.clipping-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.9rem;
+  row-gap: 0.25rem;
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  color: var(--colab-muted);
+  margin-bottom: 1rem;
+}
+.clipping-card__meta i {
+  margin-right: 0.3rem;
+}
+.clipping-card .btn-report {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.clipping-pagination nav {
+  display: flex;
+  justify-content: center;
+}
+.clipping-pagination .pagination {
+  margin-top: 1rem;
+}
+.clipping-pagination .page-link {
+  color: var(--colab-navy);
+  border: 1px solid #eef0f4;
+  border-radius: 999px !important;
+  margin: 0 0.2rem;
+}
+.clipping-pagination .page-link:hover {
+  background-color: var(--colab-cream);
+  color: var(--colab-navy);
+}
+.clipping-pagination .page-item.active .page-link {
+  background-color: var(--colab-accent);
+  border-color: var(--colab-accent);
+  color: var(--colab-navy);
+}
+.clipping-pagination .page-item.disabled .page-link {
+  color: #cfcfd6;
+}
+
+/* --- Página Fale Conosco (formulário via Formspree) --------------------- */
+.contact-page {
+  max-width: 640px;
+  padding: clamp(4rem, 8vw, 6rem) 0 6rem;
+}
+.contact-page__inner--center {
+  text-align: center;
+}
+.contact-page__title {
+  font-size: clamp(2.25rem, 5vw, 3rem);
+  margin-bottom: 1rem;
+}
+.contact-page__subtitle {
+  color: var(--colab-muted);
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+.contact-page__subtitle a {
+  color: var(--colab-text);
+  text-decoration: underline;
+}
+.contact-page__form .form-field {
+  margin-bottom: 2rem;
+}
+.contact-page__form label {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--colab-navy);
+  margin-bottom: 0.6rem;
+}
+.contact-page__form input,
+.contact-page__form textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #eef0f4;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  font-family: var(--font-body);
+  color: var(--colab-text);
+  background: transparent;
+  border-radius: 0;
+  resize: vertical;
+}
+.contact-page__form input::placeholder,
+.contact-page__form textarea::placeholder {
+  color: #b7b7c2;
+}
+.contact-page__form input:focus,
+.contact-page__form textarea:focus {
+  outline: none;
+  border-bottom-color: var(--colab-accent);
+  box-shadow: none;
+}
+.contact-page__gotcha {
+  position: absolute;
+  left: -9999px;
+}
+.contact-page__submit {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 991.98px) {
+  .work-head__left { margin-bottom: 2rem; }
+}

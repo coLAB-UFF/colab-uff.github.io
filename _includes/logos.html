@@ -1,0 +1,16 @@
+<!-- ==========================================================================
+     2. SECTION LOGOS ANIMATE — referência: akio-jekyll.netlify.app
+     Conteúdo: _data/partners.yml
+     ========================================================================== -->
+<section class="section logos animate section-gap">
+  <div class="container reveal">
+    <p class="section__caption">{{ site.data.partners.caption }}</p>
+    <ul class="logos__list">
+      {% for partner in site.data.partners.list %}
+      <li class="logos__item">
+        <a class="logos__link" href="{{ partner.url | default: '#' }}" target="_blank" rel="noopener"><img src="{{ partner.image | relative_url }}" alt="{{ partner.alt }}"></a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

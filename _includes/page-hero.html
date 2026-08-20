@@ -1,0 +1,50 @@
+<!-- ==========================================================================
+     Hero de páginas internas — mesma estrutura do hero da home (_includes/hero.html),
+     sem o formulário de e-mail/inscrição. Reutilizável em qualquer página list ou
+     single (ex.: _layouts/publicacoes-list.html).
+
+     Parâmetros: eyebrow, title, description, images, divider_class (opcional)
+     "images" é um hash com o mesmo formato de hero.images em _data/hero.yml:
+       col1: {src, alt}
+       col2: [{src, alt}, {src, alt}]
+       col3: {src, alt}
+     A coluna 3 é bem estreita e alta (object-fit: cover); imagens quadradas
+     ou paisagem usadas ali devem já vir com padding vertical na própria
+     imagem (cor de fundo estendida) para não cortar as laterais — ver
+     assets/img/publicacoes/pub-hero-4.jpg como exemplo.
+     "divider_class" adiciona uma classe extra ao <hr> do divisor, para ajustar
+     o espaçamento em uma página específica sem afetar as demais (ex.: usado
+     em _layouts/integrantes-list.html).
+     ========================================================================== -->
+<section class="hero hero--page">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-6">
+        {% if include.eyebrow %}<span class="hero__eyebrow">{{ include.eyebrow }}</span>{% endif %}
+        <h1 class="hero__title">{{ include.title }}</h1>
+        {% if include.description %}<p class="hero__desc">{{ include.description }}</p>{% endif %}
+      </div>
+
+      {% if include.images %}
+      <div class="col-lg-6">
+        <div class="hero-images">
+          <div class="hero-images__col1">
+            <img src="{{ include.images.col1.src | relative_url }}" alt="{{ include.images.col1.alt }}">
+          </div>
+          <div class="hero-images__col2">
+            {% for img in include.images.col2 %}
+            <img src="{{ img.src | relative_url }}" alt="{{ img.alt }}">
+            {% endfor %}
+          </div>
+          <div class="hero-images__col3">
+            <img src="{{ include.images.col3.src | relative_url }}" alt="{{ include.images.col3.alt }}">
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  <div class="container">
+    <hr class="hero--page__divider{% if include.divider_class %} {{ include.divider_class }}{% endif %}">
+  </div>
+</section>

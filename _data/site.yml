@@ -1,0 +1,59 @@
+# Informações institucionais usadas no header, rodapé e CTAs.
+logo:
+  header_image: "/assets/img/logo/logo.svg"
+  footer_image: "/assets/img/logo/logo-white.svg"
+
+contact:
+  email: "colab@midia.uff.br"
+  address: "Universidade Federal Fluminense, IACS Gragoatá, Bl. J, Sala J5 2º andar, DADOS, São Domingos, Niterói, Brasil"
+
+# Formulário da página /fale-conosco/ (_layouts/fale-conosco.html), integrado
+# via Formspree (ver _includes de contato em github.com/colab-uff/ddoslab).
+# "action" está usando o mesmo token de formulário do site do DDoS Lab
+# (coLAB-UFF/ddoslab) — funciona, mas as respostas chegam na caixa de entrada
+# Formspree daquele projeto. Trocar por um form_id próprio do coLAB
+# (formspree.io) assim que houver um criado.
+contact_form:
+  action: "https://formspree.io/f/xqknovgn"
+  email_subject: "[coLAB] Fale Conosco"
+
+# Formulário de inscrição por e-mail (hero da home + rodapé). Grava direto na
+# planilha compartilhada com o site do #MUSEUdeMEMES
+# (https://docs.google.com/spreadsheets/d/1YBVyShWdkpYJ_YCHlJXgkY-jjDtHydx3W5z_Am4k87Q),
+# sempre na última linha livre, nas colunas Nome/Instituição/Email/Data (as
+# duas primeiras ficam em branco, como já faz o outro site). "endpoint" é a
+# URL de um Google Apps Script vinculado à planilha, publicado como Web App
+# (Extensões > Apps Script > Implantar > Nova implantação > tipo "App da Web",
+# executar como "Eu", acesso "Qualquer pessoa") — substituir pela URL real
+# gerada após a implantação.
+newsletter:
+  endpoint: "https://script.google.com/macros/s/AKfycbyE0F903n7DhtpYshGi3Up7Ty-RcQXLBoCUidwh8BBj5jWUSTkwkO4nbNFJkVc7YRBCBA/exec"
+
+# icon: classe Unicons (uil-*) para plataformas com ícone pronto no pacote,
+# ou o caminho de um .svg local (salvo em assets/img/social/) para as que não têm.
+social:
+  - name: "Diretório de Grupos de Pesquisa no Brasil/CNPq"
+    icon: "/assets/img/social/logo_dgp.svg"
+    url: "http://dgp.cnpq.br/dgp/espelhogrupo/8743613284400394"
+  - name: "Figshare"
+    icon: "/assets/img/social/logo_figshare.svg"
+    url: "https://figshare.com/projects/Papers_coLAB/35102"
+  - name: "GitHub"
+    icon: "uil-github"
+    url: "https://colab-uff.github.io/data/"
+  - name: "Instagram"
+    icon: "uil-instagram"
+    url: "https://www.instagram.com/colab.uff"
+
+header:
+  cta_text: "Contato"
+  cta_url: "/fale-conosco/"
+  secondary_cta_text: "Área Restrita"
+  secondary_cta_url: "https://todo.colab.meme"
+
+footer:
+  cta_title: "Junte-se a uma comunidade vibrante de pesquisa em comunicação."
+  cta_button_text: "Contato"
+  copyright: "© 2026 coLAB — UFF.<br>Todos os direitos reservados."
+  newsletter_title: "Receba novidades"
+  newsletter_text: "Assine para receber nossas publicações e chamadas de pesquisa."

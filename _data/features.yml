@@ -1,0 +1,25 @@
+eyebrow: "Linhas de pesquisa"
+title: "As investigações desenvolvidas pelo coLAB estão relacionadas aos seguintes campos e interesses."
+
+items:
+  - icon: "uil-presentation-lines-alt"
+    color: "accent"
+    title: "Estratégias da Comunicação e Opinião Pública"
+    description: >
+      Investigações acerca das estratégias retóricas e discursivas empreendidas por atores
+      e instituições políticas, com particular ênfase a estudos sobre campanhas eleitorais e
+      problemas subjacentes à relação entre o jornalismo e o universo político.
+  - icon: "uil-user-arrows"
+    color: "navy"
+    title: "Culturas Políticas e Ação Coletiva"
+    description: >
+      Reúne estudos sobre culturas políticas e ativismo político, com foco em abordagens que
+      se dediquem a investigar modelos de organização e experiências de ação coletiva, bem
+      como a emergência de novas formas de engajamento político.
+  - icon: "uil-comment-alt-lines"
+    color: "accent"
+    title: "Humor e Discussão Política"
+    description: >
+      Dedica-se a pesquisas acerca do debate público e da conversação política, com
+      abordagens concernidas a compreender o papel do humor e do entretenimento no
+      letramento político e a interface entre política e cultura popular.

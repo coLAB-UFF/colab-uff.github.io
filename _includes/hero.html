@@ -1,0 +1,35 @@
+<!-- ==========================================================================
+     Hero — referência: nuntu.netlify.app | Conteúdo: _data/hero.yml
+     ========================================================================== -->
+{% assign hero = site.data.hero %}
+<section class="hero" id="hero">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-6">
+        <span class="hero__eyebrow">{{ hero.eyebrow }}</span>
+        <h1 class="hero__title">{{ hero.title }}</h1>
+        <p class="hero__desc">{{ hero.description }}</p>
+        <form class="hero__form">
+          <input type="email" required placeholder="{{ hero.form.placeholder }}" aria-label="{{ hero.form.placeholder }}">
+          <button type="submit" class="btn btn-colab">{{ hero.form.button_text }}</button>
+        </form>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="hero-images">
+          <div class="hero-images__col1">
+            <img src="{{ hero.images.col1.src | relative_url }}" alt="{{ hero.images.col1.alt }}">
+          </div>
+          <div class="hero-images__col2">
+            {% for img in hero.images.col2 %}
+            <img src="{{ img.src | relative_url }}" alt="{{ img.alt }}">
+            {% endfor %}
+          </div>
+          <div class="hero-images__col3">
+            <img src="{{ hero.images.col3.src | relative_url }}" alt="{{ hero.images.col3.alt }}">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

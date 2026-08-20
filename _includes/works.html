@@ -1,0 +1,40 @@
+<!-- ==========================================================================
+     5. SECTION WORKS ANIMATE — referência: akio-jekyll.netlify.app
+     Conteúdo: _data/works.yml (intro) + coleção _publicacoes (as 4 mais recentes)
+     Cada card leva à página single da tipologia Publicações (_layouts/publicacao.html).
+     ========================================================================== -->
+{% assign works = site.data.works %}
+{% assign featured_publicacoes = site.publicacoes | where: "home_feature", true | sort: "home_order" %}
+<section class="section works animate section-gap">
+  <div class="container">
+    <div class="row reveal">
+
+      <div class="col-lg-4">
+        <div class="section__info">
+          <h2 class="eyebrow"><span class="eyebrow-dash">—</span> {{ works.eyebrow }}</h2>
+          <h3 class="section__title display-6">{{ works.title }}</h3>
+          <p class="section__description">{{ works.description }}</p>
+          <a href="{{ works.link_url }}" class="section__link">{{ works.link_text }} <i class="uil uil-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-8">
+        <div class="row">
+          {% for pub in featured_publicacoes %}
+          <div class="col-md-6">
+            <article class="work">
+              <a href="{{ pub.url | relative_url }}" class="work__image">
+                <img src="{{ pub.image | relative_url }}" alt="{{ pub.title }}">
+              </a>
+              <div class="work__category">{{ pub.category }}</div>
+              <h3 class="work__title"><a href="{{ pub.url | relative_url }}">{{ pub.title }}</a></h3>
+              <p class="work__description">{{ pub.description }}</p>
+            </article>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

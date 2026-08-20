@@ -1,0 +1,67 @@
+---
+layout: default
+---
+<!-- ==========================================================================
+     Página single de Integrante — mesma estrutura do single de Publicações
+     (.work-head / .page / .work-meta), com foto à esquerda e metadados
+     (nome, titulação, interesses de pesquisa) + minibio + redes acadêmicas
+     e sociais à direita/abaixo.
+     ========================================================================== -->
+<div class="work-head">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12 col-lg-5">
+        <div class="work-head__left">
+          <div class="work-head__image">
+            <img src="{{ page.photo | relative_url }}" alt="{{ page.name }}">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-7">
+        <div class="work-head__right">
+          {% if page.featured %}<div class="work-category">{{ page.badge | default: "Destaque" }}</div>{% endif %}
+          <h1 class="page-title">{{ page.name }}</h1>
+          {% if page.degree %}<p class="page-description">{{ page.degree }}</p>{% endif %}
+          <ul class="work-meta list-reset">
+            {% if page.role %}<li class="work-meta__item"><strong>Função:</strong> <span>{{ page.role }}</span></li>{% endif %}
+            {% if page.research_interests %}<li class="work-meta__item"><strong>Interesses de pesquisa:</strong> <span>{{ page.research_interests | join: ", " }}</span></li>{% endif %}
+          </ul>
+
+          {% if page.social_links %}
+          <nav class="nav author-social">
+            {% if page.social_links.lattes %}
+            <a href="{{ page.social_links.lattes }}" target="_blank" rel="noopener" aria-label="Currículo Lattes" title="Lattes"><i class="uil uil-file-alt"></i></a>
+            {% endif %}
+            {% if page.social_links.orcid %}
+            <a href="{{ page.social_links.orcid }}" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID">{% include icon-orcid.html %}</a>
+            {% endif %}
+            {% if page.social_links.google_scholar %}
+            <a href="{{ page.social_links.google_scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar"><i class="uil uil-graduation-cap"></i></a>
+            {% endif %}
+            {% if page.social_links.academia %}
+            <a href="{{ page.social_links.academia }}" target="_blank" rel="noopener" aria-label="Academia.edu" title="Academia.edu"><i class="uil uil-university"></i></a>
+            {% endif %}
+            {% if page.social_links.researchgate %}
+            <a href="{{ page.social_links.researchgate }}" target="_blank" rel="noopener" aria-label="ResearchGate" title="ResearchGate"><span class="icon-letter">R</span></a>
+            {% endif %}
+            {% if page.social_links.instagram %}
+            <a href="{{ page.social_links.instagram }}" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram"><i class="uil uil-instagram"></i></a>
+            {% endif %}
+            {% if page.social_links.twitter %}
+            <a href="{{ page.social_links.twitter }}" target="_blank" rel="noopener" aria-label="Twitter" title="Twitter"><i class="uil uil-twitter"></i></a>
+            {% endif %}
+          </nav>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container animate">
+  <div class="page">
+    {{ content }}
+  </div>
+</div>

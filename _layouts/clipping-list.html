@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<!-- ==========================================================================
+     Página list de Clipping — mesmo hero das demais páginas internas
+     (_includes/page-hero.html) + divisor, seguidos da lista de notícias.
+     Sem single pages: as entradas vêm direto da planilha pública do coLAB
+     (Google Sheets, exportada como CSV) e são renderizadas no navegador por
+     assets/js/clipping.js — mesmo esquema usado no Clipping do #MUSEUdeMEMES
+     (colab.meme/museudememes/clipping/), mas sem o filtro de tag: aqui
+     aparecem todas as linhas da planilha.
+     ========================================================================== -->
+{% include page-hero.html
+   eyebrow=page.hero_eyebrow
+   title=page.hero_title
+   description=page.hero_description
+   images=page.hero_images
+%}
+
+<div class="clipping-list container animate" id="noticias">
+  <p class="clipping-summary" id="clipping-summary" style="display:none;"></p>
+
+  <div class="clipping-status" id="clipping-loading">
+    <i class="uil uil-spinner-alt clipping-status__icon"></i>
+    <span>Carregando notícias…</span>
+  </div>
+  <div class="clipping-status" id="clipping-empty" style="display:none;">
+    Nenhuma notícia encontrada no momento.
+  </div>
+  <div class="clipping-status" id="clipping-error" style="display:none;">
+    Não foi possível carregar as notícias agora. Tente novamente mais tarde.
+  </div>
+
+  <div class="row" id="clipping-list" style="display:none;"></div>
+
+  <div class="clipping-pagination" id="clipping-pagination"></div>
+</div>

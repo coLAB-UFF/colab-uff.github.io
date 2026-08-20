@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<!-- ==========================================================================
+     Página list de Publicações — referência: akio-jekyll.netlify.app/work
+     Hero: mesma estrutura da home (_includes/page-hero.html), sem formulário.
+     Cards: imagem 4:5 (post do Instagram) + tag, título, texto, autoria,
+     ano e venue (revista, livro etc.).
+     ========================================================================== -->
+{% include page-hero.html
+   eyebrow=page.hero_eyebrow
+   title=page.hero_title
+   description=page.hero_description
+   images=page.hero_images
+%}
+
+<div class="pub-list container animate">
+  <div class="row">
+    {% assign publicacoes = site.publicacoes | sort: "date" | reverse %}
+    {% for pub in publicacoes %}
+    <article class="pub-card col-12 col-md-6 col-lg-4">
+      <a href="{{ pub.url | relative_url }}" class="pub-card__image">
+        <img src="{{ pub.image | relative_url }}" alt="{{ pub.title }}">
+      </a>
+      <div class="pub-card__info">
+        <div class="pub-card__category">{{ pub.category }}</div>
+        <h3 class="pub-card__title"><a href="{{ pub.url | relative_url }}">{{ pub.title }}</a></h3>
+        <p class="pub-card__description">{{ pub.description }}</p>
+        <p class="pub-card__meta">
+          {% if pub.authors %}<span class="pub-card__authors">{{ pub.authors }}</span>{% endif %}
+          {% if pub.date %}<span class="pub-card__sep">·</span><span>{{ pub.date | date: "%Y" }}</span>{% endif %}
+          {% if pub.venue %}<span class="pub-card__sep">·</span><span>{{ pub.venue }}</span>{% endif %}
+        </p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>

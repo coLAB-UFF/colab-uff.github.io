@@ -1,0 +1,66 @@
+<!-- ==========================================================================
+     4. BLOCO TEAM — referência: sandbox.tortoizthemes.com/docs/blocks/team
+     Config/intro: _data/team.yml. Integrantes: coleção site.integrantes
+     (uma página por pessoa, em _integrantes/), ordenada pelo campo "order"
+     do front matter. A paginação/ordenação de exibição é aplicada em tempo
+     real por assets/js/main.js, a partir dos dados abaixo (renderizados
+     pelo Jekyll em <li data-*> — apenas um "carreador" de dados, sem estilo
+     próprio). Reutilizado tanto na home quanto na página /integrantes/.
+
+     Parâmetros opcionais (para reutilizar o mesmo bloco com um comportamento
+     diferente em outra página, ex.: _layouts/integrantes-list.html):
+       show_button      -> false esconde o botão "Toda a equipe" (útil quando
+                            o bloco já está sendo exibido na própria página
+                            de destino do botão)
+       pagination_mode   -> sobrescreve _data/team.yml -> config.pagination_mode
+       order              -> sobrescreve _data/team.yml -> config.order
+     Os ícones sociais do card vêm do mesmo "social_links" do front matter de
+     cada integrante usado na página single da pessoa (todas as redes lá
+     preenchidas aparecem aqui também, na mesma ordem) — assim as redes
+     exibidas são sempre as mesmas em qualquer lugar do site.
+     ========================================================================== -->
+{% assign team = site.data.team %}
+{% assign integrantes = site.integrantes | sort: "order" %}
+{% assign social_keys = "lattes,orcid,google_scholar,academia,researchgate,instagram,twitter" | split: "," %}
+{% assign pagination_mode = include.pagination_mode | default: team.config.pagination_mode %}
+{% assign order = include.order | default: team.config.order %}
+<section class="wrapper team-block section-gap" id="time">
+  <div class="container py-16 py-md-20">
+    <div class="row gy-8 gx-lg-6 align-items-start">
+
+      <div class="col-lg-3 team-block__intro">
+        <h2 class="eyebrow"><span class="eyebrow-dash">—</span> {{ team.intro.eyebrow }}</h2>
+        <h3 class="display-6 mb-3">{{ team.intro.title }}</h3>
+        <p class="mb-4">{{ team.intro.description }}</p>
+        {% if include.show_button != false %}
+        <a href="{{ team.intro.button_url | relative_url }}" class="btn btn-colab">{{ team.intro.button_text }}</a>
+        {% endif %}
+      </div>
+
+      <div class="col-lg-9">
+        <div class="team-carousel"
+             data-team-carousel
+             data-pagination-mode="{{ pagination_mode }}"
+             data-order="{{ order }}">
+          <ul class="team-source" data-team-source hidden>
+            {% for m in integrantes %}
+            {% capture social_csv %}{% for key in social_keys %}{% if m.social_links[key] %}{{ key }},{% endif %}{% endfor %}{% endcapture %}
+            {% assign social_csv = social_csv | split: "," | join: "," %}
+            <li data-name="{{ m.name }}"
+                data-role="{{ m.role }}"
+                data-bio="{{ m.bio }}"
+                data-avatar="{{ m.photo | relative_url }}"
+                data-social="{{ social_csv }}"
+                data-featured="{{ m.featured | default: false }}"
+                data-badge="{{ m.badge }}"
+                data-url="{{ m.url | relative_url }}"></li>
+            {% endfor %}
+          </ul>
+          <div class="team-carousel__track" data-team-track></div>
+          <div class="team-carousel__dots" data-team-dots></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

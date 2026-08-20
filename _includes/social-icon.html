@@ -1,0 +1,10 @@
+<!-- ==========================================================================
+     Ícone de rede/plataforma social. Recebe "icon": uma classe Unicons
+     (uil-*) para plataformas com ícone pronto no pacote, ou o caminho de um
+     .svg local (assets/img/social/) para as que não têm.
+     ========================================================================== -->
+{% if include.icon contains ".svg" %}
+<img src="{{ include.icon | relative_url }}" alt="" width="16" height="16">
+{% else %}
+<i class="uil {{ include.icon }}"></i>
+{% endif %}

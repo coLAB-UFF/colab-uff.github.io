@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<!-- ==========================================================================
+     Página single de Projeto — mesma estrutura do single de Publicações
+     (.work-head / .page / .work-meta), com imagem à esquerda e metadados
+     (Vigência, Equipe, Financiamento) à direita.
+     ========================================================================== -->
+<div class="work-head">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12 col-lg-5">
+        <div class="work-head__left">
+          <div class="work-head__image">
+            <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+          </div>
+          {% if page.image_caption %}
+          <div class="page-image-caption">{{ page.image_caption }}</div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-7">
+        <div class="work-head__right">
+          <div class="work-category">{{ page.category }}</div>
+          <h1 class="page-title">{{ page.title }}</h1>
+          <p class="page-description">{{ page.excerpt }}</p>
+          <ul class="work-meta list-reset">
+            {% if page.vigencia %}<li class="work-meta__item"><strong>Vigência:</strong> <span>{{ page.vigencia }}</span></li>{% endif %}
+            {% if page.equipe %}<li class="work-meta__item"><strong>Equipe:</strong> <span>{{ page.equipe }}</span></li>{% endif %}
+            {% if page.financiamento %}<li class="work-meta__item"><strong>Financiamento:</strong> <span>{{ page.financiamento }}</span></li>{% endif %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container animate">
+  <div class="page">
+    {{ content }}
+  </div>
+</div>

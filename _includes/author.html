@@ -1,0 +1,19 @@
+<!-- ==========================================================================
+     6. SECTION AUTHOR — referência: nuntu.netlify.app | Conteúdo: _data/author.yml
+     ========================================================================== -->
+{% assign author = site.data.author %}
+<section class="author-section section-gap" id="sobre">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-6">
+        <span class="author__label"><span class="eyebrow-dash">—</span> {{ author.label }}</span>
+        <h2 class="display-6 mb-3">{{ author.title }}</h2>
+        <p>{{ author.text }}</p>
+        <a href="{{ author.link_url }}" class="author__link">{{ author.link_text }} <i class="uil uil-arrow-right"></i></a>
+      </div>
+      <div class="col-lg-6">
+        <img src="{{ author.image | relative_url }}" alt="{{ author.image_alt }}">
+      </div>
+    </div>
+  </div>
+</section>

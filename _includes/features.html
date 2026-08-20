@@ -1,0 +1,24 @@
+<!-- ==========================================================================
+     3. FEATURES SECTION 2 (3 colunas) — referência: sandbox.tortoizthemes.com/docs/blocks/features
+     Conteúdo: _data/features.yml
+     ========================================================================== -->
+{% assign features = site.data.features %}
+<section class="wrapper features2 section-gap">
+  <div class="container py-14 py-md-16">
+    <div class="row">
+      <div class="col-lg-8 col-xl-7">
+        <h2 class="eyebrow d-block"><span class="eyebrow-dash">—</span> {{ features.eyebrow }}</h2>
+        <h3 class="display-6 mb-9">{{ features.title }}</h3>
+      </div>
+    </div>
+    <div class="row gx-md-8 gy-8">
+      {% for item in features.items %}
+      <div class="col-md-6 col-lg-4">
+        <div class="icon-badge soft-{{ item.color }}"><i class="uil {{ item.icon }}"></i></div>
+        <h4>{{ item.title }}</h4>
+        <p class="mb-3">{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

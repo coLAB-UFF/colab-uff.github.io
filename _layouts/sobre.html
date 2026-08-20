@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<!-- ==========================================================================
+     Página Sobre — visualmente idêntica ao single de Projeto
+     (_layouts/projeto.html): mesma estrutura .work-head / .page / .work-meta.
+     Ícones institucionais (Diretório de Grupos de Pesquisa/CNPq, Figshare,
+     GitHub, Instagram) vêm de _data/site.yml -> social, a mesma lista usada
+     no rodapé (_includes/footer.html) — editar em um lugar atualiza os dois.
+     Reutilizado também pela página Dados Abertos (data/index.md, URL /data/),
+     que usa este mesmo layout sem os campos de metadados (linhas_de_pesquisa/
+     lider/ano_de_criacao) — a lista .work-meta só aparece quando pelo menos
+     um desses campos está preenchido no front matter da página.
+     ========================================================================== -->
+<div class="work-head">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12 col-lg-5">
+        <div class="work-head__left">
+          <div class="work-head__image">
+            <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+          </div>
+          {% if page.image_caption %}
+          <div class="page-image-caption">{{ page.image_caption }}</div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-7">
+        <div class="work-head__right">
+          <div class="work-category">{{ page.category }}</div>
+          <h1 class="page-title">{{ page.title }}</h1>
+          <p class="page-description">{{ page.description }}</p>
+          {% if page.linhas_de_pesquisa or page.lider or page.ano_de_criacao %}
+          <ul class="work-meta list-reset">
+            {% if page.linhas_de_pesquisa %}<li class="work-meta__item"><strong>Linhas de Pesquisa:</strong> <span>{{ page.linhas_de_pesquisa | join: ", " }}</span></li>{% endif %}
+            {% if page.lider %}
+            {% assign lider_page = site.integrantes | where: "name", page.lider | first %}
+            <li class="work-meta__item"><strong>Líder:</strong> <span>{% if lider_page %}<a href="{{ lider_page.url | relative_url }}">{{ page.lider }}</a>{% else %}{{ page.lider }}{% endif %}</span></li>
+            {% endif %}
+            {% if page.ano_de_criacao %}<li class="work-meta__item"><strong>Ano de Criação:</strong> <span>{{ page.ano_de_criacao }}</span></li>{% endif %}
+          </ul>
+          {% endif %}
+
+          <nav class="nav about-social">
+            {% for s in site.data.site.social %}
+            <a href="{{ s.url }}" target="_blank" rel="noopener" aria-label="{{ s.name }}" title="{{ s.name }}">
+              {% include social-icon.html icon=s.icon %}
+            </a>
+            {% endfor %}
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container animate">
+  <div class="page">
+    {{ content }}
+  </div>
+</div>

@@ -1,0 +1,31 @@
+# Itens do menu principal (header). O item ativo (bolinha destacada) é calculado
+# automaticamente em _includes/header.html, comparando a URL de cada item com a
+# página atual — não precisa marcar nada aqui.
+main:
+  - text: "Home"
+    url: "/"
+  - text: "Sobre"
+    url: "/sobre/"
+  - text: "Integrantes"
+    url: "/integrantes/"
+  - text: "Projetos"
+    url: "/projetos/"
+  - text: "Publicações"
+    url: "/publicacoes/"
+  - text: "Clipping"
+    url: "/clipping/"
+  - text: "Dados Abertos"
+    url: "/data/"
+
+# Links rápidos exibidos no rodapé.
+footer_links:
+  - text: "Sobre"
+    url: "/sobre/"
+  - text: "Projetos"
+    url: "/projetos/"
+  - text: "Integrantes"
+    url: "/integrantes/"
+  - text: "Publicações Científicas"
+    url: "/publicacoes/"
+  - text: "Dados Abertos"
+    url: "/data/"

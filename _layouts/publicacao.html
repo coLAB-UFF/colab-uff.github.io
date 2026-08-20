@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<!-- ==========================================================================
+     Página single de Publicação — referência: akio-jekyll.netlify.app/work/music-festival
+     (estrutura .work-head / .page / .work-meta) — os blocos "Créditos" e
+     "Como citar" seguem o layout de colab.meme/ddoslab/project/report-gender-violence
+     ========================================================================== -->
+<div class="work-head">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12 col-lg-5">
+        <div class="work-head__left">
+          <div class="work-head__image">
+            <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+          </div>
+          {% if page.image_caption %}
+          <div class="page-image-caption">{{ page.image_caption }}</div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-7">
+        <div class="work-head__right">
+          <div class="work-category">{{ page.category }}</div>
+          <h1 class="page-title">{{ page.title }}</h1>
+          <p class="page-description">{{ page.description }}</p>
+          <ul class="work-meta list-reset">
+            {% if page.date %}<li class="work-meta__item"><strong>Data:</strong> <span>{{ page.date | date: "%d %b %Y" }}</span></li>{% endif %}
+            {% if page.authors %}<li class="work-meta__item"><strong>Autoria:</strong> <span>{{ page.authors }}</span></li>{% endif %}
+            {% if page.type %}<li class="work-meta__item"><strong>Tipo:</strong> <span>{{ page.type }}</span></li>{% endif %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container animate">
+  <div class="page">
+    {{ content }}
+
+    {% if page.doi %}
+    <a href="https://doi.org/{{ page.doi }}" class="doi-pill" target="_blank" rel="noopener">
+      <span class="doi-pill__label">DOI</span>
+      <span class="doi-pill__value">{{ page.doi }}</span>
+    </a>
+    {% endif %}
+
+    <!-- "Imagens em Destaque" é opcional: só aparece se a publicação
+         tiver a lista "gallery" no front matter. -->
+    {% if page.gallery %}
+    <h4 id="imagens-em-destaque">Imagens em Destaque</h4>
+    <div class="gallery-box">
+      <div class="gallery gallery--4" data-lightbox>
+        {% for img in page.gallery %}
+        <a href="{{ img | relative_url }}" class="gallery__item" data-lightbox-trigger>
+          <img src="{{ img | relative_url }}" loading="lazy" alt="{{ page.title }}">
+          <span class="gallery__zoom"><i class="uil uil-search-plus"></i></span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<!-- Lightbox das "Imagens em Destaque" -->
+<div class="lightbox" data-lightbox-overlay>
+  <button type="button" class="lightbox__close" data-lightbox-close aria-label="Fechar">
+    <i class="uil uil-times"></i>
+  </button>
+  <img src="" alt="" data-lightbox-image>
+</div>

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<!-- ==========================================================================
+     Página list de Projetos — mesmo hero das demais páginas internas
+     (_includes/page-hero.html). Diferente da list de Publicações (grade de
+     3 colunas), aqui os projetos são listados um por vez, em linha: imagem
+     4:5 à esquerda, título + tag + descrição à direita.
+     ========================================================================== -->
+{% include page-hero.html
+   eyebrow=page.hero_eyebrow
+   title=page.hero_title
+   description=page.hero_description
+   images=page.hero_images
+%}
+
+<div class="project-list container animate">
+  {% assign projects = site.projects | sort: "order" %}
+  {% for project in projects %}
+  <article class="project-row row align-items-center gy-4">
+    <div class="col-12 col-lg-5">
+      <a href="{{ project.url | relative_url }}" class="project-row__image">
+        <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+      </a>
+    </div>
+    <div class="col-12 col-lg-7">
+      <div class="project-row__category">{{ project.category }}</div>
+      <h3 class="project-row__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+      <p class="project-row__description">{{ project.excerpt }}</p>
+    </div>
+  </article>
+  {% endfor %}
+</div>

@@ -1,0 +1,38 @@
+# ==========================================================================
+# Bloco "Board do coLAB" (Time)
+# Edite "config" para mudar o comportamento do bloco sem tocar em código.
+# A estética/layout dos cards (ver assets/css/style.css, seção 4) não muda.
+# ==========================================================================
+config:
+  # Quantos perfis exibir por vez. Aceita qualquer número (3, 6, 9, 12...);
+  # múltiplos de 3 preenchem a grade de 3 colunas de forma mais uniforme.
+  profiles_per_page: 9
+
+  # "dots" -> pagina os perfis de profiles_per_page em profiles_per_page, com
+  #           navegação por pontos (bolinhas) abaixo da grade.
+  # "all"  -> exibe todos os perfis de uma vez só, sem paginação
+  #           (profiles_per_page é ignorado nesse modo).
+  pagination_mode: "dots"
+
+  # "manual"       -> ordem em que os perfis aparecem na lista "members" abaixo.
+  # "alphabetical" -> ordem alfabética por nome.
+  # "random"       -> ordem embaralhada a cada carregamento da página.
+  # Em qualquer modo, os perfis com "featured: true" sempre aparecem
+  # primeiro (realçados), na ordem em que estão em "members".
+  order: "manual"
+
+intro:
+  eyebrow: "Quem Somos"
+  title: "Conheça nossos integrantes"
+  description: >
+    O coLAB é composto por pesquisadores em diferentes estágios de suas respectivas
+    carreiras. Doutores, doutorandos, mestres, mestrandos e alunos de graduação
+    integram a equipe de nosso laboratório. Os membros ativos encontram-se
+    destacados ao lado.
+  button_text: "Toda a equipe"
+  button_url: "/integrantes/"
+
+# Os dados de cada integrante (nome, cargo, bio curta, avatar, redes,
+# destaque) agora vivem na coleção "integrantes" (uma página por pessoa,
+# em _integrantes/*.md), para que cada integrante também tenha uma página
+# single própria. Veja _includes/team.html.
