@@ -1,7 +1,7 @@
 ---
 name: "Letícia Sabbatini"
 role: "Doutoranda"
-bio: "Doutoranda e mestre em Comunicação (PPGCOM-UFF)"
+bio: "Doutoranda em Comunicação (PPGCOM-UFF) e professora da ECMI/FGV"
 photo: "/assets/img/team/leticia_sabbatini.jpg"
 order: 14
 degree: "Doutoranda (Comunicação, UFF)"
