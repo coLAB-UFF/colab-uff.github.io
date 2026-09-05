@@ -1,7 +1,7 @@
 ---
 name: "Cristhiane Malungo"
 role: "Doutoranda"
-bio: "Doutoranda em Comunicação (UFF)"
+bio: "Doutoranda em Comunicação (UFF) e servidora da Secretaria de Assistência Social e Direitos Humanos de Niterói"
 photo: "/assets/img/team/cristhiane_malungo.png"
 order: 6
 degree: "Doutoranda (Comunicação, UFF)"
