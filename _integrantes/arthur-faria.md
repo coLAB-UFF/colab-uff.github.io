@@ -12,4 +12,6 @@ social_links:
   lattes: "https://lattes.cnpq.br/4627587141101494"
 ---
 
-Graduando em Estudos de Mídia (UFF), é bolsista de iniciação científica (PIBIC/CNPq) do coLAB. Trabalha atualmente com marketing e design. Seus interesses de pesquisa estão relacionados ao mercado de influenciadores ligados às bets e esportes.
+Graduando em Estudos de Mídia (UFF), é bolsista de iniciação científica (PIBIC/CNPq) do coLAB. 
+
+Trabalha atualmente com marketing e design. Seus interesses de pesquisa estão relacionados ao mercado de influenciadores ligados às bets e esportes.
