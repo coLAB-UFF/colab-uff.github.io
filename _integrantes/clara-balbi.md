@@ -1,7 +1,7 @@
 ---
 name: "Clara Balbi"
 role: "Mestranda"
-bio: "Mestranda em Comunicação (PPGCOM-UFF)"
+bio: "Mestranda em Comunicação (PPGCOM-UFF) e jornalista"
 photo: "/assets/img/team/clara_balbi.png"
 order: 5
 degree: "Mestranda (Comunicação, UFF)"
