@@ -29,7 +29,7 @@ var ORCID_SVG_ICON =
   '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.428.947.947 0 .525-.422.947-.947.947-.525 0-.946-.422-.946-.947 0-.519.421-.947.946-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg>';
 
 // Monta o <a> de uma rede/plataforma do card (mesmo tipo usado em SOCIAL_LABELS).
-function buildSocialLinkHTML(type) {
+function buildSocialLinkHTML(type, url) {
   var label = SOCIAL_LABELS[type] || type;
   var inner;
   if (type === "orcid") {
@@ -39,7 +39,7 @@ function buildSocialLinkHTML(type) {
   } else {
     inner = '<i class="uil ' + (SOCIAL_ICONS[type] || "uil-link") + '"></i>';
   }
-  return '<a href="#" class="' + type + '" aria-label="' + label + '">' + inner + "</a>";
+  return '<a href="' + url + '" target="_blank" rel="noopener" class="' + type + '" aria-label="' + label + '">' + inner + "</a>";
 }
 
 // Lê pagination_mode/order do próprio bloco (podem ser sobrescritos por
@@ -137,7 +137,14 @@ function initGalleryLightbox() {
 function readTeamMembersFromDOM() {
   var items = document.querySelectorAll("[data-team-source] li");
   return Array.prototype.map.call(items, function (li) {
-    var social = li.dataset.social ? li.dataset.social.split(",").filter(Boolean) : [];
+    var social = {};
+    if (li.dataset.social) {
+      try {
+        social = JSON.parse(li.dataset.social);
+      } catch (e) {
+        social = {};
+      }
+    }
     return {
       name: li.dataset.name,
       role: li.dataset.role,
@@ -157,7 +164,10 @@ function buildTeamCardHTML(member) {
   var badge = member.featured
     ? '<span class="team-card__badge">' + (member.badge || "Destaque") + "</span>"
     : "";
-  var socialLinks = (member.social || []).map(buildSocialLinkHTML).join("");
+  var social = member.social || {};
+  var socialLinks = Object.keys(social)
+    .map(function (type) { return buildSocialLinkHTML(type, social[type]); })
+    .join("");
   var url = member.url || "#";
 
   return (

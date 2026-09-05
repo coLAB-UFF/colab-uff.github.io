@@ -46,13 +46,13 @@
              data-order="{{ order }}">
           <ul class="team-source" data-team-source hidden>
             {% for m in integrantes %}
-            {% capture social_csv %}{% for key in social_keys %}{% if m.social_links[key] %}{{ key }},{% endif %}{% endfor %}{% endcapture %}
-            {% assign social_csv = social_csv | split: "," | join: "," %}
+            {% capture social_json %}{% for key in social_keys %}{% if m.social_links[key] %}"{{ key }}":"{{ m.social_links[key] }}",{% endif %}{% endfor %}{% endcapture %}
+            {% assign social_json = "{" | append: social_json | append: "}" | replace: ",}", "}" %}
             <li data-name="{{ m.name }}"
                 data-role="{{ m.role }}"
                 data-bio="{{ m.bio }}"
                 data-avatar="{{ m.photo | relative_url }}"
-                data-social="{{ social_csv }}"
+                data-social='{{ social_json }}'
                 data-featured="{{ m.featured | default: false }}"
                 data-badge="{{ m.badge }}"
                 data-url="{{ m.url | relative_url }}"></li>
