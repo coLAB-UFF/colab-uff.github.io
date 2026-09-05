@@ -12,4 +12,6 @@ social_links:
   lattes: "http://lattes.cnpq.br/9246303950178335"
 ---
 
-Mestrando no Programa de Pós Graduação em Comunicação da Universidade Federal Fluminense (PPGCOM/UFF). Graduado em Estudos de Mídia (UFF). Social Media no Partido Democrático Trabalhista. Interesse em pesquisas a respeito da Extrema-Direita.
+Mestrando no Programa de Pós Graduação em Comunicação da Universidade Federal Fluminense (PPGCOM/UFF). Graduado em Estudos de Mídia (UFF). 
+
+Social Media no Partido Democrático Trabalhista. Interesse em pesquisas a respeito da Extrema-Direita.
