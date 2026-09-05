@@ -1,7 +1,7 @@
 ---
 name: "Matheus Machado"
 role: "Mestrando"
-bio: "Mestrando em Comunicação (UFF), pesquisa as conexões entre religião, política e redes sociais."
+bio: "Mestrando em Comunicação (UFF)"
 photo: "/assets/img/team/matheus_machado.jpg"
 order: 17
 degree: "Mestrando (Comunicação, UFF)"
@@ -10,10 +10,7 @@ research_interests:
   - "Redes Sociais"
 social_links:
   lattes: "https://lattes.cnpq.br/3009976032031096"
+  instagram: "https://instagram.com/matheusmaxxado"
 ---
 
-Matheus Machado é mestrando em Comunicação (UFF), graduado em Psicologia (UNESA) e em Teologia (FABAT).
-
-> Religião, política e redes sociais compartilham algo em comum: todas dependem de comunidades dispostas a acreditar e compartilhar.
-
-Com experiência em agências de publicidade, produtoras de eventos e organizações do terceiro setor, atua como Diretor Executivo do Novas Narrativas Evangélicas, movimento que co-fundou em 2021. Dedica-se a investigações nas Artes, Cinema, Literatura e Comunicação, com interesse nas conexões entre Religião, Política e Redes Sociais.
+Mestrando no Programa de Pós Graduação em Comunicação da Universidade Federal Fluminense, atua como Diretor Executivo do Novas Narrativas Evangélicas e dedica-se a investigações nas conexões entre Religião, Política e Redes Sociais.
