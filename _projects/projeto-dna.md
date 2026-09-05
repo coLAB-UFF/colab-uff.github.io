@@ -7,6 +7,9 @@ excerpt: >
 image: "https://picsum.photos/seed/colab-projeto-dna/700/875"
 section: portfolio
 order: 5
+vigente: false
+financiamento: "Ministério da Saúde / Fundep / Ibict"
+proponente: "Ibict"
 equipe: "Equipe coLAB"
 ---
 

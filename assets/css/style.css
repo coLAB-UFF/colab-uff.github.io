@@ -1267,6 +1267,47 @@ footer.bg-navy .logo-mark {
   font-size: 1.05rem;
 }
 
+/* --- Projetos Encerrados: lista compacta, sem imagem/descrição --- */
+.projects-divider {
+  margin: 1rem 0 2.5rem;
+  border: none;
+  border-top: 1px solid #eef0f4;
+}
+.projects-encerrados-title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: var(--colab-text);
+  margin-bottom: 1.75rem;
+}
+.closed-project-row {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #eef0f4;
+}
+.closed-project-row:last-child {
+  border-bottom: none;
+}
+.closed-project-row__title {
+  font-size: 1.25rem;
+  margin-bottom: 0.6rem;
+}
+.closed-project-row__title a {
+  color: var(--colab-text);
+}
+.closed-project-row__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.5rem;
+}
+.closed-project-row__meta li {
+  font-size: 0.9rem;
+  color: var(--colab-text);
+}
+.closed-project-row__meta strong {
+  font-family: var(--font-heading);
+  color: var(--colab-muted);
+  font-weight: 600;
+  margin-right: 0.3rem;
+}
+
 /* --- List de Clipping: notícias vindas da planilha (ver assets/js/clipping.js) --- */
 .clipping-list {
   padding-bottom: 5rem;

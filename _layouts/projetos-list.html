@@ -6,6 +6,12 @@ layout: default
      (_includes/page-hero.html). Diferente da list de Publicações (grade de
      3 colunas), aqui os projetos são listados um por vez, em linha: imagem
      4:5 à esquerda, título + tag + descrição à direita.
+
+     Projetos com "vigente: true" aparecem na lista completa acima; os com
+     "vigente: false" aparecem só na seção "Projetos Encerrados" abaixo, num
+     formato compacto (sem imagem/descrição — só título e metadados: vigência,
+     financiamento, valor financiado, proponente, equipe, cada um exibido
+     apenas se preenchido no front matter).
      ========================================================================== -->
 {% include page-hero.html
    eyebrow=page.hero_eyebrow
@@ -15,8 +21,8 @@ layout: default
 %}
 
 <div class="project-list container animate">
-  {% assign projects = site.projects | sort: "order" %}
-  {% for project in projects %}
+  {% assign active_projects = site.projects | where: "vigente", true | sort: "order" %}
+  {% for project in active_projects %}
   <article class="project-row row align-items-center gy-4">
     <div class="col-12 col-lg-5">
       <a href="{{ project.url | relative_url }}" class="project-row__image">
@@ -31,3 +37,25 @@ layout: default
   </article>
   {% endfor %}
 </div>
+
+{% assign closed_projects = site.projects | where: "vigente", false | sort: "order" %}
+{% if closed_projects.size > 0 %}
+<div class="container animate">
+  <hr class="projects-divider">
+  <h2 class="projects-encerrados-title">Projetos Encerrados</h2>
+  <div class="closed-project-list">
+    {% for project in closed_projects %}
+    <article class="closed-project-row">
+      <h3 class="closed-project-row__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+      <ul class="closed-project-row__meta list-reset">
+        {% if project.vigencia %}<li><strong>Vigência:</strong> {{ project.vigencia }}</li>{% endif %}
+        {% if project.financiamento %}<li><strong>Financiamento:</strong> {{ project.financiamento }}</li>{% endif %}
+        {% if project.valor_financiado %}<li><strong>Valor Financiado:</strong> {{ project.valor_financiado }}</li>{% endif %}
+        {% if project.proponente %}<li><strong>Proponente:</strong> {{ project.proponente }}</li>{% endif %}
+        {% if project.equipe %}<li><strong>Equipe:</strong> {{ project.equipe }}</li>{% endif %}
+      </ul>
+    </article>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

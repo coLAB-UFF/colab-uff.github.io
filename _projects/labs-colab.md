@@ -7,6 +7,7 @@ excerpt: >
 image: "https://picsum.photos/seed/colab-projeto-labs/700/875"
 section: portfolio
 order: 10
+vigente: true
 equipe: "Viktor Chagas"
 ---
 

@@ -6,7 +6,10 @@ excerpt: >
   mídias sociais e à formação de profissionais para o universo dos memes de internet.
 image: "https://picsum.photos/seed/colab-projeto-escritorio-memes/700/875"
 section: portfolio
+size: small
+color: accent
 order: 9
+vigente: true
 equipe: "Equipe coLAB"
 ---
 

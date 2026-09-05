@@ -7,6 +7,7 @@ excerpt: >
 image: "https://picsum.photos/seed/colab-projeto-observatorio-tretas/700/875"
 section: portfolio
 order: 8
+vigente: false
 equipe: "Rodrigo Carreiro (idealização), em parceria com o INCT.dd e o coLAB/UFF"
 ---
 

@@ -4,8 +4,8 @@ title: "Projetos"
 description: "Projetos de pesquisa, extensão e dados abertos desenvolvidos pelo coLAB."
 permalink: /projetos/
 hero_eyebrow: "O que fazemos"
-hero_title: "Pesquisa, extensão e dados abertos em movimento"
-hero_description: "Conheça os projetos de pesquisa, extensão e produção de dados abertos conduzidos pelo coLAB, do mapeamento de desinformação às oficinas de letramento midiático com a comunidade."
+hero_title: "Projetos de Pesquisa, Extensão e Inovação Tecnológica em andamento"
+hero_description: "Conheça os projetos de pesquisa, extensão e inovação tecnológica conduzidos pelo coLAB/UFF e sua rede de parceiros."
 hero_images:
   col1: { src: "/assets/img/projects/projects-hero-1.png", alt: "Projeto do coLAB" }
   col2:

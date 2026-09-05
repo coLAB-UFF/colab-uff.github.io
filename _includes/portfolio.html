@@ -3,8 +3,8 @@
      Conteúdo: _data/portfolio.yml (intro) + coleção _projects (section: portfolio)
      ========================================================================== -->
 {% assign portfolio = site.data.portfolio %}
-{% assign featured_projects = site.projects | where: "section", "portfolio" | where: "size", "featured" | sort: "order" %}
-{% assign small_projects = site.projects | where: "section", "portfolio" | where: "size", "small" | sort: "order" %}
+{% assign featured_projects = site.projects | where: "section", "portfolio" | where: "size", "featured" | where: "vigente", true | sort: "order" %}
+{% assign small_projects = site.projects | where: "section", "portfolio" | where: "size", "small" | where: "vigente", true | sort: "order" %}
 
 <section class="wrapper portfolio6 section-gap" id="projetos">
   <div class="container portfolio6__container">

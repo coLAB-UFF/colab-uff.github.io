@@ -7,6 +7,10 @@ excerpt: >
 image: "https://picsum.photos/seed/colab-projeto-trust/700/875"
 section: portfolio
 order: 7
+vigente: true
+vigencia: "2025–atual"
+financiamento: "NWO-XS Trust Project / INCT.dd"
+proponente: "Mark Boukes e David Blanco Herrero"
 equipe: "coLAB/UFF, em consórcio internacional liderado pela Universiteit van Amsterdam"
 ---
 

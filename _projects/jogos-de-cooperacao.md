@@ -6,12 +6,12 @@ excerpt: >
   da cooperação em experiências lúdicas, premiado pela UFF, Faperj e CNPq.
 image: "/assets/img/projects/jogos-de-cooperacao.png"
 section: portfolio
-size: small
-color: accent
 order: 6
+vigente: false
 vigencia: "2013–2017"
-equipe: "Equipe coLAB"
 financiamento: "FAPERJ — Edital APQ1; premiado pela Semana de Inovação Tecnológica da UFF (2014) e pelo Prêmio Destaque na Iniciação Científica e Tecnológica do CNPq (2015)"
+proponente: "Viktor Chagas"
+equipe: "Viktor Chagas, Luan Dutra (PIBITI/CNPq) e Daniel Rios (PIBITI/CNPq)"
 ---
 
 O box Jogos de Cooperação consiste de uma experiência lúdica com reflexões profundas sobre dilemas filosóficos.

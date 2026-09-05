@@ -9,6 +9,10 @@ section: portfolio
 size: small
 color: navy
 order: 4
+vigente: true
+vigencia: "2020–atual"
+financiamento: "Edital APQ1/2019 (Faperj)"
+proponente: "Viktor Chagas"
 equipe: "Viktor Chagas e equipe coLAB"
 ---
 

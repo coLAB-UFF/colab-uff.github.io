@@ -4,7 +4,9 @@ layout: default
 <!-- ==========================================================================
      Página single de Projeto — mesma estrutura do single de Publicações
      (.work-head / .page / .work-meta), com imagem à esquerda e metadados
-     (Vigência, Equipe, Financiamento) à direita.
+     (Situação, Vigência, Financiamento, Valor Financiado, Proponente, Equipe)
+     à direita. Todos os campos de metadados são opcionais no front matter —
+     só aparecem quando preenchidos (ver _projects/*.md).
      ========================================================================== -->
 <div class="work-head">
   <div class="container">
@@ -27,9 +29,12 @@ layout: default
           <h1 class="page-title">{{ page.title }}</h1>
           <p class="page-description">{{ page.excerpt }}</p>
           <ul class="work-meta list-reset">
+            {% if page.vigente != nil %}<li class="work-meta__item"><strong>Situação:</strong> <span>{% if page.vigente %}Vigente{% else %}Encerrado{% endif %}</span></li>{% endif %}
             {% if page.vigencia %}<li class="work-meta__item"><strong>Vigência:</strong> <span>{{ page.vigencia }}</span></li>{% endif %}
-            {% if page.equipe %}<li class="work-meta__item"><strong>Equipe:</strong> <span>{{ page.equipe }}</span></li>{% endif %}
             {% if page.financiamento %}<li class="work-meta__item"><strong>Financiamento:</strong> <span>{{ page.financiamento }}</span></li>{% endif %}
+            {% if page.valor_financiado %}<li class="work-meta__item"><strong>Valor Financiado:</strong> <span>{{ page.valor_financiado }}</span></li>{% endif %}
+            {% if page.proponente %}<li class="work-meta__item"><strong>Proponente:</strong> <span>{{ page.proponente }}</span></li>{% endif %}
+            {% if page.equipe %}<li class="work-meta__item"><strong>Equipe:</strong> <span>{{ page.equipe }}</span></li>{% endif %}
           </ul>
         </div>
       </div>

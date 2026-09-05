@@ -7,6 +7,7 @@ excerpt: >
 image: "https://picsum.photos/seed/colab-projeto-mapa-ativismo/700/875"
 section: portfolio
 order: 2
+vigente: true
 equipe: "Equipe coLAB"
 ---
 

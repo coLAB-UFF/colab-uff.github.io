@@ -10,6 +10,10 @@ size: featured
 color: navy
 image_position: left
 order: 1
+vigente: true
+vigencia: "2020–atual"
+financiamento: "Edital nº 001/2020 (Programa \"Cultura Presente nas Redes\", Secretaria de Estado de Cultura e Economia Criativa)"
+proponente: "Beatrice de Melo e Silva e Guilherme Popolin"
 equipe: "Viktor Chagas (coordenação) e equipe coLAB"
 ---
 

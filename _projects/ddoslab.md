@@ -10,6 +10,10 @@ size: featured
 color: accent
 image_position: right
 order: 3
+vigente: true
+vigencia: "2021–atual"
+financiamento: "Emenda Parlamentar nº 27760014/2021 (Câmara dos Deputados) e Chamada Interna Equipamentos INCT.dd 2024"
+proponente: "Viktor Chagas"
 equipe: "Viktor Chagas (coordenação), Letícia Sabbatini, Vinicius Machado Miguel, Gabriela Rezende Pereira e Sabrina Dray"
 ---
 
