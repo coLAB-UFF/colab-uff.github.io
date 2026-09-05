@@ -11,7 +11,7 @@ research_interests:
 social_links:
   lattes: "http://lattes.cnpq.br/2261240746938622"
   orcid: "https://orcid.org/0000-0002-2798-0198"
-  instagram: "@clarabalbi"
+  instagram: "https://instagram.com/clarabalbi"
 ---
 
 Mestranda no PPGCOM/UFF, onde pesquisa a difusão de imagens geradas por IA na imprensa brasileira. Foi repórter e editora na Folha de S.Paulo e editora na revista Quatro Cinco Um. É bacharela em Jornalismo e em Cinema pela PUC-Rio.
