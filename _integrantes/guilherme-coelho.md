@@ -1,19 +1,17 @@
 ---
 name: "Guilherme Coelho Sala"
-role: "Graduando"
-bio: "Bolsista PIBIC/CNPq, cursa Ciências Sociais (UFF) e já foi bolsista de extensão do #MUSEUdeMEMES."
+role: "Graduado"
+bio: "Bacharel em Ciências Sociais (UFF)"
 photo: "/assets/img/team/guilherme_coelho.png"
 order: 8
 degree: "Graduando (Ciências Sociais, UFF)"
 research_interests:
-  - "Cultura de Memes"
-  - "Extensão Universitária"
+  - "Humor Digital"
+  - "Humor e Democracia"
 social_links:
   lattes: "http://lattes.cnpq.br/4828979462952171"
 ---
 
-Guilherme Coelho Sala cursa Ciências Sociais na Universidade Federal Fluminense (UFF).
+Guilherme Coelho Sala é bacharel em Ciências Sociais pela Universidade Federal Fluminense (UFF).
 
-> Passar pela extensão universitária é descobrir que pesquisa também se faz fora dos muros da universidade.
-
-É atualmente bolsista PIBIC/CNPq e foi bolsista de extensão do projeto #MUSEUdeMEMES.
+Foi anteriormente bolsista PIBIC/CNPq do coLAB/UFF e bolsista de extensão do projeto #MUSEUdeMEMES.
