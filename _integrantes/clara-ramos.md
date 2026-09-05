@@ -13,4 +13,6 @@ social_links:
   orcid: "https://orcid.org/0000-0002-7282-7053"
 ---
 
-Mestranda no Programa de Pós-Graduação em Comunicação da Universidade Federal Fluminense (PPGCOM/UFF) e analista política do DAPPLab (ECMI/FGV). É pós-graduada em Comunicação Governamental e Marketing Político (IDP) e bacharela (2020) e licenciada (2023) em Ciências Socias (UFRJ).
+Mestranda no Programa de Pós-Graduação em Comunicação da Universidade Federal Fluminense (PPGCOM/UFF) e analista política do DAPPLab (ECMI/FGV). 
+
+É pós-graduada em Comunicação Governamental e Marketing Político (IDP) e bacharela (2020) e licenciada (2023) em Ciências Socias (UFRJ).
