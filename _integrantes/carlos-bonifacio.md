@@ -1,7 +1,7 @@
 ---
 name: "Carlos Bonifácio"
 role: "Mestrando"
-bio: "Mestrando em Comunicação (UFF)"
+bio: "Mestrando em Comunicação (UFF) e analista de mídias sociais"
 photo: "/assets/img/team/carlos_bonifacio.png"
 order: 4
 degree: "Mestrando (Comunicação, UFF)"
