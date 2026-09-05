@@ -13,6 +13,6 @@ social_links:
   lattes: "http://lattes.cnpq.br/7022267616600463"
 ---
 
-Letícia Sabbatini é doutoranda e mestre pelo Programa de Pós-Graduação em Comunicação da Universidade Federal Fluminense (PPGCOM/UFF), onde integra a linha de pesquisa Estéticas e Tecnologias da Comunicação.
+Letícia Sabbatini é doutoranda e mestre pelo Programa de Pós-Graduação em Comunicação da Universidade Federal Fluminense (PPGCOM/UFF). Professora e pesquisadora da Escola de Comunicação, Mídia e Informação da Fundação Getulio Vargas (ECMI/FGV).
 
-Se interessa por estudos de gênero, comunicação política e tecnologias online, integra o corpo editorial da Revista Contracampo e participa do #MUSEUdeMEMES (UFF), além de atuar como voluntária no time de pesquisas da ONG Elas No Poder. É jornalista pela Universidade Federal Rural do Rio de Janeiro (UFRRJ), com experiência em reportagem, fotografia e marketing digital.
+Tem interesse por estudos de gênero, comunicação política e tecnologias online. Integra o corpo editorial da Revista Contracampo. É jornalista pela Universidade Federal Rural do Rio de Janeiro (UFRRJ), com experiência em reportagem, fotografia e marketing digital.
