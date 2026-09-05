@@ -14,4 +14,6 @@ social_links:
   instagram: "https://instagram.com/clarabalbi"
 ---
 
-Mestranda no PPGCOM/UFF, onde pesquisa a difusão de imagens geradas por IA na imprensa brasileira. Foi repórter e editora na Folha de S.Paulo e editora na revista Quatro Cinco Um. É bacharela em Jornalismo e em Cinema pela PUC-Rio.
+Mestranda no PPGCOM/UFF, onde pesquisa a difusão de imagens geradas por IA na imprensa brasileira.
+
+Foi repórter e editora na Folha de S.Paulo e editora na revista Quatro Cinco Um. É bacharela em Jornalismo e em Cinema pela PUC-Rio.
