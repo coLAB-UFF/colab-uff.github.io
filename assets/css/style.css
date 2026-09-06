@@ -937,16 +937,20 @@ footer.bg-navy .logo-mark {
   margin: 2.5rem 0;
   opacity: 1;
 }
-/* Links no corpo do texto (Markdown) — exclui .doi-pill/.orcid-icon, que já
-   têm estilo próprio de pílula/ícone. */
-.page a:not(.doi-pill):not(.orcid-icon) {
+/* Links no corpo do texto (Markdown) e nos metadados (.work-meta, ex.: o
+   "Líder" da página /sobre/ linkando para o integrante) — exclui
+   .doi-pill/.orcid-icon, que já têm estilo próprio de pílula/ícone. */
+.page a:not(.doi-pill):not(.orcid-icon),
+.work-meta a:not(.doi-pill):not(.orcid-icon) {
   color: var(--colab-accent);
   font-weight: 600;
 }
-.page a:not(.doi-pill):not(.orcid-icon):hover {
+.page a:not(.doi-pill):not(.orcid-icon):hover,
+.work-meta a:not(.doi-pill):not(.orcid-icon):hover {
   color: var(--colab-accent-dark);
 }
-.page a:not(.doi-pill):not(.orcid-icon)::after {
+.page a:not(.doi-pill):not(.orcid-icon)::after,
+.work-meta a:not(.doi-pill):not(.orcid-icon)::after {
   content: "↗";
   display: inline-block;
   margin-left: 0.15em;
