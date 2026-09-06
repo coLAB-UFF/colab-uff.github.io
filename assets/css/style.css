@@ -951,11 +951,12 @@ footer.bg-navy .logo-mark {
 }
 .page a:not(.doi-pill):not(.orcid-icon)::after,
 .work-meta a:not(.doi-pill):not(.orcid-icon)::after {
-  content: "↗";
+  font-family: "FontAwesome";
+  content: "\f08e";
   display: inline-block;
-  margin-left: 0.15em;
-  font-weight: 400;
-  font-size: 0.85em;
+  margin-left: 0.35em;
+  font-weight: normal;
+  font-size: 0.8em;
 }
 
 /* Botão de destaque dentro do corpo do texto (ex.: "Ler o estudo completo") */
