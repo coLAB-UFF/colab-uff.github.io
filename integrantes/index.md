@@ -4,8 +4,8 @@ title: "Integrantes"
 description: "Conheça as pesquisadoras e pesquisadores do coLAB."
 permalink: /integrantes/
 hero_eyebrow: "O Time do coLAB"
-hero_title: "Um laboratório integrado por pessoas que pesquisam, colaboram e aprendem juntas"
-hero_description: "Conheça um pouco mais sobre quem está por trás das pesquisas do coLAB."
+hero_title: "Pessoas que pesquisam, colaboram e aprendem juntas"
+hero_description: "Conheça um pouco mais sobre quem está por trás das pesquisas e produtos desenvolvidos pelo coLAB."
 hero_images:
   col1: { src: "/assets/img/team/team-hero-1.png", alt: "Integrante do coLAB" }
   col2:
