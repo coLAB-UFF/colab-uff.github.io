@@ -937,6 +937,22 @@ footer.bg-navy .logo-mark {
   margin: 2.5rem 0;
   opacity: 1;
 }
+/* Links no corpo do texto (Markdown) — exclui .doi-pill/.orcid-icon, que já
+   têm estilo próprio de pílula/ícone. */
+.page a:not(.doi-pill):not(.orcid-icon) {
+  color: var(--colab-accent);
+  font-weight: 600;
+}
+.page a:not(.doi-pill):not(.orcid-icon):hover {
+  color: var(--colab-accent-dark);
+}
+.page a:not(.doi-pill):not(.orcid-icon)::after {
+  content: "↗";
+  display: inline-block;
+  margin-left: 0.15em;
+  font-weight: 400;
+  font-size: 0.85em;
+}
 
 /* Botão de destaque dentro do corpo do texto (ex.: "Ler o estudo completo") */
 .btn-report {
