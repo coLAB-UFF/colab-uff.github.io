@@ -4,8 +4,8 @@ title: "Publicações"
 description: "Relatórios, anuários e demais publicações produzidas pelo laboratório."
 permalink: /publicacoes/
 hero_eyebrow: "Publicações do coLAB"
-hero_title: "Relatórios, dados e conhecimento aberto para todos"
-hero_description: "Uma seleção das publicações, relatórios e dados abertos produzidos pelo laboratório ao longo dos anos."
+hero_title: "Relatórios, artigos e outras publicações disponíveis"
+hero_description: "Uma seleção das publicações, artigos e relatórios produzidos pelo laboratório ao longo dos últimos anos."
 hero_images:
   col1:
     src: "/assets/img/publicacoes/pub-hero-1.jpg"
