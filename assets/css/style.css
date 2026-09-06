@@ -220,7 +220,7 @@ a {
   font-family: var(--font-heading);
   font-weight: 600;
   color: var(--colab-text);
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
 }
 .hero__form {
   display: flex;
