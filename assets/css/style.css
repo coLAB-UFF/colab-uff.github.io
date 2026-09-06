@@ -1523,7 +1523,6 @@ footer.bg-navy .logo-mark {
   --bs-accordion-btn-focus-box-shadow: none;
 }
 .faq-accordion .accordion-item {
-  background-color: #f4f4f7;
   border-radius: 1rem;
   overflow: hidden;
   margin-bottom: 1.5rem;
@@ -1537,16 +1536,12 @@ footer.bg-navy .logo-mark {
   font-weight: 600;
   font-size: 1rem;
   color: var(--colab-text);
-  background-color: #fff;
-  border-radius: 0.75rem;
   margin: 5px;
-  width: calc(100% - 10px);
 }
 .faq-accordion .accordion-button:not(.collapsed) {
   color: var(--colab-accent-dark);
 }
 .faq-accordion .accordion-body {
-  background-color: #fff;
   color: var(--colab-muted);
 }
 .faq-accordion .accordion-body a {
