@@ -9,3 +9,4 @@ title: coLAB — Laboratório de Pesquisa em Comunicação, Culturas Políticas 
 {% include works.html %}
 {% include author.html %}
 {% include portfolio.html %}
+{% include faq.html %}

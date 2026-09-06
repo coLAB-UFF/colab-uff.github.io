@@ -216,6 +216,12 @@ a {
   max-width: 34rem;
   margin-bottom: 2rem;
 }
+.hero__newsletter-label {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--colab-text);
+  margin-bottom: 0.75rem;
+}
 .hero__form {
   display: flex;
   gap: 0.5rem;
@@ -1502,18 +1508,19 @@ footer.bg-navy .logo-mark {
   margin-top: 2.5rem;
 }
 
-/* --- FAQ (página Fale Conosco) — referência: ishs2026.org ---
+/* --- FAQ (home e página Fale Conosco) — referência: ishs2026.org ---
    Sobrescreve as CSS custom properties do próprio Bootstrap (não só
    propriedades soltas), já que as regras compiladas do accordion usam
    var(--bs-accordion-*) internamente — é o único jeito confiável de
-   remover o destaque azul padrão do item aberto. */
+   remover o destaque azul padrão do item aberto. Foco não usa realce
+   (sem box-shadow/borda), só a sombra do próprio card já indica o item. */
 .faq-accordion {
   --bs-accordion-active-bg: #fff;
   --bs-accordion-active-color: var(--colab-accent-dark);
   --bs-accordion-border-width: 0;
   --bs-accordion-border-color: transparent;
   --bs-accordion-btn-focus-border-color: transparent;
-  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.2rem rgba(255, 179, 81, 0.35);
+  --bs-accordion-btn-focus-box-shadow: none;
 }
 .faq-accordion .accordion-item {
   border-radius: 1rem;
@@ -1529,6 +1536,7 @@ footer.bg-navy .logo-mark {
   font-weight: 600;
   font-size: 1rem;
   color: var(--colab-text);
+  margin: 5px;
 }
 .faq-accordion .accordion-button:not(.collapsed) {
   color: var(--colab-accent-dark);
