@@ -1502,6 +1502,40 @@ footer.bg-navy .logo-mark {
   margin-top: 2.5rem;
 }
 
+/* --- FAQ (página Fale Conosco) — referência: ishs2026.org --- */
+.faq-accordion .accordion-item {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  box-shadow: 0 6px 24px rgba(20, 20, 40, 0.06);
+}
+.faq-accordion .accordion-item:last-child {
+  margin-bottom: 0;
+}
+.faq-accordion .accordion-button {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--colab-text);
+  background-color: #fff;
+}
+.faq-accordion .accordion-button:not(.collapsed) {
+  color: var(--colab-accent-dark);
+  background-color: #fff;
+  box-shadow: none;
+}
+.faq-accordion .accordion-button:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 179, 81, 0.35);
+  border-color: transparent;
+}
+.faq-accordion .accordion-body {
+  color: var(--colab-muted);
+}
+.faq-accordion .accordion-body a {
+  color: var(--colab-accent-dark);
+}
+
 @media (max-width: 991.98px) {
   .work-head__left { margin-bottom: 2rem; }
 }

@@ -1,0 +1,17 @@
+# ==========================================================================
+# Bloco FAQ da página Fale Conosco — referência: ishs2026.org (seção "FAQ").
+# Renderizado por _includes/faq.html, logo abaixo do formulário de contato
+# em _layouts/fale-conosco.html. "answer" aceita HTML simples (ex.: <a>).
+# ==========================================================================
+eyebrow: "FAQ"
+title: "Perguntas frequentes"
+description: "Reunimos aqui as dúvidas mais comuns sobre o coLAB e nossos projetos. Se a sua pergunta não estiver aqui, use o formulário acima ou escreva para o nosso e-mail."
+items:
+  - question: "Como posso acessar as bases de dados do coLAB?"
+    answer: 'Todas as bases de dados, scripts e materiais disponibilizados publicamente estão reunidos na página <a href="/data/">Repositórios de Dados</a>, licenciados sob Creative Commons CC BY-NC-SA.'
+  - question: "Posso propor uma parceria institucional com o coLAB?"
+    answer: 'Sim. O coLAB firma acordos de cooperação interinstitucional com parceiros nacionais e internacionais, seguindo as diretrizes da Assessoria de Cooperação Internacional da UFF. Conte um pouco sobre a proposta pelo formulário acima ou pelo nosso e-mail.'
+  - question: "Como cito uma publicação do coLAB em meu trabalho?"
+    answer: 'Cada publicação listada em <a href="/publicacoes/">Publicações</a> traz, na seção "Como citar este estudo", a referência já formatada para uso acadêmico.'
+  - question: "Como recebo novidades e chamadas de pesquisa do coLAB?"
+    answer: 'Basta se inscrever com seu e-mail no formulário de newsletter, disponível na home e no rodapé do site.'
