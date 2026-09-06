@@ -1,8 +1,8 @@
 ---
 layout: sobre
-title: "Dados Abertos do coLAB"
+title: "Repositórios de Dados"
 category: "Dados Abertos"
-description: "Bases de dados, planilhas e repositórios produzidos pelo coLAB, disponibilizados livremente para consulta, reuso e verificação por outras pesquisadoras, pesquisadores e pela sociedade civil."
+description: "O coLAB disponibiliza algumas de suas bases de dados e aplicações produzidas pelos seus pesquisadores livremente ou mediante consulta prévia e convênios interinstitucionais, para reuso e verificação por outros pesquisadores e pela sociedade civil. Os repositórios contam com dados anonimizados e devem ser citados conforme instruções fornecidas pelo laboratório."
 image: "/assets/img/data/network-graph.jpg"
 permalink: /data/
 ---
