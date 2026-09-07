@@ -19,11 +19,11 @@ O Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da C
 
 O coLAB é responsável por um conjunto de projetos desenvolvidos de modo interdisciplinar e com apoio de seus integrantes e de parceiros interinstitucionais. Além do Instituto Nacional de Ciência e Tecnologia em Democracia Digital (INCT.dd), o laboratório integra também a Rede Nacional de Combate à Desinformação (RNCD), e mantém colaboração estreita e instituída com o Instituto de Tecnologia e Sociedade (ITS Rio) e a FGV Comunicação, através da Escola de Comunicação, Mídia e Informação (ECMI); além de cooperações já desenvolvidas com o Aláfia Lab, o Laboratório de Imagem e Ciência de Dados (Labic) da Universidade Federal do Espírito Santo; e núcleos e laboratórios parceiros, como Margem (UFMG), MiDiCom (UFF), GCodes (UFPA), CPOP (UFPR), e mais.
 
-Para mais detalhes sobre algumas das atividades desenvolvidas pelo coLAB, acesse a seção [Projetos](/projetos/).
+Mais detalhes sobre algumas das atividades desenvolvidas pelo coLAB podem ser conferidos na seção [Projetos](/projetos/).
 
 ### coLAB na Mídia
 
-Para um pequeno portfólio de menções na imprensa a estudos e projetos desenvolvidos pelos pesquisadores do Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB-UFF), visite nosso clipping. O clipping é atualizado periodicamente com algumas notícias que repercutem nossas atividades.
+Para um portfólio de menções na imprensa a estudos e projetos desenvolvidos pelos pesquisadores do coLAB, visite nosso clipping. O clipping é atualizado periodicamente com algumas notícias que repercutem nossas atividades.
 
 [Acesse o Clipping.](/clipping/)
 

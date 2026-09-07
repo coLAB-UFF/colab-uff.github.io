@@ -7,11 +7,9 @@ eyebrow: "FAQ"
 title: "Perguntas frequentes"
 description: "Reunimos aqui as dúvidas mais comuns sobre o coLAB e nossos projetos. Se a sua pergunta não estiver aqui, use o formulário acima ou escreva para o nosso e-mail."
 items:
-  - question: "Como posso acessar as bases de dados do coLAB?"
-    answer: 'Todas as bases de dados, scripts e materiais disponibilizados publicamente estão reunidos na página <a href="/data/">Repositórios de Dados</a>, licenciados sob Creative Commons CC BY-NC-SA.'
-  - question: "Posso propor uma parceria institucional com o coLAB?"
-    answer: 'Sim. O coLAB firma acordos de cooperação interinstitucional com parceiros nacionais e internacionais, seguindo as diretrizes da Assessoria de Cooperação Internacional da UFF. Conte um pouco sobre a proposta pelo formulário acima ou pelo nosso e-mail.'
-  - question: "Como cito uma publicação do coLAB em meu trabalho?"
-    answer: 'Cada publicação listada em <a href="/publicacoes/">Publicações</a> traz, na seção "Como citar este estudo", a referência já formatada para uso acadêmico.'
-  - question: "Como recebo novidades e chamadas de pesquisa do coLAB?"
-    answer: 'Basta se inscrever com seu e-mail no formulário de newsletter, disponível na home e no rodapé do site.'
+  - question: "Posso propor uma parceria institucional com o coLAB ou contratar vocês para uma consultoria?"
+    answer: 'Sim. O coLAB firma acordos de cooperação interinstitucional e também realiza consultorias pontuais, conforme disponibilidade da equipe. Conte um pouco sobre a proposta pelo formulário acima ou pelo nosso e-mail.'
+  - question: "Como posso fazer parte do coLAB?"
+    answer: 'O ingresso de novos integrantes costuma ocorrer por meio de editais de bolsas (iniciação científica, mestrado e doutorado) ou convite direto do coordenador. Fique de olho nas chamadas divulgadas no site e nas redes do coLAB.'
+  - question: "Vocês realizam coletas de dados para terceiros? Como posso utilizar dados do coLAB em minha pesquisa?"
+    answer: 'O coLAB não realiza coletas sob demanda para terceiros, mas disponibiliza publicamente parte de suas bases na página <a href="/data/">Repositórios de Dados</a>, licenciadas sob Creative Commons CC BY-NC-SA e livres para uso acadêmico com a devida citação.'
