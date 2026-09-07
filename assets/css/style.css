@@ -1260,6 +1260,7 @@ footer.bg-navy .logo-mark {
 }
 .project-row__image {
   display: block;
+  max-width: 300px;
   border-radius: 1.25rem;
   overflow: hidden;
 }
