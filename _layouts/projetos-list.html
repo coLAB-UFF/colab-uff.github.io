@@ -24,12 +24,12 @@ layout: default
   {% assign active_projects = site.projects | where: "vigente", true | sort: "order" %}
   {% for project in active_projects %}
   <article class="project-row row align-items-center gy-4">
-    <div class="col-12 col-lg-5">
+    <div class="col-12 col-lg-auto">
       <a href="{{ project.url | relative_url }}" class="project-row__image">
         <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
       </a>
     </div>
-    <div class="col-12 col-lg-7">
+    <div class="col-12 col-lg">
       <div class="project-row__category">{{ project.category }}</div>
       <h3 class="project-row__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
       <p class="project-row__description">{{ project.excerpt }}</p>
