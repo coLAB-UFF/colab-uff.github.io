@@ -10,11 +10,7 @@ venue: "Liinc em Revista"
 doi: "10.18617/liinc.v21i1.7704"
 ---
 
-Este artigo analisa a circulação e o engajamento em conteúdos com discursos antidemocráticos publicados no TikTok, observando como pedidos de intervenção militar convivem, lado a lado, com dancinhas e conteúdos de entretenimento na mesma plataforma.
-
-> No mesmo feed em que se dança uma coreografia viral, alguém também está gritando por um golpe — e o algoritmo não vê diferença entre os dois.
-
-O estudo discute o que essa convivência revela sobre a normalização de discursos antidemocráticos em ambientes digitais voltados majoritariamente ao entretenimento.
+Este artigo parte de um conjunto de mais de 46 mil publicações no TikTok  associadas a hashtags de apoio ao ex-presidente Jair Bolsonaro e suas principais agendas e analisa como conteúdos relacionados a manifestações antidemocráticas repercutem na plataforma. A hipótese central sugere que o contingente de conteúdos com incitação a atos antidemocráticos costuma aumentar em momentos críticos para o bolsonarismo. Os resultados indicam que conteúdos de viés antidemocrático, embora raramente removidos do ar, sofrem shadowbanning da moderação da plataforma. Em contrapartida, o TikTok parece valorizar conteúdos associados a um tom cômico, o que pode favorecer a disseminação de discursos extremistas, camuflados como piadas anódinas.
 
 ### Créditos
 
