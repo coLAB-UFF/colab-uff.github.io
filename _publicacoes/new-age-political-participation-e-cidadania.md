@@ -10,11 +10,7 @@ venue: "Journal of Information Technology & Politics"
 doi: "10.1080/19331681.2021.1962779"
 ---
 
-Este artigo investiga se o WhatsApp inaugura uma "nova era" de participação política ao ser mobilizado como ferramenta de chamada à ação em torno das consultas públicas do Senado brasileiro no portal e-Cidadania.
-
-> Uma consulta pública on-line só ganha peso político quando alguém, em algum grupo de WhatsApp, decide que vale a pena mobilizar os outros para responder a ela.
-
-O estudo discute até que ponto essas mobilizações via WhatsApp representam uma ampliação genuína da participação cidadã ou apenas uma nova forma de pressão organizada sobre mecanismos formais de consulta popular.
+Mobile Instant Messaging Services (MIMS) were first used for political campaigning in the 2018 Brazilian elections; they were also used for engaging people in public consultations. This article aims to analyze the specifics of the call to action used on WhatsApp for consultations on the Brazilian Senate's e-Cidadania Portal during the 2018 electoral campaign. Moreover, our research aims to understand the extent to which the calls to action were used in the campaign during a time of strong political polarization in the country. The methodology consists of a content analysis aimed at understanding the message content of the consultations, how that content was shared, and similarities between this call to action and the electoral campaign strategies. The results show that this call to action caused a participatory distortion on that particular Portal, the topics covered were part of the elected candidate's campaign platform, and the strategy was maintained after elections.
 
 ### Créditos
 
@@ -23,5 +19,5 @@ Autoria: **Viktor Chagas**{% include orcid.html url="https://orcid.org/0000-0002
 ### Como citar este estudo
 
 ```
-CHAGAS, V.; MITOZO, I.; BARROS, S.; SANTOS, J. G.; AZEVEDO, D. The 'new age' of political participation? WhatsApp and call to action on the Brazilian senate's consultations on the e-cidadania portal. Journal of Information Technology & Politics, v. 19, n. 3, p. 253-268, 2022.
+CHAGAS, V. et al. The 'new age' of political participation? WhatsApp and call to action on the Brazilian senate's consultations on the e-cidadania portal. Journal of Information Technology & Politics, v. 19, n. 3, p. 253-268, 2022.
 ```
