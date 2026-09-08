@@ -10,7 +10,7 @@ image_position: left
 order: 1
 vigente: false
 financiamento: "Edital Foundational Integrity Research: Misinformation and Polarization Request for Proposals 2020 (Facebook Research)"
-vigencia: "2021"
+vigencia: "2021-2022"
 proponente: "Marco Aurelio Ruediger"
 equipe: "Marco Aurelio Ruediger, Tatiana Dourado, Dalby Dienstbach, Eurico Matos, Danilo Carvalho, Viktor Chagas, João Guilherme Bastos dos Santos e Victor Piaia"
 image: '/assets/img/projects/project-hero-1.png'
