@@ -1,6 +1,6 @@
 ---
 title: "De 1989 em Diante: Características e Transformações da Pesquisa em Comunicação e Política no Brasil nas Últimas Três Décadas"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Um panorama das características e transformações da pesquisa brasileira em Comunicação e Política desde 1989, marco fundamental do campo."
 image: "/assets/img/publicacoes/de-1989-em-diante.jpg"
 date: 2026-01-01
@@ -10,11 +10,7 @@ venue: "Revista Brasileira de Ciência Política"
 doi: "10.1590/0103-3352.2026.45.282774"
 ---
 
-O ano de 1989 é considerado o marco fundamental para a pesquisa sobre Comunicação e Política no Brasil, quando o impulso inicial esteve fortemente ligado ao uso da TV no horário eleitoral gratuito. Este artigo traça as características e transformações desse campo de pesquisa ao longo das últimas três décadas.
-
-> Um campo de pesquisa também tem sua própria história eleitoral: cada nova tecnologia de campanha reabre a disputa sobre o que merece ser estudado.
-
-O estudo, assinado por uma equipe multi-institucional, sistematiza a produção acadêmica brasileira sobre comunicação e política desde a redemocratização até os dias atuais.
+O ano de 1989 é considerado como o marco para o interesse acadêmico mais sistemático por temáticas da comunicação e política. Em 2006, como ação para a consolidação desse campo de pesquisa, é formada a Compolítica. Baseados em diversas revisões de literatura ao longo dessas três décadas, fizemos uma análise de conteúdo nos papers empíricos de todas as edições da Compolítica de 2006 a 2021 (n= 650), buscando tanto elencar características do campo quanto verificar as possíveis modificações longitudinais. Apesar de se tratar de uma pesquisa ainda exploratória, nossos dados indicam melhoras ao longo do tempo em praticamente todas as variáveis acerca da qualidade da aplicação metodológica das pesquisas. Entretanto, os dados sobre o tímido crescimento da interdisciplinaridade do campo merecem maior discussão.
 
 ### Créditos
 
