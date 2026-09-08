@@ -11,7 +11,7 @@ home_feature: true
 home_order: 4
 ---
 
-Sequência de "A Cultura dos Memes", esta coletânea volta o olhar especificamente para o contexto brasileiro, reunindo agendas e desafios de pesquisa sobre memes de internet no país. A obra dá continuidade ao esforço de consolidar os memes como objeto legítimo de pesquisa acadêmica no campo da comunicação.
+Há quem ignore, há quem negligencie, quem desdenhe, ou simplesmente torça o nariz para o papel relevante que ocupam os memes hoje não apenas na nossa cultura digital, mas na própria constituição de um ambiente democrático, já que essa linguagem se expandiu e se integrou de tal forma a nosso cotidiano que se tornou, em vários dos episódios recentes a que acompanhamos, parte da nossa experiência mais básica na esfera pública. Nesta sequência de "A Cultura dos Memes", o organizador e pesquisador Viktor Chagas reúne 15 textos de 30 pesquisadores empenhados a decifrar, analisar e registrar as configurações e implicações do uso dos memes na política brasileira e na sociedade contemporânea.
 
 ### Créditos
 
