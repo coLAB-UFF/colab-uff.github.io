@@ -10,11 +10,7 @@ venue: "Contexto Internacional"
 doi: "10.1590/S0102-8529.2024460320240023"
 ---
 
-Este artigo adota o referencial teórico da guerra memética e das Relações Internacionais, aplicando um estudo de caso qualitativo e interpretativo a um conjunto de 192 memes que circularam em grupos de WhatsApp pró-Bolsonaro. Esses artefatos visuais são examinados como ferramentas discursivas que reenquadram eventos globais — sobretudo a guerra de 2022 na Ucrânia — dentro de culturas políticas nacionais.
-
-> Uma guerra distante vira, em poucos cliques, munição para uma disputa política que não tem nada a ver com ela.
-
-Os resultados revelam como memes foram mobilizados para construir identidades políticas, reforçar narrativas populistas autoritárias e disseminar desinformação, contribuindo para o debate sobre o papel da mídia digital na comunicação política do Sul Global.
+This article adopts the theoretical framework of memetic warfare and International Relations (IR), applying a qualitative, interpretive case study to a curated dataset of 192 memes circulated in pro-Bolsonaro WhatsApp groups in Brazil. These visual artefacts are examined as discursive tools that reframe global events - most notably the 2022 war in Ukraine - within national political cultures. The findings reveal how memes have been mobilised to construct political identities, reinforce authoritarian populist narratives, and disseminate disinformation. By analysing how international crises are appropriated to shape domestic discourse, the article contributes to IR by highlighting the role of digital media in political communication and opinion formation, particularly in the Global South.
 
 ### Créditos
 
