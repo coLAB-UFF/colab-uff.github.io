@@ -3,7 +3,7 @@ title: "TikTok e Polarização Política no Brasil"
 category: "Relatório"
 description: "Relatório do DDoSLab sobre o uso do TikTok e sua relação com a polarização política no Brasil."
 image: "/assets/img/publicacoes/tiktok-polarizacao-politica-brasil.jpg"
-date: 2024-01-01
+date: 2022-01-01
 authors: "Viktor Chagas e Luiza de Mello Stefano"
 type: "Relatório Técnico"
 venue: "DDoSLab — coLAB/UFF"
@@ -20,5 +20,5 @@ Realização: DDoSLab / coLAB.uff.br
 ### Como citar este estudo
 
 ```
-CHAGAS, V.; STEFANO, L. de M. TikTok e Polarização Política no Brasil. Niterói: DDoSLab/coLAB-UFF, 2024.
+CHAGAS, V.; STEFANO, L. de M. TikTok e Polarização Política no Brasil. Niterói: DDoSLab/coLAB-UFF, 2022.
 ```
