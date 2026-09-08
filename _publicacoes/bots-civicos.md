@@ -12,11 +12,7 @@ home_feature: true
 home_order: 2
 ---
 
-O objetivo principal deste estudo é compreender em que medida bots cívicos constituem um repertório comunicacional ativista no Twitter, a partir de uma análise de iniciativas brasileiras. A hipótese explorada é que essas iniciativas ajudam simultaneamente a constituir um campo profissional, relacionado à datificação das organizações da sociedade civil e ao jornalismo de dados, e a formar audiências especializadas.
-
-> Um bot cívico não substitui o jornalismo de dados — ele cria, aos poucos, o público que vai saber ler esses dados.
-
-Partindo de aproximadamente 130 mil tweets que mencionam ou reagem a ao menos um de 14 diferentes bots cívicos do Brasil, nos últimos cinco anos, a investigação identifica redes de atores entre as audiências e compara o alcance e os efeitos de cada iniciativa.
+O objetivo principal deste estudo é compreender em que medida bots cívicos constituem um repertório comunicacional ativista no Twitter, a partir de uma análise de iniciativas brasileiras. A hipótese explorada por este artigo é de que essas iniciativas têm ajudado simultaneamente a constituir um campo profissional, relacionado à dataficação das organizações da sociedade civil e ao jornalismo de dados, e também a formar audiências especializadas. Partindo de aproximadamente 130 mil tweets que mencionam ou reagem a ao menos um de 14 diferentes bots cívicos do Brasil, nos últimos cinco anos, a investigação se propõe a (1) identificar eventuais redes de atores que ocorrem entre as audiências, e (2) comparar o alcance e os efeitos de cada iniciativa. Os resultados iniciais dão conta da existência de um conjunto de usuários extremamente engajados em interagir com essas ferramentas.
 
 ### Créditos
 
