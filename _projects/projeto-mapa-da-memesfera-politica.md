@@ -6,7 +6,7 @@ financiamento: "PIBIC/CNPq e PIBIC/Faperj"
 excerpt: >
   Mapeamento dos principais atores e coletivos que produzem intervenções lúdicas
   e mobilizam apoiadores para ações coletivas de caráter satírico e provocativo.
-image: "https://picsum.photos/seed/colab-projeto-mapa-ativismo/700/875"
+image: "/assets/img/projects/projects-hero-3.png"
 section: portfolio
 order: 2
 vigente: true
