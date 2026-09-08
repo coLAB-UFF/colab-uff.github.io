@@ -8,8 +8,8 @@ excerpt: >
 image: "/assets/img/projects/projects-hero-2.png"
 section: portfolio
 order: 2
-vigente: true
-vigencia: "2019-Atual"
+vigente: false
+vigencia: "2019-2023"
 proponente: "Ricardo Fabrino Mendonça"
 equipe: "Ricardo Fabrino Mendonça (UFMG), Rayza Sarmento (UFV), Camilo Aggio (UFMG), Franck Tavares (UFG), Viktor Chagas (UFF)"
 ---
