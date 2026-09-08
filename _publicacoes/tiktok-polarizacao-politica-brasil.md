@@ -1,6 +1,6 @@
 ---
 title: "TikTok e Polarização Política no Brasil"
-category: "Relatório Técnico"
+category: "Relatório"
 description: "Relatório do DDoSLab sobre o uso do TikTok e sua relação com a polarização política no Brasil."
 image: "/assets/img/publicacoes/tiktok-polarizacao-politica-brasil.jpg"
 date: 2024-01-01
@@ -9,11 +9,7 @@ type: "Relatório Técnico"
 venue: "DDoSLab — coLAB/UFF"
 ---
 
-O relatório "TikTok e Polarização Política no Brasil" investiga como o TikTok tem sido apropriado como palco de disputas políticas polarizadas no país.
-
-> Uma plataforma pensada para dançar e fazer dublagens também aprendeu, rápido, a servir de palco para a guerra política.
-
-O documento integra a série de relatórios técnicos do DDoSLab — Laboratório de Combate à Desinformação e ao Discurso de Ódio em Sistemas de Comunicação em Rede, iniciativa vinculada ao coLAB/UFF.
+Este relatório se baseia em uma amostra composta por 23.139 vídeos publicados por 264 perfis de políticos no TikTok. Os dados coletados se referem ao período entre outubro de 2018 e março de 2022, quando se encerrou o prazo de desincompatibilização de cargos, segundo o calendário do Tribunal Superior Eleitoral (TSE). O estudo procura avaliar como os políticos utilizam e incorporam o TikTok em suas respectivas estratégias de comunicação política, que tipo de conteúdo produzem, e que resultados concretos, em termos de alcance e engajamento, eles obtêm. Muito se comenta a respeito das diferenças de apropriação de plataformas digitais por políticos de esquerda e de direita. O estudo procura abordar também essa distinção, apresentando dados empíricos que sustentam que o campo conservador-reacionário tem empregado mais e melhor o TikTok para alcançar maior visibilidade e despertar mais engajamento do público.
 
 ### Créditos
 
