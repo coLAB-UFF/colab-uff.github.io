@@ -7,7 +7,7 @@ proponente: "Viktor Chagas"
 excerpt: >
   Investigação sobre as relações entre o humor dos memes digitais
   e o extremismo online.
-image: "/assets/img/projects/projects-hero-4-png"
+image: "/assets/img/projects/projects-hero-4.png"
 section: portfolio
 size: featured
 color: navy
