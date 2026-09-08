@@ -1,19 +1,15 @@
 ---
-title: "Influenciadores Digitais Políticos"
-category: "Relatório Técnico"
-description: "Relatório sobre influenciadores digitais políticos no Brasil, incluindo os resultados das Fases II e III da pesquisa."
+title: "Mapeamento de Influenciadores Locais"
+category: "Relatório"
+description: "Relatório sobre influenciadores digitais políticos no Brasil, incluindo os resultados das Fases I, II e III da pesquisa."
 image: "/assets/img/publicacoes/influenciadores-digitais-politicos.jpg"
-date: 2023-01-01
+date: 2022-01-01
 authors: "Viktor Chagas"
 type: "Relatório Técnico"
 venue: "coLAB/UFF"
 ---
 
-O relatório "Influenciadores Digitais Políticos" mapeia a atuação de influenciadores digitais no campo político brasileiro, reunindo os resultados consolidados das Fases II e III da pesquisa.
-
-> Um influenciador político não precisa de partido para mobilizar — só precisa de audiência e de constância.
-
-O documento sistematiza os principais achados do projeto, servindo de referência para pesquisas subsequentes sobre influenciadores digitais e política no Brasil.
+O relatório fornece informações sobre influenciadores políticos de cidades de pequeno e médio porte no território brasileiro em quatro plataformas diferentes: Twitter, Facebook, Instagram e TikTok.
 
 ### Créditos
 
@@ -24,5 +20,5 @@ Realização: coLAB/UFF
 ### Como citar este estudo
 
 ```
-CHAGAS, V. Influenciadores Digitais Políticos (Fases II e III). Niterói: coLAB/UFF, 2023.
+CHAGAS, V. et al. Influenciadores Digitais Políticos (Fases I, II e III). Niterói: coLAB/UFF, 2022.
 ```
