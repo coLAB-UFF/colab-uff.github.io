@@ -27,7 +27,7 @@ layout: default
           <h1 class="page-title">{{ page.title }}</h1>
           <p class="page-description">{{ page.description }}</p>
           <ul class="work-meta list-reset">
-            {% if page.date %}<li class="work-meta__item"><strong>Data:</strong> <span>{{ page.date | date: "%d %b %Y" }}</span></li>{% endif %}
+            {% if page.date %}<li class="work-meta__item"><strong>Data:</strong> <span>{{ page.date | date: "%Y" }}</span></li>{% endif %}
             {% if page.authors %}<li class="work-meta__item"><strong>Autoria:</strong> <span>{{ page.authors }}</span></li>{% endif %}
             {% if page.type %}<li class="work-meta__item"><strong>Tipo:</strong> <span>{{ page.type }}</span></li>{% endif %}
           </ul>
