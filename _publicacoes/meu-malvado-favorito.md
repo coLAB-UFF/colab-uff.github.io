@@ -10,11 +10,7 @@ venue: "Estudos Históricos"
 doi: "10.1590/S2178-149420210109"
 ---
 
-Este artigo analisa memes bolsonaristas compartilhados em grupos de WhatsApp e sua relação com os acontecimentos políticos no Brasil, investigando como esses conteúdos constroem narrativas e vilões para o campo político conservador.
-
-> Todo movimento político precisa de um vilão preferido — e os grupos de WhatsApp bolsonaristas souberam escolher os seus com precisão cirúrgica.
-
-O estudo integra a produção histórica sobre o fenômeno do bolsonarismo digital, situando os memes como fonte legítima para a pesquisa em história do tempo presente.
+Este artigo investiga o humor em memes de internet que circularam em grupos do WhatsApp de apoiadores de Bolsonaro durante seis meses de seu governo. A análise de conteúdo propõe-se a compreender quais são os elementos retóricos nacionalistas presentes nos memes compartilhados pela extrema-direita brasileira, notadamente aqueles que fazem menção direta a Bolsonaro, quais expressões antidemocráticas esses memes mobilizam e como a sua circulação reflete de alguma forma acontecimentos recentes na vida política do país. Conclui-se que as imagens circuladas nesses grupos ajudam a pavimentar o terreno para um humor visual de extrema-direita, com teor fortemente ideológico e radicalizado.
 
 ### Créditos
 
