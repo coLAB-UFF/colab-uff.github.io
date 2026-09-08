@@ -1,7 +1,21 @@
 ---
 title: "Desenvolvimento do Painel de Informações e Desinformações Climáticas e Socioambientais em Redes Sociais"
 vigente: false
-financiamento: "Ministério do Meio Ambiente / UFES"
+category: "Inovação Tecnológica"
+financiamento: "Ministério do Meio Ambiente"
+proponente: "Viktor Chagas"
+excerpt: >
+  Projeto de desenvolvimento de plataforma de monitoramento
+  para desinformação ambiental.
+image: "/assets/img/projects/projects-hero-2.png"
+section: portfolio
+size: featured
+color: navy
+image_position: left
+order: 1
 vigencia: "2024"
-proponente: "Labic/UFES"
+proponente: "IBICT"
+equipe: "IBICT, Labic/Ufes, coLAB/UFF"
 ---
+
+Resumo indisponível.
