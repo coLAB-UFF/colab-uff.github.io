@@ -1,8 +1,8 @@
 ---
-title: "Eleições no WhatsApp: a Campanha Municipal para a Prefeitura do Rio de Janeiro em 2020 nas Redes Móveis"
+title: "Eleições no WhatsApp"
 vigente: true
 category: "Pesquisa"
-financiamento: "Edital APQ1/2019 (Programa Apoio à Produção de Material Didático para Atividades de Ensino e/ou Pesquisa – 2014, Faperj)"
+financiamento: "Edital APQ1/2019 (Faperj)"
 proponente: "Viktor Chagas"
 excerpt: >
   Eleições no WhatsApp é um projeto de monitoramento 
