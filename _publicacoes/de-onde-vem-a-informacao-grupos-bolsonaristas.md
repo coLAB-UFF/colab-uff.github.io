@@ -10,11 +10,7 @@ venue: "Intexto"
 doi: "10.19132/1807-8583202253.123603"
 ---
 
-O presente artigo tem por objetivo compreender os caminhos informativos acionados em grupos bolsonaristas no WhatsApp em dois níveis: primeiro, caracterizando as fontes de informação mobilizadas; em seguida, realizando uma análise específica do YouTube como fonte informativa.
-
-> Quando a fonte da informação vira um influenciador em vez de um veículo de imprensa, o que muda não é só quem fala — é o que passa a valer como prova.
-
-Os resultados apontam um papel minoritário das mídias tradicionais como fontes de informação acionadas, e identificam um papel central dos chamados influencers, sinalizando uma valorização de mediações menos institucionalizadas e mais pessoais da informação.
+O presente artigo tem por objetivo compreender os caminhos informativos acionados em grupos bolsonaristas no WhatsApp em dois níveis. Primeiro, caracterizamosas fontes de informação mobilizadas e o que a priorização de determinados atores informativos pode significar no debate político. Em seguida, realizamosuma análise específica do YouTube como fonte informativa. Nossos resultados apontam um papel minoritário das mídias tradicionais como fontes de informação acionadas. Além disso, identificamos um papel central dos chamados influencers, o que parece apontar para uma valorização de mediações menos institucionalizadas e mais pessoais da informação. Já a análise da interação entreYoutube e WhatsApp revelou que os links do YouTube mais compartilhados em grupos bolsonaristas tendem a: (1) ter um maior número de likes; (2) ser compartilhados no WhatsApp tão logo publicados no YouTube; e (3) ser tirados do ar (seja pelos próprios usuários ou pelas plataformas) algum tempo depois de publicados.
 
 ### Créditos
 
