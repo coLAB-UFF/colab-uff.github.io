@@ -13,7 +13,7 @@ section: portfolio
 size: featured
 color: navy
 image_position: left
-order: 1
+order: 4
 vigencia: "2021–Atual"
 proponente: "Viktor Chagas"
 equipe: "Viktor Chagas (coordenação), Mavi Braga (Bolsista PIBITI/CNPq) e equipe coLAB"

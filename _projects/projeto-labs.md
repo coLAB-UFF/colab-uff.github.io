@@ -6,7 +6,7 @@ excerpt: >
   gestão acadêmica, as rotinas de pesquisa e o fluxo editorial do laboratório.
 image: "/assets/img/projects/projects-hero-4.png"
 section: portfolio
-order: 10
+order: 3
 vigente: true
 proponente: "Viktor Chagas"
 equipe: "Viktor Chagas e Arthur Araujo"

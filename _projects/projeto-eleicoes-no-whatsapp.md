@@ -13,7 +13,7 @@ section: portfolio
 size: featured
 color: navy
 image_position: left
-order: 1
+order: 5
 vigencia: "2020–Atual"
 proponente: "Viktor Chagas"
 ---

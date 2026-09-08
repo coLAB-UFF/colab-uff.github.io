@@ -9,7 +9,7 @@ section: portfolio
 size: featured
 color: navy
 image_position: left
-order: 1
+order: 2
 vigente: true
 vigencia: "2015–atual"
 financiamento: "PROEX/UFF (Edital de Bolsas de Extensão); Edital PAEP/Capes 2018"

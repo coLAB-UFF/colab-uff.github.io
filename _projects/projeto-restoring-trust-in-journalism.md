@@ -6,7 +6,7 @@ excerpt: >
   Universiteit van Amsterdam, com participação do coLAB/UFF.
 image: "/assets/img/projects/projects-hero-2.png"
 section: portfolio
-order: 7
+order: 8
 vigente: true
 vigencia: "2025–atual"
 financiamento: "NWO-XS Trust Project / INCT.dd"

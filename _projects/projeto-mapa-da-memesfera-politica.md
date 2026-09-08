@@ -7,7 +7,7 @@ excerpt: >
   e mobilizam apoiadores para ações coletivas de caráter satírico e provocativo.
 image: "/assets/img/projects/projects-hero-3.png"
 section: portfolio
-order: 2
+order: 7
 vigente: true
 vigencia: "2022-Atual"
 proponente: "Viktor Chagas"
