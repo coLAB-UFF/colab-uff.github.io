@@ -10,11 +10,7 @@ venue: "Revista Pesquisa Qualitativa"
 doi: "10.33361/RPQ.2024.v.12.n.30.729"
 ---
 
-Este artigo tem como objetivo conduzir uma revisão de escopo de materiais acadêmicos que discutem a aplicação de inteligência artificial baseada em grandes modelos de linguagem para auxiliar a pesquisa qualitativa, assim como as considerações éticas envolvidas nesses usos.
-
-> Usar IA para ajudar a interpretar uma entrevista qualitativa levanta uma pergunta incômoda: quem, afinal, está fazendo a interpretação?
-
-A revisão de escopo abrangeu 31 artigos publicados em periódicos e congressos indexados na Scopus e na Web of Science, além de servidores de preprint, entre 2018 e 2023.
+Este artigo tem como objetivo conduzir uma revisão de escopo de materiais acadêmicos que discutem a aplicação de inteligência artificial (IA) baseada em grandes modelos de linguagem para auxiliar a pesquisa qualitativa assim como considerações éticas envolvidas em tais usos. Para tanto, foi feita uma revisão de escopo de 31 artigos publicados em periódicos e congressos indexados na SCOPUS e Web of Science e presentes em servidores de preprint, devido à novidade do tema, de 2018 a 2023, com base em termos associados. Como forma de demonstrar tal potencial, optamos por realizar uma experimentação com o ChatPDF, uma ferramenta de IA baseada no processamento de linguagem natural, para assistir na revisão. Os resultados da revisão indicam usos mais consolidados de IA para resumos, sumários e geração de códigos, porém há indicativos de empregos para geração de temas, análises de sentimentos, além de extração e tratamento de dados. A discussão ética assume uma dimensão mais normativa e cautelosa no uso de IA para pesquisa qualitativa.
 
 ### Créditos
 
