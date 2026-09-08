@@ -10,11 +10,7 @@ venue: "Transformative Works and Cultures"
 doi: "10.3983/twc.2020.1707"
 ---
 
-Em uma análise do ativismo de torcedores esportivos e de abordagens teóricas para compreender experiências de jogo político mediatizado, o artigo discute episódios de protesto realizados por torcedores casuais contra o então presidente em exercício Michel Temer durante os Jogos Olímpicos Rio 2016.
-
-> Um torcedor de arquibancada pode se tornar, em segundos, um torcedor de causas políticas — e a câmera de TV raramente sabe fazer essa distinção.
-
-O texto discute ainda a categoria de fã aplicada a fandoms esportivos e políticos, considerando as disputas e o histórico de competição pelos quais esses grupos não são apenas fãs, mas também torcedores.
+In an analysis of sports fans activism and theoretical approaches to understand experiences of mediatized political play, we address groups of activists who protest using fan resources and repertoires. We focus on some episodes of protests performed by casual sports fans against the then-acting Brazilian president Michel Temer during the 2016 Rio Olympic Games. We also further discuss the category of fan when applied to sports and political fandoms, considering the disputes and competition background for which they are not only fans but also rooters.
 
 ### Créditos
 
