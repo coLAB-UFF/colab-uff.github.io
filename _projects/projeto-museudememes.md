@@ -12,7 +12,7 @@ image_position: left
 order: 1
 vigente: true
 vigencia: "2015–atual"
-financiamento: "PROEX/UFF (Edital de Bolsas de Extensão)"
+financiamento: "PROEX/UFF (Edital de Bolsas de Extensão); Edital PAEP/Capes 2018"
 proponente: "Viktor Chagas"
 equipe: "Viktor Chagas (coordenação) e Thalita Santos (Bolsista PROEX/UFF)"
 ---
