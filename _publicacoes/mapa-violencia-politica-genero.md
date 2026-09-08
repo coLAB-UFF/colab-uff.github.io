@@ -1,6 +1,6 @@
 ---
 title: "Mapa da Violência Política de Gênero em Plataformas Digitais"
-category: "Relatório Técnico"
+category: "Relatório"
 description: "Relatório do DDoSLab sobre a violência política de gênero em plataformas digitais."
 image: "/assets/img/publicacoes/mapa-violencia-politica-genero.jpg"
 date: 2024-06-01
@@ -9,11 +9,7 @@ type: "Relatório Técnico"
 venue: "DDoSLab — coLAB/UFF"
 ---
 
-O "Mapa da Violência Política de Gênero em Plataformas Digitais" mapeia manifestações de violência política de gênero direcionadas a mulheres em espaços digitais, sistematizando padrões de ataque e discurso de ódio.
-
-> A violência política de gênero online raramente aparece sozinha: ela costuma vir disfarçada de piada, de opinião ou de "só um comentário".
-
-O relatório integra a série de publicações do DDoSLab dedicadas a mapear discurso de ódio e desinformação em sistemas de comunicação em rede.
+Este relatório está ancorado em uma análise multiplataforma, com dadosextraídos ao longo de seis meses, entre julho e dezembro de 2021, doTwitter, Facebook, Instagram e YouTube. O estudo procura analisar asmanifestações da violência política de gênero em tais plataformas, tratandodos ataques direcionados a deputadas federais e senadoras da 56ªlegislatura. Considerando apenas as parlamentares que continham contas empelo menos uma das quatro plataformas e aquelas que possuíam mandato ativodurante a composição deste relatório, partimos de uma base com 91 nomes,sendo 79 deputadas federais e 12 senadoras.As menções a estas parlamentares resultaram em mais de 4 milhões demensagens únicas somente nos seis meses em que os dados foram coletados. Oestudo produziu uma amostra a partir destes conteúdos, de modo a observarcomo a violência política de gênero se manifesta, e comparar a suaincidência entre as diferentes plataformas.
 
 ### Créditos
 
