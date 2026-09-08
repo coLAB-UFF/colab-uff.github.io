@@ -12,7 +12,7 @@ size: featured
 color: navy
 image_position: left
 order: 10
-vigencia: "2013-2018"
+vigencia: "2011-2017"
 equipe: "Viktor Chagas e Emmanoel Ferreira"
 ---
 
