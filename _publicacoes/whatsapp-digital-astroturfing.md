@@ -1,5 +1,4 @@
 ---
-title: "WhatsApp and Digital Astroturfing: A Social Network Analysis of Brazilian Political Discussion Groups of Bolsonaro's Supporters"
 category: "Artigo"
 description: "Uma investigação sobre astroturfing digital em grupos de discussão política de apoiadores de Bolsonaro no WhatsApp, a partir de análise de redes sociais."
 image: "/assets/img/publicacoes/whatsapp-digital-astroturfing.jpg"
@@ -9,11 +8,7 @@ type: "Artigo Original"
 venue: "International Journal of Communication"
 ---
 
-O artigo sugere que o conceito de astroturfing digital pode ser definido conceitualmente e investigado empiricamente por meio de uma abordagem de análise de redes sociais (ARS), com foco no uso de serviços de mensageria instantânea móvel (MIMS) como o WhatsApp para práticas de astroturfing nas eleições brasileiras de 2018.
-
-> Astroturfing digital é a arte de fazer um jardim plástico parecer grama de verdade — mensagem por mensagem, grupo por grupo.
-
-Os resultados mostram diferentes grupos temáticos e diversos clusters funcionais, levando à identificação de práticas que se assemelham às de agentes do campo profissional da política.
+Digital  astroturfing  and  computational  propaganda  have  drawn  a  lot  of  attention  in  recent years because of the malicious effects on the political environment, especially in the face of the  emerging  far  right.  But  most  studies  on  astroturfing  are  limited  toseeking  theoretical concepts. The present article suggests that the concept of astroturfing can be conceptually defined and empirically investigated through a social network analysis (SNA) approach. The article  is  specially  focused  on  understanding  the  use  of  mobile  instant  messaging  services (MIMS)  like  WhatsApp  as  a  stage  for  astroturfing  practices  in  2018  Brazilian  elections.  Its main hypothesis is that SNA methods can help in understanding how a Bolsonarist influence operation and misinformation network was structured. Results show different thematic groups and several functional clusters and lead to the identification of practices that match with those of agents from the professional field of politics
 
 ### Créditos
 
