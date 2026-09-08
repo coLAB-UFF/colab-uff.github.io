@@ -2,6 +2,7 @@
 title: "Mapa da Memesfera Política e do Ativismo Digital Humorístico no Brasil"
 category: "Pesquisa"
 image: "/assets/img/projects/projects-hero-3.png"
+financiamento: "PIBIC/CNPq e PIBIC/Faperj"
 excerpt: >
   Mapeamento dos principais atores e coletivos que produzem intervenções lúdicas
   e mobilizam apoiadores para ações coletivas de caráter satírico e provocativo.
