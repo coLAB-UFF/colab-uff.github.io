@@ -10,11 +10,7 @@ venue: "Revista Brasileira de Ciências Sociais"
 doi: "10.1590/3811008/2023"
 ---
 
-Este artigo discute como a brincadeira política pode ser lida como uma estratégia retórica, apresentada em defesa de posições reacionárias expressadas publicamente por atores políticos do campo conservador. O texto relativiza a posição de que a brincadeira seria um repertório tipicamente empreendido por grupos reprimidos.
-
-> "Foi só uma piada" é, também, uma das retóricas mais antigas da política reacionária.
-
-A partir do debate do campo de estudos críticos do humor sobre piadas racistas e misóginas, o artigo propõe a brincadeira como uma tese adicional às retóricas da intransigência, conforme formuladas por Hirschman.
+Este artigo se propõe a discutir como a brincadeira política pode ser lida como uma estratégia retórica, apresentada em defesa de posições reacionárias expressadas publicamente por atores políticos do campo conservador. O texto divide-se em três momentos: no primeiro deles, relativiza-se a posição de alguns autores, segundo a qual a brincadeira seria um repertório tipicamente empreendido por grupos reprimidos. A seguir, recupera-se o debate do campo de estudos críticos do humor, a respeito de piadas racistas e misóginas. Por fim, propõe-se a brincadeira como uma tese adicional às retóricas da intransigência, conforme formuladas por Hirschman.
 
 ### Créditos
 
