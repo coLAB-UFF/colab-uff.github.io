@@ -9,11 +9,7 @@ type: "Artigo Original"
 venue: "International Journal of Communication"
 ---
 
-Este artigo investiga conteúdo político nocivo em grupos públicos de WhatsApp e Facebook da direita radical no Brasil. Considerando conteúdo político nocivo como aquele que gera dano direto à qualidade, à razoabilidade e à pluralidade da discussão pública, o estudo propõe uma tipologia da ação discursiva desse tipo de conteúdo.
-
-> Nem toda desinformação é uma mentira explícita — muitas vezes, é só uma forma de tornar o debate público um pouco mais impossível.
-
-A pesquisa é fruto de uma parceria entre o Instituto Nacional de Ciência e Tecnologia em Democracia Digital (INCT.DD), a Fundação Getulio Vargas e a Universidade Federal Fluminense.
+This article investigates harmful political content in public WhatsApp and Facebook groups of the radical Right in Brazil. Considering harmful political content as that which generates direct damage to the quality, reasonableness, and plurality of public discussion, we investigate the enunciative aspects of four specific types of discursive action (uncivil, conspiratorial, hateful, and dangerous) and the non-enunciative aspects used for harmful types of communication and interaction. The database consists of 3,503,540 messages propagated in 1,676 public groups during the electoral process. Through a quantitative approach to a sample of 2,201 unique messages, we found, among other things, that (1) harmful content was more present on Facebook than on WhatsApp; (2) messages about the elections were associated with uncivil speech; (3) uncivil speech was usually associated with dangerous speech and opposed to conspiratorial speech. The results allow for more nuanced reflections on the actions and strategy of the Far Right in the digital public debate.
 
 ### Créditos
 
@@ -22,5 +18,5 @@ Autoria: **Tatiana Dourado**, **Victor Piaia**, **Viktor Chagas**{% include orci
 ### Como citar este estudo
 
 ```
-DOURADO, T.; PIAIA, V.; CHAGAS, V.; DIENSTBACH, D.; RUEDIGER, M. A.; MATOS, E.; SANTOS, J. G. B. dos. Online disinformation in Brazil: a typology of discursive action of harmful political content on WhatsApp and Facebook. International Journal of Communication, v. 18, p. 2685-2709, 2024.
+DOURADO, T. et al. Online disinformation in Brazil: a typology of discursive action of harmful political content on WhatsApp and Facebook. International Journal of Communication, v. 18, p. 2685-2709, 2024.
 ```
