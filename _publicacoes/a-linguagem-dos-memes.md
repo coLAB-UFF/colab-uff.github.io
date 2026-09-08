@@ -1,7 +1,7 @@
 ---
 title: "A Linguagem dos Memes: Aspectos Estéticos e Semióticos dos Conteúdos Digitais"
 category: "Artigo Científico"
-description: "Um marco teórico que compreende os memes de internet como linguagem, identificando oito fatores comuns a esses conteúdos digitais."
+description: "O artigo busca estabelecer um marco teórico que compreende os memes de internet como linguagem, identificando oito fatores comuns a esses conteúdos digitais."
 image: "/assets/img/publicacoes/a-linguagem-dos-memes.jpg"
 date: 2024-01-01
 authors: "Viktor Chagas e Luiza de Mello Stefano"
@@ -10,11 +10,7 @@ venue: "deSignis"
 doi: "10.35659/designis.i41p143-154"
 ---
 
-Este artigo apresenta um marco teórico que compreende os memes de internet como uma linguagem, sustentando que os memes compartilham, em diferentes graus, características intrínsecas: amadorismo, intertextualidade, replicabilidade, síntese representacional, humor, identidades e pertencimento, longevidade e multimodalidade.
-
-> Um meme fala uma língua só sua — e quem não a domina só percebe metade da piada.
-
-O texto discute os conflitos e desafios potenciais que emergem dessa intersecção e a importância de dominar esses atributos para minimizá-los.
+Este artículo busca presentar un marco teórico que comprenda los memes de internet como un lenguaje. Apoyados en las principales investigaciones sobre el tema, sostenemos que los memes comparten, en diferentes grados, características intrínsecas a su lenguaje. Enumeramos ocho factores comunes a estos contenidos digitales que configuran lo que llamamos el lenguaje de los memes: amadorismo, intertextualidad, replicabilidad, síntesis representacional, humor, identidades y pertenencia, longevidad y multimodalidad. Finalmente, construimos una comprensión acerca de qué conflictos y desafíos potenciales surgen de esta intersección y la importancia de dominar estos atributos, para minimizarlos.
 
 ### Créditos
 
