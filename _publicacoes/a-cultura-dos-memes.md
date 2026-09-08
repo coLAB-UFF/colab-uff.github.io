@@ -4,16 +4,12 @@ category: "Livro"
 description: "Coletânea organizada por Viktor Chagas sobre os aspectos sociológicos e as dimensões políticas dos memes de internet."
 image: "/assets/img/publicacoes/a-cultura-dos-memes.jpg"
 date: 2020-01-01
-authors: "Viktor Chagas (org.)"
-type: "Livro Organizado"
+authors: "Viktor Chagas (Org.)"
+type: "Coletânea"
 venue: "EDUFBA"
 ---
 
-"A Cultura dos Memes" reúne pesquisas dedicadas a compreender os memes de internet a partir de suas dimensões sociológicas e políticas, discutindo o fenômeno como parte constitutiva da cultura digital contemporânea.
-
-> Um meme nunca é só uma piada: é também um pequeno artefato sociológico sobre o que uma sociedade escolhe levar a sério rindo.
-
-A obra reúne pesquisadoras e pesquisadores de diferentes instituições brasileiras em torno de um mesmo objeto — os memes — observado por lentes teóricas variadas.
+A coletânea reúne uma série de textos inéditos e originais, associados a republicações de artigos que ajudaram a fundar o campo dos estudos sobre memes. A obra reflete a diversidade de abordagens e interesses que atravessam o desenvolvimento recente do campo. é, portanto, um livro voltado àqueles que desejam explorar o universo da pesquisa sobre memes de internet, entender o que há de importante nesse debate e perceber que papéis o meme desempenha na comunicação cotidiana.
 
 ### Créditos
 
