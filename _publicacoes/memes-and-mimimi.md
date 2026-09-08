@@ -10,11 +10,7 @@ venue: "Citizenship Studies"
 doi: "10.1080/13621025.2026.2725019"
 ---
 
-O imaginário social brasileiro foi moldado, por muito tempo, pela noção de democracia racial de Gilberto Freyre — o mito de que o Brasil, apesar de seu passado escravocrata, oferece oportunidades iguais a pessoas negras e brancas. Em contraposição a esse regime conceitual, intelectuais negros têm desafiado cada vez mais essa narrativa, entre eles o jurista Sílvio Almeida, cujo trabalho sobre racismo estrutural o levou à nomeação como Ministro dos Direitos Humanos. Pouco depois de assumir o cargo, no entanto, Almeida foi acusado de assédio sexual, inclusive por Anielle Franco, Ministra da Igualdade Racial. O caso rapidamente se tornou objeto de memes humorísticos de extrema-direita em circulação nas redes sociais brasileiras.
-
-> Os memes reproduzem com frequência imagens racistas que objetificam e animalizam corpos negros, ao mesmo tempo em que mobilizam enquadramentos misóginos que minimizam ou banalizam o assédio sexual.
-
-Este estudo investiga o episódio a partir da coleta e análise interpretativa de memes associados ao caso. Os achados iluminam a relação entre humor e democracia, particularmente no âmbito da política racial, evidenciando como o humor de extrema-direita articula racismo e misoginia em um mesmo repertório memético.
+The Brazilian social imaginary has long been shaped by Gilberto Freyre’s notion of racial democracy, a myth suggesting that Brazil, despite its slaveholding past, offers equal opportunities to Black and white citizens. In contrast to this conceptual regime, Black intellectuals have increasingly challenged this narrative, including jurist Sílvio Almeida, whose influential work on structural racism led to his appointment as Minister of Human Rights. Shortly after taking office, however, Almeida was accused of sexual harassment, including by Anielle Franco, the Minister of Racial Equality. The case quickly became the subject of far-right humorous memes circulating on Brazilian social media. This study investigates the episode by collecting and interpretively analyzing memes associated with the case. The findings illuminate the relationship between humor and democracy, particularly within racial politics. The memes frequently reproduce racist imagery that objectifies and animalizes Black bodies and deploy misogynistic framings that minimize or trivialize sexual harassment.
 
 ### Créditos
 
