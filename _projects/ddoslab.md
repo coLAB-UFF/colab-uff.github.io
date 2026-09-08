@@ -3,7 +3,6 @@ title: "DDoS Lab — Laboratório de Combate à Desinformação e ao Discurso de
 vigente: true
 category: "Pesquisa"
 financiamento: "Emenda Parlamentar nº 27760014/2021, Portaria Fazenda/ME nº 7.684, de 29 de junho de 2021 (Câmara dos Deputados) — parlamentar: Alessandro Molon; Chamada Interna Equipamentos INCT.dd 2024; Bolsa PIBITI/CNPq"
-vigencia: "2021"
 proponente: "Viktor Chagas"
 excerpt: >
   O DDoS Lab é uma iniciativa de investigação sobre a
@@ -15,7 +14,6 @@ size: featured
 color: navy
 image_position: left
 order: 1
-vigente: false
 vigencia: "2021–Atual"
 proponente: "Viktor Chagas"
 equipe: "Viktor Chagas (coordenação), Mavi Braga (Bolsista PIBITI/CNPq) e equipe coLAB"
