@@ -2,7 +2,7 @@
 title: "A Política dos Memes e os Memes da Política: a Brincadeira e a Conversa Informal na Internet como Novas Experiências de Letramento Político e Ciberativismo"
 vigente: true
 category: "Pesquisa"
-financiamento: "Edital FOPESQ 2014 (Programa de Fomento à Pesquisa da UFF); Edital FOPESQ 2017 (Programa de Fomento à Pesquisa da UFF); Bolsa CNPq de Pós-Doutorado Júnior 2018; Edital Universal n.º 28/2018 Faixa A (MCTIC/CNPq); Edital FOPESQ 2020 (Programa de Fomento à Pesquisa da UFF); Bolsa Jovem Cientista do Nosso Estado 2020 (Faperj); Bolsa de Produtividade em Pesquisa PQ-2 2021 (CNPq)"
+financiamento: "Edital FOPESQ 2014 (Programa de Fomento à Pesquisa da UFF); Edital FOPESQ 2017 (Programa de Fomento à Pesquisa da UFF); Bolsa CNPq de Pós-Doutorado Júnior 2018; Edital PAEP/Capes 2018; Edital Universal n.º 28/2018 Faixa A (MCTIC/CNPq); Edital FOPESQ 2020 (Programa de Fomento à Pesquisa da UFF); Bolsa Jovem Cientista do Nosso Estado 2020 (Faperj); Bolsa de Produtividade em Pesquisa PQ-2 2021 (CNPq)"
 proponente: "Viktor Chagas"
 excerpt: >
   O DDoS Lab é uma iniciativa de investigação sobre a
