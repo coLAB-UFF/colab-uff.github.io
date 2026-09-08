@@ -13,7 +13,7 @@ section: portfolio
 size: featured
 color: navy
 image_position: left
-order: 1
+order: 2
 vigencia: "2014–2024"
 proponente: "Viktor Chagas"
 equipe: "Viktor Chagas (coordenação) e equipe coLAB"

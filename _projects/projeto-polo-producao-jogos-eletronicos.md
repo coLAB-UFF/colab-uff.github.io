@@ -11,7 +11,7 @@ section: portfolio
 size: featured
 color: navy
 image_position: left
-order: 1
+order: 10
 vigencia: "2013-2018"
 equipe: "Viktor Chagas e Emmanoel Ferreira"
 ---

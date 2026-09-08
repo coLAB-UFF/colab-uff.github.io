@@ -7,7 +7,7 @@ excerpt: >
   democracias contemporâneas.
 image: "/assets/img/projects/projects-hero-2.png"
 section: portfolio
-order: 2
+order: 5
 vigente: false
 vigencia: "2019-2023"
 proponente: "Ricardo Fabrino Mendonça"

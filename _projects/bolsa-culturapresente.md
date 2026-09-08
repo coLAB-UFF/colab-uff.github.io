@@ -9,7 +9,7 @@ section: portfolio
 size: featured
 color: navy
 image_position: left
-order: 1
+order: 8
 vigente: false
 vigencia: "2020–2021"
 financiamento: "Edital nº 001/2020 (Programa \"Cultura Presente nas Redes\", Secretaria de Estado de Cultura e Economia Criativa)"

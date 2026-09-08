@@ -7,7 +7,7 @@ section: portfolio
 size: featured
 color: navy
 image_position: left
-order: 1
+order: 7
 vigente: false
 financiamento: "Edital Foundational Integrity Research: Misinformation and Polarization Request for Proposals 2020 (Facebook Research)"
 vigencia: "2021-2022"

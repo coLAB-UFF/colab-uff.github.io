@@ -7,7 +7,7 @@ excerpt: >
   o INCT.dd e o coLAB, com coleta de dados em larga escala via linguagem R.
 image: "/assets/img/projects/projects-hero-4.png"
 section: portfolio
-order: 8
+order: 6
 vigente: false
 vigencia: 2019-2023
 proponente: "Rodrigo Carreiro"

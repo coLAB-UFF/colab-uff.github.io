@@ -12,7 +12,7 @@ section: portfolio
 size: featured
 color: navy
 image_position: left
-order: 1
+order: 4
 vigencia: "2024"
 proponente: "IBICT"
 equipe: "IBICT, Labic/Ufes, coLAB/UFF"

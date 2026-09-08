@@ -9,7 +9,7 @@ image: "/assets/img/projects/projects-hero-3.png"
 section: portfolio
 size: small
 color: accent
-order: 9
+order: 3
 vigente: false
 vigencia: "2021-2024"
 proponente: "Viktor Chagas"

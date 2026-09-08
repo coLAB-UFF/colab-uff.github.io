@@ -6,7 +6,7 @@ excerpt: >
   da cooperação em experiências lúdicas, premiado pela UFF, Faperj e CNPq.
 image: "/assets/img/projects/jogos-de-cooperacao.png"
 section: portfolio
-order: 6
+order: 11
 vigente: false
 vigencia: "2013–2017"
 financiamento: "FAPERJ — Edital APQ1; premiado pela Semana de Inovação Tecnológica da UFF (2014) e pelo Prêmio Destaque na Iniciação Científica e Tecnológica do CNPq (2015)"
