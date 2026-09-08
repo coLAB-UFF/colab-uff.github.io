@@ -10,11 +10,7 @@ venue: "Profesional de la Información"
 doi: "10.3145/epi.2023.mar.23"
 ---
 
-Este artigo discute o que os autores chamam de "opacidade ambiental", condição típica dos serviços de mensageria instantânea móvel que operam com sistemas de criptografia de ponta a ponta. A partir do caso do WhatsApp, o texto apresenta dois dilemas centrais sobre transparência em comunicação privada digital.
-
-> A mesma criptografia que protege a privacidade de quem usa o WhatsApp também protege quem se aproveita dele para espalhar desinformação.
-
-O primeiro dilema discute como a criptografia de ponta a ponta é, ao mesmo tempo, um ativo e um problema para as democracias; o segundo discute como essa opacidade impacta a ética e a transparência da própria pesquisa acadêmica sobre o tema.
+Este artículo tiene como objetivo discutir lo que llamamos opacidad ambiental, una condición típica de los servicios de mensajería instantánea móvil que operan en base a sistemas de encriptación de extremo a extremo. Partiendo del caso particular de WhatsApp, el artículo presenta dos dilemas fundamentales en torno a los cuales se moviliza el tema de la transparencia cuando se trata de comunicación privada digital. El primero se refiere a cómo el cifrado de extremo a extremo es a la vez un activo y un problema para las democracias, ya que protege la privacidad de los usuarios, pero ter-mina permitiendo la circulación de información errónea y contenido dañino. El segundo se refiere a cómo esta opacidad impacta en la ética y la transparencia de la propia investigación académica. El texto también busca presentar una extensa revisión de estudios que han buscado abordar los usos políticos de WhatsApp en diferentes dimensiones, y argumenta que países emergentes con grandes bases de usuarios, como Brasil e India, han experimentado una serie de efectos negativos en función de la adopción de WhatsApp por parte de grupos políticamente orientados. Entre las principales proposiciones, el artículo sugiere la adopción de medidas que den mayor transparencia a la plataforma y faciliten, en lugar de entorpecer, la investigación científica.
 
 ### Créditos
 
