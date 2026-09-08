@@ -4,7 +4,7 @@ category: "Extensão"
 excerpt: >
   Lives e encontros dedicados a entrevistar pesquisadores
   e criadores de memes.
-image: "/assets/img/projects/museudememes-featured.png"
+image: "/assets/img/projects/lives-museudememes.png"
 section: portfolio
 size: featured
 color: navy

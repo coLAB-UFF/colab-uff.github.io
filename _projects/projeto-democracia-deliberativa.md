@@ -5,7 +5,7 @@ financiamento: "CNPq Universal Faixa B - 2018"
 excerpt: >
   Investigação sobre os dilemas da crise das
   democracias contemporâneas.
-image: "/assets/img/projects/projects-hero-2.png"
+image: "/assets/img/projects/democracia-deliberativa.png"
 section: portfolio
 order: 5
 vigente: false

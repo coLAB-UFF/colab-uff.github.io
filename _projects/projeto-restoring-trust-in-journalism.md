@@ -4,7 +4,7 @@ category: "Pesquisa"
 excerpt: >
   Projeto de pesquisa experimental comparada multinacional liderado pela
   Universiteit van Amsterdam, com participação do coLAB/UFF.
-image: "/assets/img/projects/projects-hero-2.png"
+image: "/assets/img/projects/restoring-trust-in-journalism.png"
 section: portfolio
 order: 8
 vigente: true

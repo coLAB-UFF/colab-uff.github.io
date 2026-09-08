@@ -5,7 +5,7 @@ financiamento: "Bolsa PIBITI/CNPq"
 excerpt: >
   Monitoramento de discussões e controvérsias públicas online, em parceria entre
   o INCT.dd e o coLAB, com coleta de dados em larga escala via linguagem R.
-image: "/assets/img/projects/projects-hero-4.png"
+image: "/assets/img/projects/observatorio-de-tretas.png"
 section: portfolio
 order: 6
 vigente: false

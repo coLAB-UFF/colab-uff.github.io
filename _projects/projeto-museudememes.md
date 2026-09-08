@@ -4,7 +4,7 @@ category: "Extensão"
 excerpt: >
   Webmuseu dedicado a reunir e catalogar memes de internet criados 
   ou circulados no Brasil, aliando pesquisa, ensino e extensão.
-image: "/assets/img/projects/museudememes-featured.png"
+image: "/assets/img/projects/museudememes-real.png"
 section: portfolio
 size: featured
 color: navy

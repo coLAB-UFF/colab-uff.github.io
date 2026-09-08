@@ -5,7 +5,7 @@ financiamento: "Bolsa PIBITI/CNPq"
 excerpt: >
   Misto de agência, consultoria e projeto acadêmico voltado ao monitoramento de
   mídias sociais e à formação de profissionais para o universo dos memes de internet.
-image: "/assets/img/projects/projects-hero-3.png"
+image: "/assets/img/projects/escritorio-modelo-de-memes.png"
 section: portfolio
 size: small
 color: accent

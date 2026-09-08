@@ -6,7 +6,7 @@ financiamento: "Edital nº 4 PROEXT/2011 (MEC)"
 proponente: "Viktor Chagas"
 excerpt: >
   Núcleo de extensão de projetos tecnológicos do curso de Estudos de Mídia.
-image: "/assets/img/projects/projects-hero-2.png"
+image: "/assets/img/projects/polo-producao-jogos-eletronicos.png"
 section: portfolio
 size: featured
 color: navy

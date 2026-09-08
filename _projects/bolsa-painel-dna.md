@@ -7,7 +7,7 @@ proponente: "Viktor Chagas"
 excerpt: >
   Projeto de desenvolvimento de plataforma de monitoramento
   para desinformação vacinal.
-image: "/assets/img/projects/projects-hero-2.png"
+image: "/assets/img/projects/painel-dna.png"
 section: portfolio
 size: featured
 color: navy

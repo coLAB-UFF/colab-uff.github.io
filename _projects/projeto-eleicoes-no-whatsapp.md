@@ -8,7 +8,7 @@ excerpt: >
   Eleições no WhatsApp é um projeto de monitoramento 
   da atuação de grupos extremistas em serviços de
   mensageria privada durante o contexto das Eleições.
-image: "/assets/img/projects/projects-hero-3.png"
+image: "/assets/img/projects/eleicoes-no-whatsapp.png"
 section: portfolio
 size: featured
 color: navy

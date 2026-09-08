@@ -6,7 +6,7 @@ financiamento: "Edital Universal nº 14/2013 (CNPq)"
 proponente: "Viktor Chagas"
 excerpt: >
   Investigação sobre as mudanças na imprensa contemporânea.
-image: "/assets/img/projects/projects-hero-2.png"
+image: "/assets/img/projects/parem-as-prensas.png"
 section: portfolio
 size: featured
 color: navy

@@ -13,7 +13,7 @@ financiamento: "Edital Foundational Integrity Research: Misinformation and Polar
 vigencia: "2021-2022"
 proponente: "Marco Aurelio Ruediger"
 equipe: "Marco Aurelio Ruediger, Tatiana Dourado, Dalby Dienstbach, Eurico Matos, Danilo Carvalho, Viktor Chagas, João Guilherme Bastos dos Santos e Victor Piaia"
-image: '/assets/img/projects/project-hero-1.png'
+image: "/assets/img/projects/circulation-dangerous-speech.png"
 category: 'Pesquisa'
 ---
 

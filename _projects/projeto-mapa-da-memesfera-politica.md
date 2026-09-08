@@ -5,7 +5,7 @@ financiamento: "PIBIC/CNPq e PIBIC/Faperj"
 excerpt: >
   Mapeamento dos principais atores e coletivos que produzem intervenções lúdicas
   e mobilizam apoiadores para ações coletivas de caráter satírico e provocativo.
-image: "/assets/img/projects/projects-hero-3.png"
+image: "/assets/img/projects/mapa-da-memesfera-politica.png"
 section: portfolio
 order: 7
 vigente: true

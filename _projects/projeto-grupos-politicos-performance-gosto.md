@@ -10,7 +10,7 @@ excerpt: >
   O DDoS Lab é uma iniciativa de investigação sobre a
   circulação de discurso de ódio e desinformação e o
   monitoramento de extremismo online.
-image: "/assets/img/projects/projects-hero-2.png"
+image: "/assets/img/projects/grupos-politicos-performance-gosto.png"
 section: portfolio
 size: featured
 color: navy

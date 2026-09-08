@@ -4,7 +4,7 @@ category: "Inovação Tecnológica"
 excerpt: >
   Família de aplicativos leves, desenvolvidos pelo coLAB/UFF, para apoiar a
   gestão acadêmica, as rotinas de pesquisa e o fluxo editorial do laboratório.
-image: "/assets/img/projects/projects-hero-4.png"
+image: "/assets/img/projects/aplicativos-colab.png"
 section: portfolio
 order: 3
 vigente: true
