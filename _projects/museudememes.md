@@ -2,24 +2,22 @@
 title: "#MUSEUdeMEMES"
 category: "Extensão"
 excerpt: >
-  Webmuseu dedicado a reunir e discutir memes de internet brasileiros à luz das
-  teorias da Comunicação, aliando pesquisa, ensino e extensão.
-image: "/assets/img/projects/museudememes.png"
+  Webmuseu dedicado a reunir e catalogar memes de internet criados 
+  ou circulados no Brasil, aliando pesquisa, ensino e extensão.
+image: "/assets/img/projects/museudememes-featured.png"
 section: portfolio
 size: featured
 color: navy
 image_position: left
 order: 1
 vigente: true
-vigencia: "2020–atual"
-financiamento: "Edital nº 001/2020 (Programa \"Cultura Presente nas Redes\", Secretaria de Estado de Cultura e Economia Criativa)"
-proponente: "Beatrice de Melo e Silva e Guilherme Popolin"
-equipe: "Viktor Chagas (coordenação) e equipe coLAB"
+vigencia: "2015–atual"
+financiamento: "PROEX/UFF (Edital de Bolsas de Extensão)"
+proponente: "Viktor Chagas"
+equipe: "Viktor Chagas (coordenação) e Thalita Santos (Bolsista PROEX/UFF)"
 ---
 
 O #MUSEUdeMEMES nasceu de uma dupla provocação. De um lado, como todo museu, ele tem o objetivo de apresentar ao público um pouco da memória a respeito do tema. De outro, ele é, em si, um meme, uma brincadeira, um artifício, cujo principal propósito é estimular a reflexão sobre o papel que ocupam os memes na cultura contemporânea.
-
-> O acervo de memes é apenas uma pequena parte do trabalho: o #MUSEUdeMEMES também mapeia, cataloga e discute o fenômeno à luz da teoria da Comunicação.
 
 Memes são um fenômeno típico da internet, e podem se apresentar como imagens legendadas, vídeos virais ou expressões difundidas pelas mídias sociais. Próprios do universo das comunidades virtuais, os memes são geralmente elementos efêmeros, vulgarmente encarados como "besteirol" passageiro ou "cultura inútil". O webmuseu procura reunir conteúdo acerca destes fenômenos e discuti-los no âmbito das teorias da Comunicação, evidenciando seu papel na formação de identidades em comunidades virtuais e nas interações em redes sociais na internet.
 
