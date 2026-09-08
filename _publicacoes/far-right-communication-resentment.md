@@ -10,11 +10,7 @@ venue: "The Communication Review"
 doi: "10.1080/10714421.2025.2601928"
 ---
 
-Este artigo apresenta uma análise interpretativa de memes digitais compartilhados em redes de mensagens privadas, investigando de que forma a comunicação de extrema-direita mobiliza o ressentimento como recurso retórico e afetivo.
-
-> Ressentimento não é só um sentimento: nas redes de mensagens privadas da extrema-direita, ele virou um repertório de comunicação com regras próprias.
-
-O estudo contribui para a compreensão de como plataformas de mensageria privada moldam a circulação de discursos de ódio e desinformação em contextos de polarização política.
+Digital life has opened up space for resentment to be used as a repertoire of online engagement. A growing body of literature argues that resentment is one of the key explanations for the global resurgence of the far-right. This study aims to investigate how this strategy is present in memes circulated in far-right public discussion groups on WhatsApp in Brazil. An interpretive analysis was conducted after gathering 40 images from a non-probabilistic sample of groups of Bolsonaro supporters. The findings lead to four different dimensions of resentment: hostility, victimism, revisionism, and urgency.
 
 ### Créditos
 
