@@ -1,0 +1,17 @@
+---
+title: "A democracia deliberativa em face da crise da democracia: contribuições, dilemas e trilhas"
+category: "Pesquisa"
+financiamento: "CNPq Universal Faixa B - 2018"
+excerpt: >
+  Investigação sobre os dilemas da crise das
+  democracias contemporâneas.
+image: "/assets/img/projects/projects-hero-2.png"
+section: portfolio
+order: 2
+vigente: true
+vigencia: "2019-Atual"
+proponente: "Ricardo Fabrino Mendonça"
+equipe: "Ricardo Fabrino Mendonça (UFMG), Rayza Sarmento (UFV), Camilo Aggio (UFMG), Franck Tavares (UFG), Viktor Chagas (UFF)"
+---
+
+Este projeto busca investigar os dilemas que a crise contemporânea da democracia coloca à teoria deliberacionista de democracia, bem como as possíveis contribuições que esta abordagem tem a dar para a compreensão e eventual superação deste momento de incertezas e turbulências. Vertente conceitual que se tornou muito influente no debate sobre teoria democrática desde os anos 1990, a abordagem deliberacionista de democracia enfrenta muitas dificuldades no esforço de passar de uma perspectiva mais focada no desenho e no estudo de interações dialógicas para um viés mais amplo que pense a democracia pelos olhos da deliberação (Chambers, 2009; Steiner, 2012; Dobson, 2014; Bachtiger Parkinson, 2018). O presente projeto de pesquisa busca mobilizar o viés deliberacionista para refletir sobre muitos dos efetivos dilemas e desafios colocados, hoje, à democracia. Interessa-nos investigar a capacidade da abordagem de dar respostas a um cenário em que muitos dos valores liberais sobre os quais se assentou o debate deliberacionista (seja como endosso ou como crítica) parecem em xeque. Não se trata, pois, de uma proposta de investigar a existência ou não de deliberação ou a qualidade deliberativa de debates contemporâneos. Resgatando a normatividade da teoria, propomo-nos a pensar o que ela tem a dizer sobre a erosão democrática, como ela deve ser concebida para dizer algo sobre tal fenômeno e como ela pode trazer contribuições para sua superação. Para tanto, o projeto parte de uma reconstrução do diagnóstico da crise da democracia. Na sequência, a investigação se dedica a quatro temas frequentemente negligenciados pelos deliberacionistas e que são centrais para que a perspectiva possa discutir criticamente o cenário contemporâneo: (1) as formas, desafios e possibilidades da discussão pública em tempos de abundância comunicativa, com especial atenção ao papel de formas extra-verbais de produção discursiva; (2) a relação entre economia e democracia, enfocando particularmente os limites da participação deliberativa em contextos de estrangulamento fiscal do Estado Democrático e o modo como as assimetrias econômicas influenciam a capacidade de atuação discursiva de certos atores; e (3) os contornos do confronto político contemporâneo, colocando em relevo a expansão de formas de ativismo marcadas por um contexto propício a estratégias comunicacionais populistas. No plano metodológico, o projeto opera com dados gerados por meio de entrevistas, grupos focais, raspagem de redes sociais, bancos de dados produzidos em projetos anteriores e pesquisa bibliográfica. A análise é feita por meio de técnicas interpretativas, que articulam elementos da análise de discurso, de abordagens históricas e de análise teórica.
