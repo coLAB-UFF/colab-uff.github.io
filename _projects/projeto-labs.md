@@ -1,19 +1,18 @@
 ---
-title: "SucupiraLAB, pqLAB e xoxoLAB"
-category: "Ferramentas"
+title: "Aplicativos coLAB"
+category: "Inovação Tecnológica"
 excerpt: >
   Família de aplicativos leves, desenvolvidos pelo coLAB/UFF, para apoiar a
   gestão acadêmica, as rotinas de pesquisa e o fluxo editorial do laboratório.
-image: "https://picsum.photos/seed/colab-projeto-labs/700/875"
+image: "/assets/img/projects/projects-hero-4.png"
 section: portfolio
 order: 10
 vigente: true
-equipe: "Viktor Chagas"
+proponente: "Viktor Chagas"
+equipe: "Viktor Chagas e Arthur Araujo"
 ---
 
-O coLAB desenvolve também um conjunto de aplicativos leves, voltados à gestão do próprio laboratório, todos com dados armazenados diretamente em repositórios GitHub dos usuários — sem depender de servidores ou bancos de dados próprios.
-
-> Gerenciar um laboratório de pesquisa também é trabalho de pesquisa: cada rotina automatizada é tempo que sobra para o que realmente importa.
+O coLAB desenvolve um conjunto de aplicativos leves, voltados à gestão do próprio laboratório, todos com dados armazenados diretamente em repositórios privados do GitHub — sem depender de servidores ou bancos de dados externos.
 
 ### SucupiraLAB
 
@@ -33,6 +32,15 @@ Aplicativo de gestão editorial colaborativa do coLAB/UFF, pensado para organiza
 
 [Acesse o xoxoLAB](https://xoxolab.ombudsmanviktor.me/)
 
-### Resumo
+### KrippLAB
 
-Os três aplicativos compartilham a mesma filosofia: interfaces simples, sem custo de manutenção de infraestrutura, com os dados de cada usuário guardados em seu próprio repositório GitHub privado.
+Aplicativo de gestão editorial colaborativa do coLAB/UFF, pensado para organizar fluxos de produção e revisão de textos entre integrantes do grupo.
+
+[Acesse o KrippLAB](https://kripplab.ombudsmanviktor.me/)
+
+### CodLAB
+
+Ferramenta de codificação manual para análise de conteúdo.
+
+[Acesse o CodLAB](https://colab.meme/codlab/)
+
