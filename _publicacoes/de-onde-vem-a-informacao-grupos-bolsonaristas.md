@@ -1,6 +1,6 @@
 ---
 title: "De Onde Vem a Informação que Circula em Grupos Bolsonaristas no WhatsApp"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Sobre os caminhos informativos acionados em grupos bolsonaristas no WhatsApp e o papel central de influenciadores como fonte de informação."
 image: "/assets/img/publicacoes/de-onde-vem-a-informacao-grupos-bolsonaristas.jpg"
 date: 2022-01-01

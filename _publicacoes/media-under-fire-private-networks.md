@@ -1,6 +1,6 @@
 ---
 title: "Media Under Fire on Private Networks: How the Far Right is Stealthily Destroying the Reputation of News Organizations on WhatsApp"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Como redes privadas de comunicação, sobretudo o WhatsApp, têm sido usadas para disseminar ataques contra a mídia e jornalistas."
 image: "/assets/img/publicacoes/media-under-fire-private-networks.jpg"
 date: 2026-02-09

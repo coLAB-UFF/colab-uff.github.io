@@ -1,6 +1,6 @@
 ---
 title: "The 'New Age' of Political Participation? WhatsApp and Call to Action on the Brazilian Senate's Consultations on the e-Cidadania Portal"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Uma análise do uso do WhatsApp como ferramenta de mobilização para as consultas públicas do Senado brasileiro no portal e-Cidadania."
 image: "/assets/img/publicacoes/new-age-political-participation-e-cidadania.jpg"
 date: 2021-08-09

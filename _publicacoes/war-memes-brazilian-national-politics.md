@@ -1,6 +1,6 @@
 ---
 title: "War Memes and Brazilian National Politics"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Como memes sobre a guerra da Ucrânia foram mobilizados em grupos de WhatsApp pró-Bolsonaro para reenquadrar a política nacional brasileira."
 image: "/assets/img/publicacoes/war-memes-brazilian-national-politics.jpg"
 date: 2025-10-01

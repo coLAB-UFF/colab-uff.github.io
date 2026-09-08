@@ -1,6 +1,6 @@
 ---
 title: "WhatsApp and Digital Astroturfing: A Social Network Analysis of Brazilian Political Discussion Groups of Bolsonaro's Supporters"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Uma investigação sobre astroturfing digital em grupos de discussão política de apoiadores de Bolsonaro no WhatsApp, a partir de análise de redes sociais."
 image: "/assets/img/publicacoes/whatsapp-digital-astroturfing.jpg"
 date: 2022-01-01

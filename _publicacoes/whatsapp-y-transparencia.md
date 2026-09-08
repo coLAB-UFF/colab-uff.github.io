@@ -1,6 +1,6 @@
 ---
 title: "WhatsApp y Transparencia: Un Análisis sobre los Efectos de la Opacidad de las Plataformas Digitales en las Agendas de Investigación en Comunicación Política en Brasil"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Sobre a opacidade ambiental do WhatsApp e seus efeitos na ética e na transparência da própria investigação acadêmica em comunicação política no Brasil."
 image: "/assets/img/publicacoes/whatsapp-y-transparencia.jpg"
 date: 2023-01-01

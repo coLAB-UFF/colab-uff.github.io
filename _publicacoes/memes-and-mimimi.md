@@ -1,6 +1,6 @@
 ---
 title: "Memes and Mimimi: Collision and Intersection of Racist and Misogynistic Humor in Brazil's Digital Memesphere"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Uma análise interpretativa de memes sobre o caso Sílvio Almeida, investigando a relação entre humor, racismo e misoginia na memesfera digital brasileira."
 image: "/assets/img/publicacoes/memes-and-mimimi.jpg"
 date: 2026-09-01

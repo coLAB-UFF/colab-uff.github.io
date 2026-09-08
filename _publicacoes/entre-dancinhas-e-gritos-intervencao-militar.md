@@ -1,6 +1,6 @@
 ---
 title: "Entre Dancinhas e Gritos por Intervenção Militar: Análise da Circulação e do Engajamento em Conteúdos com Discursos Antidemocráticos no TikTok"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Uma análise da circulação e do engajamento em conteúdos com discursos antidemocráticos no TikTok."
 image: "/assets/img/publicacoes/entre-dancinhas-e-gritos-intervencao-militar.jpg"
 date: 2026-01-20

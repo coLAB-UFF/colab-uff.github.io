@@ -1,6 +1,6 @@
 ---
 title: "Estratégias de Uso do TikTok por Políticos Brasileiros"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Como políticos brasileiros fazem uso das affordances do TikTok, a partir da análise de cerca de 23 mil vídeos publicados por 265 perfis."
 image: "/assets/img/publicacoes/estrategias-tiktok-politicos-brasileiros.jpg"
 date: 2023-10-01

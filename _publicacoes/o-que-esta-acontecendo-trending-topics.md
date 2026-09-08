@@ -1,6 +1,6 @@
 ---
 title: "O que Está Acontecendo? O que os Trending Topics Podem nos Dizer a Respeito de Ações Políticas Coletivamente Orquestradas"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Se o acompanhamento dos trending topics do Twitter pode ajudar a identificar momentos de tensão política aguda no Brasil."
 image: "/assets/img/publicacoes/o-que-esta-acontecendo-trending-topics.jpg"
 date: 2023-10-01

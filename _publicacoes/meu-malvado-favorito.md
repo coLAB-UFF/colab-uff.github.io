@@ -1,6 +1,6 @@
 ---
 title: "Meu Malvado Favorito: Os Memes Bolsonaristas de WhatsApp e os Acontecimentos Políticos no Brasil"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Uma análise dos memes bolsonaristas de WhatsApp e sua relação com os acontecimentos políticos no Brasil."
 image: "/assets/img/publicacoes/meu-malvado-favorito.jpg"
 date: 2021-01-01

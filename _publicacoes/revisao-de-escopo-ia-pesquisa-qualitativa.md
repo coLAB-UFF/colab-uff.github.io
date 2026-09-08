@@ -1,6 +1,6 @@
 ---
 title: "Uma Revisão de Escopo Assistida por Inteligência Artificial (IA) sobre Usos Emergentes de IA na Pesquisa Qualitativa e suas Considerações Éticas"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Uma revisão de escopo de 31 artigos sobre usos emergentes de inteligência artificial na pesquisa qualitativa e suas considerações éticas."
 image: "/assets/img/publicacoes/revisao-de-escopo-ia-pesquisa-qualitativa.jpg"
 date: 2024-04-01

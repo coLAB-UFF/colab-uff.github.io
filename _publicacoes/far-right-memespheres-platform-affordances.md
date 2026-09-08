@@ -1,6 +1,6 @@
 ---
 title: "Far-Right Memespheres and Platform Affordances: The Effects of Environmental Opacity on the Spread of Extremist Memes on Twitter and WhatsApp"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Como a opacidade ambiental das plataformas afeta a disseminação de memes extremistas no Twitter e no WhatsApp."
 image: "/assets/img/publicacoes/far-right-memespheres-platform-affordances.jpg"
 date: 2023-12-13

@@ -1,6 +1,6 @@
 ---
 title: "Quiddity and Universality: The Transnational Origins of Humorous Far-Right Memes"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Como redes bolsonaristas se apropriam de memes de humor transnacionais, adaptando-os a realidades locais ou preservando seu caráter universal."
 image: "/assets/img/publicacoes/quiddity-universality-far-right-memes.jpg"
 date: 2024-09-01

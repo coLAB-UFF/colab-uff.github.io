@@ -1,6 +1,6 @@
 ---
 title: "A Linguagem dos Memes: Aspectos Estéticos e Semióticos dos Conteúdos Digitais"
-category: "Artigo Científico"
+category: "Artigo"
 description: "O artigo busca estabelecer um marco teórico que compreende os memes de internet como linguagem, identificando oito fatores comuns a esses conteúdos digitais."
 image: "/assets/img/publicacoes/a-linguagem-dos-memes.jpg"
 date: 2024-01-01

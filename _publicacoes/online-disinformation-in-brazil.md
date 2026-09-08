@@ -1,6 +1,6 @@
 ---
 title: "Online Disinformation in Brazil: A Typology of Discursive Action of Harmful Political Content on WhatsApp and Facebook"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Uma tipologia da ação discursiva de conteúdo político nocivo em grupos públicos de WhatsApp e Facebook da direita radical no Brasil."
 image: "/assets/img/publicacoes/online-disinformation-in-brazil.jpg"
 date: 2024-01-01

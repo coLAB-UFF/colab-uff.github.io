@@ -1,6 +1,6 @@
 ---
 title: "Bots Cívicos: Uma Análise sobre Tecnologias de Automação como Repertório Ativista no X/Twitter"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Uma análise sobre em que medida bots cívicos constituem um repertório comunicacional ativista no Twitter, a partir de iniciativas brasileiras."
 image: "/assets/img/publicacoes/bots-civicos.jpg"
 date: 2026-03-30

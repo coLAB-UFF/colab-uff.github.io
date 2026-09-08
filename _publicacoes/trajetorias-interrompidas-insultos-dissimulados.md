@@ -1,6 +1,6 @@
 ---
 title: "Trajetórias Interrompidas, Insultos Dissimulados: A Violência Política de Gênero Online"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Uma análise das manifestações da violência política de gênero em plataformas digitais, a partir de uma base com mais de 4 milhões de menções a parlamentares mulheres."
 image: "/assets/img/publicacoes/trajetorias-interrompidas-insultos-dissimulados.jpg"
 date: 2024-01-01

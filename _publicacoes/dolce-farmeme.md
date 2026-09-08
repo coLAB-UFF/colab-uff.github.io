@@ -1,6 +1,6 @@
 ---
 title: "Dolce Farmeme: A Retórica da Brincadeira Política"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Como a brincadeira política pode ser lida como estratégia retórica em defesa de posições reacionárias do campo conservador."
 image: "/assets/img/publicacoes/dolce-farmeme.jpg"
 date: 2023-01-01

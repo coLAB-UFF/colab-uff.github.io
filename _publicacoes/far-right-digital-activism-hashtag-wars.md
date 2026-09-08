@@ -1,6 +1,6 @@
 ---
 title: "Far-Right Digital Activism in Polarized Contexts: A Comparative Analysis of Engagement in Hashtag Wars"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Uma comparação de padrões de comportamento coordenado em hashtags criadas por apoiadores e opositores do governo Bolsonaro no Twitter."
 image: "/assets/img/publicacoes/far-right-digital-activism-hashtag-wars.jpg"
 date: 2022-10-28

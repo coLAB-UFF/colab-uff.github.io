@@ -1,6 +1,6 @@
 ---
 title: "Faster, Higher, Stronger: Sports Fan Activism and Mediatized Political Play in the 2016 Rio Olympic Games"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Uma análise do ativismo de torcedores esportivos e das experiências de jogo político mediatizado contra o então presidente em exercício Michel Temer durante os Jogos Olímpicos Rio 2016."
 image: "/assets/img/publicacoes/faster-higher-stronger.jpg"
 date: 2020-01-01

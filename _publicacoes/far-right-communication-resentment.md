@@ -1,6 +1,6 @@
 ---
 title: "Far-Right Communication and Resentment: An Interpretative Analysis of Digital Memes on Private Messaging Networks"
-category: "Artigo Científico"
+category: "Artigo"
 description: "Uma análise interpretativa de memes digitais em redes de mensagens privadas e sua relação com o ressentimento na comunicação de extrema-direita."
 image: "/assets/img/publicacoes/far-right-communication-resentment.jpg"
 date: 2025-12-19
