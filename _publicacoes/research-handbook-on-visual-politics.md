@@ -1,5 +1,5 @@
 ---
-title: "Memes as vernacular politics"
+title: "Memes as Vernacular Politics"
 category: "Capítulo de Livro"
 description: "Capítulo em handbook editado por Darren Lilleker e Anastasia Veneti sobre política visual, com participação de pesquisadores do coLAB."
 image: "/assets/img/publicacoes/research-handbook-on-visual-politics.jpg"
