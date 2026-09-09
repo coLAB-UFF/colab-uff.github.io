@@ -285,15 +285,6 @@ footer.bg-navy .newsletter-form__message.is-error {
   .hero-images { display: none; }
 }
 
-/* Página /ddoslab/ — ddoslab-featured.png e influenciadores-digitais-politicos.jpg
-   têm um logo/selo que ficava cortado pelo "cover" nas colunas estreitas do
-   hero-images; "contain" preserva a imagem inteira. */
-.ddoslab-hero .hero-images__col1 img,
-.ddoslab-hero .hero-images__col3 img {
-  object-fit: contain;
-  background-color: #fff;
-}
-
 /* ==========================================================================
    2. Section logos animate (akio-jekyll.netlify.app)
    ========================================================================== */
