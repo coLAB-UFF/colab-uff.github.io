@@ -3,7 +3,8 @@
      sem o formulário de e-mail/inscrição. Reutilizável em qualquer página list ou
      single (ex.: _layouts/publicacoes-list.html).
 
-     Parâmetros: eyebrow, title, description, images, divider_class (opcional)
+     Parâmetros: eyebrow, title, description, images, divider_class (opcional),
+     newsletter_label (opcional)
      "images" é um hash com o mesmo formato de hero.images em _data/hero.yml:
        col1: {src, alt}
        col2: [{src, alt}, {src, alt}]
@@ -15,6 +16,11 @@
      "divider_class" adiciona uma classe extra ao <hr> do divisor, para ajustar
      o espaçamento em uma página específica sem afetar as demais (ex.: usado
      em _layouts/integrantes-list.html).
+     "newsletter_label" exibe o mesmo formulário de inscrição por e-mail do
+     hero da home (_includes/hero.html) logo abaixo da descrição — mesmo
+     endpoint/planilha, via assets/js/newsletter.js (liga em qualquer
+     ".hero__form" da página, sem JS extra). Omitir para não exibir o form
+     (padrão em todas as páginas list que já usam este include).
      ========================================================================== -->
 <section class="hero hero--page">
   <div class="container">
@@ -23,6 +29,13 @@
         {% if include.eyebrow %}<span class="hero__eyebrow">{{ include.eyebrow }}</span>{% endif %}
         <h1 class="hero__title">{{ include.title }}</h1>
         {% if include.description %}<p class="hero__desc">{{ include.description }}</p>{% endif %}
+        {% if include.newsletter_label %}
+        <p class="hero__newsletter-label">{{ include.newsletter_label }}</p>
+        <form class="hero__form">
+          <input type="email" required placeholder="{{ include.newsletter_placeholder | default: "Seu e-mail" }}" aria-label="{{ include.newsletter_placeholder | default: "Seu e-mail" }}">
+          <button type="submit" class="btn btn-colab">{{ include.newsletter_button | default: "Inscrever-se" }}</button>
+        </form>
+        {% endif %}
       </div>
 
       {% if include.images %}

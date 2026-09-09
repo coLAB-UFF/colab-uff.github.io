@@ -27,5 +27,8 @@ hero_images:
    title=page.hero_title
    description=page.hero_description
    images=page.hero_images
+   newsletter_label=site.data.hero.newsletter_label
+   newsletter_placeholder=site.data.hero.form.placeholder
+   newsletter_button=site.data.hero.form.button_text
 %}
 {% include ddoslab-reports.html %}
