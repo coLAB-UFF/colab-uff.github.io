@@ -1,6 +1,6 @@
 ---
 title: "The Algorithmic Trap: How Hyperpartisan Media Pose a Risk to News Consumption in TikTok’s Recommendation System"
-category: "Capítulo"
+category: "Capítulo de Livro"
 description: "Capítulo em coletânea editada por Jorge Vázquez-Herrero, María-Cruz Negreira-Rey e Ana-Isabel Rodríguez-Vázquez sobre jornalismo no TikTok, com participação de pesquisadores do coLAB."
 image: "/assets/img/publicacoes/tiktok-journalism.jpg"
 date: 2026-01-01
