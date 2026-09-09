@@ -11,16 +11,16 @@ hero_description: >
   discurso de ódio, comportamentos inautênticos e agendas antidemocráticas.
 hero_images:
   col1:
-    src: "/assets/img/projects/ddoslab-featured.png"
-    alt: "DDoS Lab — Laboratório de Combate à Desinformação e ao Discurso de Ódio"
+    src: "/assets/img/publicacoes/influenciadores-digitais-politicos.jpg"
+    alt: "Relatório Mapeamento de Influenciadores Locais"
   col2:
     - src: "/assets/img/publicacoes/mapa-violencia-politica-genero.jpg"
       alt: "Relatório Mapa da Violência Política de Gênero em Plataformas Digitais"
     - src: "/assets/img/publicacoes/tiktok-polarizacao-politica-brasil.jpg"
       alt: "Relatório TikTok e Polarização Política no Brasil"
   col3:
-    src: "/assets/img/projects/ddoslab.jpeg"
-    alt: "DDoS Lab"
+    src: "/assets/img/projects/ddoslab-featured.png"
+    alt: "DDoS Lab — Laboratório de Combate à Desinformação e ao Discurso de Ódio"
 ---
 {% include page-hero.html
    eyebrow=page.hero_eyebrow
