@@ -20,3 +20,5 @@ equipe: "Viktor Chagas (coordenação), Mavi Braga (Bolsista PIBITI/CNPq) e equi
 ---
 
 O DDoS Lab é uma agência-modelo e laboratório de inovação e pesquisa com foco no combate à desinformação e ao discurso de ódio no ambiente digital, e ênfase específica na identificação e no monitoramento de ações políticas coordenadas, comportamento inautêntico e circulação de ataques a políticos e cidadãos em geral, e mensagens de natureza antidemocrática nas mídias sociais e em serviços de mensageria privada. Seu principal objetivo é o de liderar iniciativas de investigação forense digital, análise de redes sociais, e big data, no acompanhamento da atuação multiplataforma de grupos extremistas.
+
+[Acesse os relatórios do DDoS Lab](http://colab.meme/ddoslab)
