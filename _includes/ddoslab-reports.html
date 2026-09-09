@@ -1,0 +1,30 @@
+<!-- ==========================================================================
+     Relatórios do DDoS Lab — página /ddoslab/
+     Lista dinâmica: todos os arquivos de _publicacoes cujo "type" no
+     frontmatter contenha "Relatório" (ex.: "Relatório Técnico", "Relatório
+     Executivo"). Reutiliza o mesmo card de _layouts/publicacoes-list.html
+     (.pub-card / .pub-list), sem CSS novo.
+     ========================================================================== -->
+{% assign relatorios = site.publicacoes | where_exp: "pub", "pub.type contains 'Relatório'" | sort: "date" | reverse %}
+<div class="pub-list container animate">
+  <h2 class="section__title display-6 mb-4">Relatórios do DDoS Lab</h2>
+  <div class="row">
+    {% for pub in relatorios %}
+    <article class="pub-card col-12 col-md-6 col-lg-4">
+      <a href="{{ pub.url | relative_url }}" class="pub-card__image">
+        <img src="{{ pub.image | relative_url }}" alt="{{ pub.title }}">
+      </a>
+      <div class="pub-card__info">
+        <div class="pub-card__category">{{ pub.type }}</div>
+        <h3 class="pub-card__title"><a href="{{ pub.url | relative_url }}">{{ pub.title }}</a></h3>
+        <p class="pub-card__description">{{ pub.description }}</p>
+        <p class="pub-card__meta">
+          {% if pub.authors %}<span class="pub-card__authors">{{ pub.authors }}</span>{% endif %}
+          {% if pub.date %}<span class="pub-card__sep">·</span><span>{{ pub.date | date: "%Y" }}</span>{% endif %}
+          {% if pub.venue %}<span class="pub-card__sep">·</span><span>{{ pub.venue }}</span>{% endif %}
+        </p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>
