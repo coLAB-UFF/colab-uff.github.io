@@ -22,10 +22,12 @@ hero_images:
     src: "/assets/img/projects/ddoslab-featured.png"
     alt: "DDoS Lab — Laboratório de Combate à Desinformação e ao Discurso de Ódio"
 ---
+<div class="ddoslab-hero">
 {% include page-hero.html
    eyebrow=page.hero_eyebrow
    title=page.hero_title
    description=page.hero_description
    images=page.hero_images
 %}
+</div>
 {% include ddoslab-reports.html %}
