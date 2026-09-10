@@ -85,6 +85,17 @@ a {
   transform: translateY(-1px);
 }
 
+/* Botão com ícone de plataforma (ex.: GitHub/Figshare/CKAN em /data/) */
+.btn-colab--icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.btn-colab--icon img,
+.btn-colab--icon i {
+  flex-shrink: 0;
+}
+
 .btn-primary,
 .btn.btn-primary {
   background-color: var(--colab-accent) !important;

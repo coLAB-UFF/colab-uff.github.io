@@ -21,9 +21,9 @@ Os dados são disponibilizados de forma aberta a qualquer pessoa interessada, po
 Outros conjuntos de dados e materiais que eventualmente contenham dados privados ou potencialmente violem direitos de terceiros ou direitos conexos não são incluídos nos repositórios públicos por razões éticas e de segurança.
 
 <div class="d-flex flex-wrap gap-3 my-4">
-  <a href="https://github.com/coLAB-UFF" class="btn btn-colab" target="_blank" rel="noopener">GitHub</a>
-  <a href="https://figshare.com/projects/Papers_coLAB/35102" class="btn btn-colab" target="_blank" rel="noopener">Figshare</a>
-  <a href="#" class="btn btn-colab" target="_blank" rel="noopener">CKAN</a>
+  <a href="https://github.com/coLAB-UFF" class="btn btn-colab btn-colab--icon" target="_blank" rel="noopener">{% include social-icon.html icon="uil-github" %} GitHub</a>
+  <a href="https://figshare.com/projects/Papers_coLAB/35102" class="btn btn-colab btn-colab--icon" target="_blank" rel="noopener">{% include social-icon.html icon="/assets/img/social/logo_figshare.svg" %} Figshare</a>
+  <a href="#" class="btn btn-colab btn-colab--icon" target="_blank" rel="noopener"><img src="{{ "/assets/img/social/logo_ckan.svg" | relative_url }}" alt="" width="27" height="16"> CKAN</a>
 </div>
 
 ### Quem pode usar os dados disponíveis
