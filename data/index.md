@@ -46,7 +46,7 @@ Nos casos omissos, recomenda-se consulta prévia aos responsáveis, pelo formul�
 
 ### Como obter outros dados
 
-O Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB) reserva-se o direito de não atender a demandas particulares de fornecimento de dados, com exceção de parceiros institucionais. Seguindo as [diretrizes da Assessoria de Cooperação Internacional](http://international.uff.br/how-to-be-a-partner-of-uff/) da Universidade Federal Fluminense, é possível solicitar parcerias nacionais ou internacionais de cooperação científica mediante a assinatura de um acordo de cooperação interinstitucional. Nenhum dado além dos disponibilizados publicamente neste repositório será fornecido sem um acordo de cooperação.
+O Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB) reserva-se o direito de não atender a demandas particulares de fornecimento de dados, com exceção de parceiros institucionais ou tomadores de serviços para consultorias específicas. É possível solicitar parcerias nacionais ou internacionais de cooperação científica mediante a assinatura de um acordo de cooperação interinstitucional. No caso de consultorias contratadas, as normas de cessão e uso dos dados atenderão a protocolos específicos, desenhados entre as partes. Nenhum dado além dos disponibilizados publicamente nos repositórios do coLAB será fornecido sem um acordo de cooperação ou termo de prestação de serviço previamente estabelecidos.
 
 ### Como colaborar
 
