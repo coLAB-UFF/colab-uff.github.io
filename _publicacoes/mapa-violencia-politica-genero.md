@@ -3,7 +3,7 @@ title: "Mapa da Violência Política de Gênero em Plataformas Digitais"
 category: "Relatório"
 description: "Relatório do DDoSLab sobre a violência política de gênero em plataformas digitais."
 image: "/assets/img/publicacoes/mapa-violencia-politica-genero.jpg"
-date: 2024-06-01
+date: 2023-06-01
 authors: "Letícia Sabbatini, Viktor Chagas, Vinicius Machado Miguel, Gabriela Rezende Pereira e Sabrina Dray"
 type: "Relatório Técnico"
 venue: "DDoSLab — coLAB/UFF"
@@ -20,5 +20,5 @@ Realização: DDoSLab / coLAB.uff.br
 ### Como citar este estudo
 
 ```
-SABBATINI, L.; CHAGAS, V.; MIGUEL, V. M.; PEREIRA, G. R.; DRAY, S. Mapa da Violência Política de Gênero em Plataformas Digitais. Niterói: DDoSLab/coLAB-UFF, 2024.
+SABBATINI, L.; CHAGAS, V.; MIGUEL, V. M.; PEREIRA, G. R.; DRAY, S. Mapa da Violência Política de Gênero em Plataformas Digitais. Niterói: DDoSLab/coLAB-UFF, 2023.
 ```
