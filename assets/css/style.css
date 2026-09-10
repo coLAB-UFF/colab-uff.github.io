@@ -92,8 +92,14 @@ a {
   gap: 0.6rem;
 }
 .btn-colab--icon img,
-.btn-colab--icon i {
+.btn-colab--icon i,
+.btn-colab--icon-svg {
   flex-shrink: 0;
+}
+.btn-colab--icon-svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
 }
 
 .btn-primary,
