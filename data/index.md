@@ -32,18 +32,17 @@ Todos os dados disponíveis neste repositório estão licenciados sob a licença
 
 Todos os dados apresentados em nossos repositórios no GitHub são fornecidos "como estão" (AS-IS). Não há garantias, expressas ou implícitas, de adequação a um propósito específico, e não há suporte oferecido pelas pesquisadoras e pesquisadores do coLAB.
 
-Todos os dados devem ser referenciados como fornecidos pelo Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB). Em todos os trabalhos derivados, incluindo gráficos, tabelas ou outros materiais, a atribuição deve ser feita da seguinte forma:
+Todos os dados devem ser referenciados como fornecidos pelo Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB), conforme instrução presente em cada repositório. No caso de não haver menção específica sobre o formato da citação, em todos os trabalhos derivados, incluindo gráficos, tabelas ou outros materiais, a atribuição deve ser feita da seguinte forma:
 
-* Versão em inglês:
-Source: Research Laboratory for Communication, Political Cultures and Economies of Collaboration (coLAB).
-* Versão em português:
-Fonte: Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB).
+* Versão em inglês: Source: Research Laboratory for Communication, Political Cultures and Economies of Collaboration (coLAB).
+
+* Versão em português: Fonte: Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB).
 
 Todos os trabalhos derivados que utilizem dados deste repositório devem ser igualmente licenciados sob a licença [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/3.0/br/).
 
-Não é permitido o uso comercial ou privado dos dados. Nessa situação, entre em contato com os responsáveis para solicitar autorização. Uso privado e comercial inclui a publicação, parcial ou integral, dos materiais disponíveis neste repositório, sem autorização prévia, em livros didáticos ou comerciais, obras audiovisuais ou qualquer outro trabalho sem a mesma licença adotada para os dados disponíveis neste repositório.
+Não é permitido o uso comercial ou privado dos dados. Para esta condição, entre em contato com os responsáveis para solicitar autorização prévia. Via de regra, o uso privado e comercial, incluindo a publicação, parcial ou integral dos materiais disponíveis neste repositório, sem autorização prévia, em periódicos científicos, trabalhos de conclusão de curso de qualquer natureza, livros didáticos ou comerciais, obras audiovisuais ou qualquer outra obra sem a mesma licença adotada para os dados disponíveis neste repositório, implica em violação dessas diretrizes, e consequentemente sujeita os infratores a eventuais sanções cíveis, penais ou administrativas.
 
-Nos casos omissos, recomenda-se consulta prévia aos responsáveis, pelo e-mail `colab@midia.uff.br`, para orientações gerais sobre o uso dos dados.
+Nos casos omissos, recomenda-se consulta prévia aos responsáveis, pelo formulário de [Fale Conosco](/fale-conosco/) disponível neste website ou pelo e-mail `colab@midia.uff.br`, para orientações gerais sobre o uso dos dados.
 
 ### Como obter outros dados
 
