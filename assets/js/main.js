@@ -137,71 +137,35 @@ function initGalleryLightbox() {
 // marco troca o painel de detalhes exibido; a trilha também pode ser
 // arrastada com o mouse (toque nativo já funciona via overflow-x: auto).
 function initTimeline() {
-  var track = document.querySelector("[data-timeline-track]");
-  if (!track) return;
+  var root = document.querySelector("[data-timeline]");
+  if (!root) return;
 
-  var nodes = Array.prototype.slice.call(track.querySelectorAll("[data-timeline-node]"));
-  var panels = Array.prototype.slice.call(document.querySelectorAll("[data-timeline-panel]"));
-  var prevBtn = document.querySelector("[data-timeline-prev]");
-  var nextBtn = document.querySelector("[data-timeline-next]");
-  var dragged = false;
-
-  function activate(index) {
-    nodes.forEach(function (node) {
-      node.classList.toggle("is-active", Number(node.dataset.index) === index);
-    });
-    panels.forEach(function (panel) {
-      panel.classList.toggle("is-active", Number(panel.dataset.index) === index);
-    });
-  }
-
-  function currentIndex() {
-    var active = track.querySelector(".timeline__node.is-active");
-    return active ? Number(active.dataset.index) : 0;
-  }
-
-  function goTo(index) {
-    index = Math.max(0, Math.min(nodes.length - 1, index));
-    activate(index);
-    nodes[index].scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
-  }
-
-  nodes.forEach(function (node) {
-    node.addEventListener("click", function () {
-      if (dragged) return;
-      activate(Number(node.dataset.index));
+  // Expandir/colapsar cada evento dentro do card do seu ano.
+  var toggles = root.querySelectorAll("[data-timeline-toggle]");
+  toggles.forEach(function (toggle) {
+    toggle.addEventListener("click", function () {
+      var item = toggle.closest("[data-timeline-event]");
+      var isOpen = item.classList.toggle("is-open");
+      toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
     });
   });
 
-  if (prevBtn) prevBtn.addEventListener("click", function () { goTo(currentIndex() - 1); });
-  if (nextBtn) nextBtn.addEventListener("click", function () { goTo(currentIndex() + 1); });
-
-  var isDown = false;
-  var startX, scrollLeft;
-
-  track.addEventListener("mousedown", function (event) {
-    isDown = true;
-    dragged = false;
-    track.classList.add("is-dragging");
-    startX = event.pageX - track.offsetLeft;
-    scrollLeft = track.scrollLeft;
-  });
-  window.addEventListener("mouseup", function () {
-    isDown = false;
-    track.classList.remove("is-dragging");
-  });
-  track.addEventListener("mouseleave", function () {
-    isDown = false;
-    track.classList.remove("is-dragging");
-  });
-  track.addEventListener("mousemove", function (event) {
-    if (!isDown) return;
-    event.preventDefault();
-    var x = event.pageX - track.offsetLeft;
-    var walk = x - startX;
-    if (Math.abs(walk) > 5) dragged = true;
-    track.scrollLeft = scrollLeft - walk;
-  });
+  // Selo flutuante com o ano em foco durante a rolagem.
+  var stickyYear = root.querySelector("[data-timeline-sticky-year]");
+  var rows = Array.prototype.slice.call(root.querySelectorAll("[data-timeline-year]"));
+  if (stickyYear && rows.length && "IntersectionObserver" in window) {
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            stickyYear.textContent = entry.target.getAttribute("data-timeline-year");
+          }
+        });
+      },
+      { rootMargin: "-45% 0px -45% 0px", threshold: 0 }
+    );
+    rows.forEach(function (row) { observer.observe(row); });
+  }
 }
 
 // Lê os integrantes a partir do <ul data-team-source> renderizado pelo Jekyll

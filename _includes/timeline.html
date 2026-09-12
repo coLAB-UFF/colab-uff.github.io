@@ -1,11 +1,16 @@
 <!-- ==========================================================================
-     Linha do Tempo do coLAB — horizontal, arrastável (mouse/touch) e com
-     detalhes expandidos ao clicar em um ano. Conteúdo 100% editável em
-     _data/timeline.yml (eyebrow/title/description + events: [{year, title,
-     description, image}], "title" e "image" são opcionais por evento).
-     Usada apenas em /sobre/ — ver _layouts/sobre.html (gated por page.timeline)
-     para não aparecer também em /data/, que reusa o mesmo layout.
-     Lógica de arrastar/paginar em assets/js/main.js (initTimeline).
+     Linha do Tempo do coLAB — vertical, com cards alternados (esquerda/
+     direita) ao longo de uma linha central. Cada ano é um card; um ano com
+     mais de um acontecimento lista vários itens expansíveis dentro do
+     mesmo card (clique no título revela a descrição/foto). Um selo
+     flutuante mostra o ano em foco durante a rolagem.
+     Conteúdo 100% editável em _data/timeline.yml (eyebrow/title/description
+     + years: [{year, events: [{title, description, image}]}], "image" é
+     opcional por evento).
+     Usada apenas em /sobre/ — ver _layouts/sobre.html (gated por
+     page.timeline) para não aparecer também em /data/, que reusa o mesmo
+     layout. Lógica de expandir/colapsar e do selo de ano em
+     assets/js/main.js (initTimeline).
      ========================================================================== -->
 {% assign tl = site.data.timeline %}
 <section class="timeline-section section-gap animate">
@@ -17,41 +22,33 @@
         <p class="section__description mb-9">{{ tl.description }}</p>
       </div>
     </div>
-  </div>
 
-  <div class="timeline" data-timeline>
-    <button type="button" class="timeline__arrow timeline__arrow--prev" data-timeline-prev aria-label="Ver marco anterior">
-      <i class="uil uil-arrow-left"></i>
-    </button>
-    <div class="timeline__track" data-timeline-track>
-      <div class="timeline__line"></div>
-      {% for event in tl.events %}
-      <button type="button" class="timeline__node{% if forloop.first %} is-active{% endif %}" data-timeline-node data-index="{{ forloop.index0 }}">
-        <span class="timeline__year">{{ event.year }}</span>
-        <span class="timeline__dot"></span>
-      </button>
-      {% endfor %}
-    </div>
-    <button type="button" class="timeline__arrow timeline__arrow--next" data-timeline-next aria-label="Ver próximo marco">
-      <i class="uil uil-arrow-right"></i>
-    </button>
-  </div>
+    <div class="timeline-v" data-timeline>
+      <span class="timeline-v__sticky-year" data-timeline-sticky-year>{{ tl.years.first.year }}</span>
+      <div class="timeline-v__line"></div>
 
-  <div class="container">
-    <div class="timeline__detail" data-timeline-detail>
-      {% for event in tl.events %}
-      <div class="timeline__panel{% if forloop.first %} is-active{% endif %}" data-timeline-panel data-index="{{ forloop.index0 }}">
-        <div class="row align-items-center gy-4">
-          {% if event.image %}
-          <div class="col-md-4">
-            <img src="{{ event.image | relative_url }}" alt="{{ event.title | default: event.year }}" class="timeline__image">
+      {% for group in tl.years %}
+      <div class="timeline-v__row timeline-v__row--{% cycle 'left', 'right' %}" data-timeline-year="{{ group.year }}">
+        <div class="timeline-v__marker"><span class="timeline-v__dot"></span></div>
+        <div class="timeline-v__card">
+          <span class="timeline-v__year-badge"><i class="uil uil-calendar-alt"></i> {{ group.year }}</span>
+
+          {% for ev in group.events %}
+          <div class="timeline-v__event" data-timeline-event>
+            <button type="button" class="timeline-v__event-toggle" data-timeline-toggle aria-expanded="false">
+              <span class="timeline-v__event-title">{{ ev.title }}</span>
+              <i class="uil uil-angle-down timeline-v__event-icon"></i>
+            </button>
+            <div class="timeline-v__event-body" data-timeline-body>
+              <div class="timeline-v__event-body-inner">
+                {% if ev.image %}
+                <img src="{{ ev.image | relative_url }}" alt="{{ ev.title }}" class="timeline-v__event-image">
+                {% endif %}
+                <p>{{ ev.description }}</p>
+              </div>
+            </div>
           </div>
-          {% endif %}
-          <div class="{% if event.image %}col-md-8{% else %}col-12{% endif %}">
-            <span class="timeline__panel-year">{{ event.year }}</span>
-            {% if event.title %}<h4 class="timeline__panel-title">{{ event.title }}</h4>{% endif %}
-            <p class="timeline__panel-description">{{ event.description }}</p>
-          </div>
+          {% endfor %}
         </div>
       </div>
       {% endfor %}

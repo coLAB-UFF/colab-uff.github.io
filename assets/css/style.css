@@ -1593,132 +1593,155 @@ footer.bg-navy .logo-mark {
 
 /* ==========================================================================
    Linha do Tempo do coLAB (/sobre/) — _includes/timeline.html + _data/timeline.yml
+   Vertical, cards alternados esquerda/direita ao longo de uma linha central;
+   cada card pode conter um ou mais eventos expansíveis (accordion simples).
    ========================================================================== */
-.timeline {
+.timeline-v {
   position: relative;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 1.5rem 2.5rem;
-}
-.timeline__track {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 3.5rem;
-  overflow-x: auto;
-  scroll-snap-type: x proximity;
-  padding: 2.5rem 2rem;
-  cursor: grab;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  user-select: none;
-  flex: 1 1 auto;
-  min-width: 0;
-}
-.timeline__track::-webkit-scrollbar { display: none; }
-.timeline__track.is-dragging { cursor: grabbing; scroll-snap-type: none; }
-
-.timeline__line {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  height: 3px;
-  background: var(--colab-accent);
-  opacity: 0.35;
-  transform: translateY(-50%);
+  padding-top: 1rem;
 }
 
-.timeline__node {
-  position: relative;
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.6rem;
-  background: none;
-  border: none;
-  padding: 0.5rem;
-  scroll-snap-align: center;
-  cursor: pointer;
-}
-.timeline__year {
+.timeline-v__sticky-year {
+  position: sticky;
+  top: 1rem;
+  z-index: 2;
+  display: table;
+  margin: 0 auto 1.5rem;
   font-family: var(--font-heading);
   font-weight: 700;
   font-size: 1.05rem;
-  color: var(--colab-muted);
-  transition: color 0.2s ease;
-  white-space: nowrap;
-}
-.timeline__dot {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: #fff;
-  border: 3px solid var(--colab-accent);
-  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
-}
-.timeline__node:hover .timeline__dot { transform: scale(1.2); }
-.timeline__node.is-active .timeline__year { color: var(--colab-accent-dark); }
-.timeline__node.is-active .timeline__dot {
+  color: #fff;
   background: var(--colab-accent);
-  transform: scale(1.35);
-  box-shadow: 0 0 0 5px rgba(255, 179, 81, 0.25);
+  padding: 0.4rem 1.25rem;
+  border-radius: 999px;
+  box-shadow: 0 10px 20px -8px rgba(255, 179, 81, 0.6);
 }
 
-.timeline__arrow {
-  flex: 0 0 auto;
-  width: 44px;
-  height: 44px;
+.timeline-v__line {
+  position: absolute;
+  left: 50%;
+  top: 4.5rem;
+  bottom: 0;
+  width: 3px;
+  background: var(--colab-accent);
+  opacity: 0.3;
+  transform: translateX(-50%);
+}
+
+.timeline-v__row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 48px 1fr;
+  align-items: start;
+  margin-bottom: 2.5rem;
+}
+.timeline-v__row:last-child { margin-bottom: 0; }
+
+.timeline-v__marker {
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.6rem;
+}
+.timeline-v__dot {
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
-  border: none;
-  background: var(--colab-navy);
-  color: #fff;
+  background: var(--colab-accent);
+  border: 4px solid #fff;
+  box-shadow: 0 0 0 3px var(--colab-accent);
+  flex-shrink: 0;
+}
+
+.timeline-v__card {
+  grid-column: 1;
+  background: #fff;
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  box-shadow: 0 15px 35px -20px rgba(30, 33, 48, 0.35);
+}
+.timeline-v__row--right .timeline-v__card { grid-column: 3; }
+
+.timeline-v__year-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--colab-accent-dark);
+  background: var(--colab-cream);
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+}
+
+.timeline-v__event + .timeline-v__event {
+  border-top: 1px solid rgba(30, 33, 48, 0.08);
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+}
+
+.timeline-v__event-toggle {
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
-  cursor: pointer;
-  transition: background 0.2s ease;
-}
-.timeline__arrow:hover { background: var(--colab-accent-dark); }
-
-.timeline__detail { position: relative; min-height: 170px; }
-.timeline__panel { display: none; }
-.timeline__panel.is-active {
-  display: block;
-  animation: timelineFadeIn 0.3s ease;
-}
-@keyframes timelineFadeIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.timeline__image {
+  justify-content: space-between;
+  gap: 0.75rem;
   width: 100%;
+  background: none;
+  border: none;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+}
+.timeline-v__event-title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--colab-text);
+  font-size: 1rem;
+}
+.timeline-v__event-icon {
+  flex-shrink: 0;
+  color: var(--colab-accent-dark);
+  transition: transform 0.2s ease;
+}
+.timeline-v__event.is-open .timeline-v__event-icon { transform: rotate(180deg); }
+
+.timeline-v__event-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.25s ease;
+}
+.timeline-v__event.is-open .timeline-v__event-body { grid-template-rows: 1fr; }
+.timeline-v__event-body-inner {
+  overflow: hidden;
+  padding-top: 0;
+}
+.timeline-v__event.is-open .timeline-v__event-body-inner { padding-top: 0.75rem; }
+
+.timeline-v__event-image {
+  width: 100%;
+  max-width: 220px;
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  border-radius: 1rem;
-  box-shadow: 0 15px 30px -15px rgba(30, 33, 48, 0.3);
+  border-radius: 0.85rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 10px 20px -12px rgba(30, 33, 48, 0.35);
 }
-.timeline__panel-year {
-  display: inline-block;
-  font-family: var(--font-heading);
-  font-weight: 700;
-  color: var(--colab-accent-dark);
-  font-size: 1.5rem;
-  margin-bottom: 0.3rem;
+.timeline-v__event-body p {
+  color: var(--colab-muted);
+  margin: 0;
+  font-size: 0.95rem;
 }
-.timeline__panel-title {
-  font-family: var(--font-heading);
-  font-weight: 700;
-  margin-bottom: 0.6rem;
-}
-.timeline__panel-description { color: var(--colab-text); margin: 0; }
 
 @media (max-width: 767.98px) {
-  .timeline__arrow { display: none; }
-  .timeline { padding: 0 0 2rem; }
+  .timeline-v__line { left: 13px; }
+  .timeline-v__row {
+    grid-template-columns: 26px 1fr;
+    gap: 0.75rem;
+    margin-bottom: 1.75rem;
+  }
+  .timeline-v__marker { grid-column: 1; padding-top: 1.4rem; }
+  .timeline-v__card,
+  .timeline-v__row--right .timeline-v__card { grid-column: 2; }
 }

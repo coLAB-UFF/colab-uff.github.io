@@ -1,32 +1,46 @@
 # Linha do Tempo do coLAB — página /sobre/ (_includes/timeline.html).
-# "events" é a lista de marcos, em ordem cronológica. Cada evento aceita:
-#   year        (obrigatório) — exibido no marcador da linha
-#   title       (opcional)    — título curto exibido no painel de detalhes
-#   description (obrigatório) — texto exibido no painel de detalhes
+# "years" é a lista de marcos, em ordem cronológica. Cada item representa
+# um ano e agrupa um ou mais "events" (para anos com vários acontecimentos,
+# como vários prêmios no mesmo ano). Cada evento aceita:
+#   title       (obrigatório) — título curto, sempre visível no card
+#   description (obrigatório) — texto exibido ao expandir o evento
 #   image       (opcional)    — caminho de uma imagem (ver assets/img/*)
 eyebrow: "Nossa trajetória"
 title: "Linha do tempo do coLAB"
-description: "Um panorama dos principais marcos da história do laboratório, desde a fundação até os dias de hoje. Clique em um ano da linha (ou arraste-a) para ver os detalhes de cada marco."
-events:
+description: "Um panorama dos principais marcos da história do laboratório, desde a fundação até os dias de hoje. Clique em um acontecimento para ler os detalhes."
+years:
   - year: 2010
-    title: "Fundação do coLAB"
-    description: "O Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB) é fundado em novembro, na Universidade Federal Fluminense, sob a liderança de Viktor Chagas."
+    events:
+      - title: "Fundação do coLAB"
+        description: "O Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB) é fundado em novembro, na Universidade Federal Fluminense, sob a liderança de Viktor Chagas."
   - year: 2012
-    title: "Prêmio Vasconcelos Torres de Iniciação Científica"
-    description: "Milena Pereira (PIBIC/CNPq) e Viktor Chagas (orientador) recebem o 2º lugar na categoria Ciências Sociais Aplicadas (UFF), pelo projeto \"O Estatuto da Colaboração: Apropriações da Web para Processos de Construção Coletiva de Narrativas\"."
+    events:
+      - title: "Prêmio Vasconcelos Torres de Iniciação Científica (UFF)"
+        description: "Milena Pereira (PIBIC/CNPq) e Viktor Chagas (orientador) recebem o 2º lugar na categoria Ciências Sociais Aplicadas, pelo projeto \"O Estatuto da Colaboração: Apropriações da Web para Processos de Construção Coletiva de Narrativas\"."
   - year: 2014
-    title: "Prêmio Adelmo Genro Filho de Pesquisa em Jornalismo"
-    description: "Viktor Chagas recebe o 1º lugar na categoria Melhor Tese de Doutorado (SBPJor), com a tese \"Extra! Extra! Os Jornaleiros e as Bancas de Jornais como Espaço de Disputas pelo Controle da Distribuição da Imprensa e da Economia Política dos Meios\"."
+    events:
+      - title: "Prêmio Adelmo Genro Filho de Pesquisa em Jornalismo (SBPJor)"
+        description: "Viktor Chagas recebe o 1º lugar na categoria Melhor Tese de Doutorado, com a tese \"Extra! Extra! Os Jornaleiros e as Bancas de Jornais como Espaço de Disputas pelo Controle da Distribuição da Imprensa e da Economia Política dos Meios\"."
+      - title: "Prêmio Semana de Iniciação Científica e Tecnológica/PIBITI-CNPq (UFF)"
+        description: "Luan Dutra (PIBITI/CNPq) e Viktor Chagas (orientador) recebem o 1º lugar na categoria Geral, pelo projeto \"Jogos de Cooperação: Dinâmicas de Conflito e Negociação em Materiais Educativos para Jovens em Idade Universitária\"."
+      - title: "XII Prêmio Josué de Castro de Extensão (UFF)"
+        description: "Janderson Pereira Santa Clara (bolsista extensão) e Viktor Chagas (orientador) recebem o 1º lugar na categoria Comunicação, pelo projeto \"Escritório de Big Data: Estudo e Aplicação de Análise de Big Data na Wikipédia\"."
+      - title: "Early-Stage Scholars Grant, Travel Grant (IAMCR)"
+        description: "Viktor Chagas é contemplado pelo projeto \"Overlapping Webs: An Analytical Model for Use in Works on the Political Economy of Printed Media\"."
   - year: 2015
-    title: "Criação do #MUSEUdeMEMES"
-    description: "Tem início o #MUSEUdeMEMES, projeto de extensão do coLAB dedicado à preservação e ao estudo da cultura de memes como patrimônio digital."
+    events:
+      - title: "Criação do #MUSEUdeMEMES"
+        description: "Tem início o #MUSEUdeMEMES, projeto de extensão do coLAB dedicado à preservação e ao estudo da cultura de memes como patrimônio digital."
   - year: 2016
-    title: "Prêmio Destaque na Iniciação Científica e Tecnológica"
-    description: "Luan Dutra (PIBITI/CNPq) e Viktor Chagas (orientador) recebem o 1º lugar na categoria Humanidades (CNPq), pelo projeto \"Jogos de Cooperação: Dinâmicas de Conflito e Negociação em Materiais Educativos para Jovens em Idade Universitária\"."
+    events:
+      - title: "Prêmio Destaque na Iniciação Científica e Tecnológica (CNPq)"
+        description: "Luan Dutra (PIBITI/CNPq) e Viktor Chagas (orientador) recebem o 1º lugar na categoria Humanidades, pelo projeto \"Jogos de Cooperação: Dinâmicas de Conflito e Negociação em Materiais Educativos para Jovens em Idade Universitária\"."
   - year: 2019
-    title: "Prêmio IX Semana de Iniciação Científica e Tecnológica/PIBITI-CNPq"
-    description: "Carlos Bonifácio (PIBINOVA/UFF) e Viktor Chagas (orientador) recebem o 3º lugar na categoria Ciências Humanas/Sociais/Linguística (UFF), pelo projeto \"Escritório Modelo de Memes\"."
+    events:
+      - title: "Prêmio IX Semana de Iniciação Científica e Tecnológica/PIBITI-CNPq (UFF)"
+        description: "Carlos Bonifácio (PIBINOVA/UFF) e Viktor Chagas (orientador) recebem o 3º lugar na categoria Ciências Humanas/Sociais/Linguística, pelo projeto \"Escritório Modelo de Memes\"."
   - year: 2021
-    title: "Criação do DDoS Lab"
-    description: "É criado o DDoS Lab, laboratório de combate à desinformação e ao discurso de ódio em sistemas de comunicação em rede, com apoio de emenda parlamentar e da Chamada Interna de Equipamentos do INCT.dd."
-    image: "/assets/img/projects/ddoslab-featured.png"
+    events:
+      - title: "Criação do DDoS Lab"
+        description: "É criado o DDoS Lab, laboratório de combate à desinformação e ao discurso de ódio em sistemas de comunicação em rede, com apoio de emenda parlamentar e da Chamada Interna de Equipamentos do INCT.dd."
+        image: "/assets/img/projects/ddoslab-featured.png"
