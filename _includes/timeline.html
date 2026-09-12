@@ -4,23 +4,23 @@
      mais de um acontecimento lista vários itens expansíveis dentro do
      mesmo card (clique no título revela a descrição/foto). Um selo
      flutuante mostra o ano em foco durante a rolagem.
-     Conteúdo 100% editável em _data/timeline.yml (eyebrow/title/description
-     + years: [{year, events: [{title, description, image}]}], "image" é
+     Conteúdo 100% editável em _data/timeline.yml (title/description +
+     years: [{year, events: [{title, description, image}]}], "image" é
      opcional por evento).
      Usada apenas em /sobre/ — ver _layouts/sobre.html (gated por
      page.timeline) para não aparecer também em /data/, que reusa o mesmo
      layout. Lógica de expandir/colapsar e do selo de ano em
      assets/js/main.js (initTimeline).
+     Título/descrição usam a classe "page" (mesma de _layouts/sobre.html)
+     para ficarem com o mesmo estilo de h3 e o mesmo recuo (max-width
+     780px, centralizado) dos demais headings da página (Premiações etc.).
      ========================================================================== -->
 {% assign tl = site.data.timeline %}
 <section class="timeline-section section-gap animate">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8">
-        <h2 class="eyebrow d-block"><span class="eyebrow-dash">—</span> {{ tl.eyebrow }}</h2>
-        <h3 class="display-6 mb-3">{{ tl.title }}</h3>
-        <p class="section__description mb-9">{{ tl.description }}</p>
-      </div>
+    <div class="page pb-0">
+      <h3>{{ tl.title }}</h3>
+      <p>{{ tl.description }}</p>
     </div>
 
     <div class="timeline-v" data-timeline>

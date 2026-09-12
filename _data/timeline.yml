@@ -5,7 +5,6 @@
 #   title       (obrigatório) — título curto, sempre visível no card
 #   description (obrigatório) — texto exibido ao expandir o evento
 #   image       (opcional)    — caminho de uma imagem (ver assets/img/*)
-eyebrow: "Nossa trajetória"
 title: "Linha do tempo do coLAB"
 description: "Um panorama dos principais marcos da história do laboratório, desde a fundação até os dias de hoje. Clique em um acontecimento para ler os detalhes."
 years:
