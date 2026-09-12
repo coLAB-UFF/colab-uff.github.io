@@ -61,3 +61,7 @@ layout: default
     {{ content }}
   </div>
 </div>
+
+{% if page.timeline %}
+{% include timeline.html %}
+{% endif %}

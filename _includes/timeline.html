@@ -1,0 +1,60 @@
+<!-- ==========================================================================
+     Linha do Tempo do coLAB — horizontal, arrastável (mouse/touch) e com
+     detalhes expandidos ao clicar em um ano. Conteúdo 100% editável em
+     _data/timeline.yml (eyebrow/title/description + events: [{year, title,
+     description, image}], "title" e "image" são opcionais por evento).
+     Usada apenas em /sobre/ — ver _layouts/sobre.html (gated por page.timeline)
+     para não aparecer também em /data/, que reusa o mesmo layout.
+     Lógica de arrastar/paginar em assets/js/main.js (initTimeline).
+     ========================================================================== -->
+{% assign tl = site.data.timeline %}
+<section class="timeline-section section-gap animate">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <h2 class="eyebrow d-block"><span class="eyebrow-dash">—</span> {{ tl.eyebrow }}</h2>
+        <h3 class="display-6 mb-3">{{ tl.title }}</h3>
+        <p class="section__description mb-9">{{ tl.description }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline" data-timeline>
+    <button type="button" class="timeline__arrow timeline__arrow--prev" data-timeline-prev aria-label="Ver marco anterior">
+      <i class="uil uil-arrow-left"></i>
+    </button>
+    <div class="timeline__track" data-timeline-track>
+      <div class="timeline__line"></div>
+      {% for event in tl.events %}
+      <button type="button" class="timeline__node{% if forloop.first %} is-active{% endif %}" data-timeline-node data-index="{{ forloop.index0 }}">
+        <span class="timeline__year">{{ event.year }}</span>
+        <span class="timeline__dot"></span>
+      </button>
+      {% endfor %}
+    </div>
+    <button type="button" class="timeline__arrow timeline__arrow--next" data-timeline-next aria-label="Ver próximo marco">
+      <i class="uil uil-arrow-right"></i>
+    </button>
+  </div>
+
+  <div class="container">
+    <div class="timeline__detail" data-timeline-detail>
+      {% for event in tl.events %}
+      <div class="timeline__panel{% if forloop.first %} is-active{% endif %}" data-timeline-panel data-index="{{ forloop.index0 }}">
+        <div class="row align-items-center gy-4">
+          {% if event.image %}
+          <div class="col-md-4">
+            <img src="{{ event.image | relative_url }}" alt="{{ event.title | default: event.year }}" class="timeline__image">
+          </div>
+          {% endif %}
+          <div class="{% if event.image %}col-md-8{% else %}col-12{% endif %}">
+            <span class="timeline__panel-year">{{ event.year }}</span>
+            {% if event.title %}<h4 class="timeline__panel-title">{{ event.title }}</h4>{% endif %}
+            <p class="timeline__panel-description">{{ event.description }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
