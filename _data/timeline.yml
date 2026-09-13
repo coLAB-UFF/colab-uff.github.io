@@ -12,10 +12,24 @@ years:
     events:
       - title: "Fundação do coLAB"
         description: "O Laboratório de Pesquisa em Comunicação, Culturas Políticas e Economia da Colaboração (coLAB) é fundado em novembro, na Universidade Federal Fluminense, sob a liderança de Viktor Chagas."
+  - year: 2011
+    events:
+      - title: "Criação do Polo de Produção e Pesquisa Aplicada em Jogos Eletrônicos e Redes Colaborativas (P3)"
+        description: "O programa de extensão P3 congregava atividades extensionistas dos grupos de pesquisa coLAB (sob coordenação de Viktor Chagas) e Media Ludens (sob coordenação de Emmanoel Ferreira), entre elas um cineclube e um conjunto de workshops relacionados à cultura digital."
+      - title: "Primeiro trabalho de conclusão de curso sobre memes"
+        description: "Ainda antes do surgimento de outras atividades de pesquisa e extensão associadas ao tema, Tsai Yi Jing defende o seu TCC na graduação em Estudos de Mídia, sob a orientação de Viktor Chagas."
   - year: 2012
     events:
       - title: "Prêmio Vasconcelos Torres de Iniciação Científica (UFF)"
         description: "Milena Pereira (PIBIC/CNPq) e Viktor Chagas (orientador) recebem o 2º lugar na categoria Ciências Sociais Aplicadas, pelo projeto \"O Estatuto da Colaboração: Apropriações da Web para Processos de Construção Coletiva de Narrativas\"."
+      - title: "Primeiro #memeclube"
+        description: "Em junho de 2012, surge o #memeclube, um misto entre um cineclube e um seminário acadêmico, apresentando uma curadoria temática e pequenos núcleos expográficos sobre a memesfera brasileira. Na estreia, o evento foi organizado a partir de um debate sobre o gênero LOLcat e a comunidade produtora de memes em torno do tema."
+  - year: 2013
+    events:
+      - title: "Novo projeto de extensão!"
+        description: "O #MUSEUdeMEMES surge como projeto extensionista, ainda sem uma plataforma ou um acervo constituído."
+      - title: "Programa Wikipédia na Universidade"
+        description: "O coLAB passa a integrar o Programa Wikipédia na Universidade, em que alunos e professores se reúnem para criar conteúdo para a Wikipédia."
   - year: 2014
     events:
       - title: "Prêmio Adelmo Genro Filho de Pesquisa em Jornalismo (SBPJor)"
@@ -26,6 +40,10 @@ years:
         description: "Janderson Pereira Santa Clara (bolsista extensão) e Viktor Chagas (orientador) recebem o 1º lugar na categoria Comunicação, pelo projeto \"Escritório de Big Data: Estudo e Aplicação de Análise de Big Data na Wikipédia\"."
       - title: "Early-Stage Scholars Grant, Travel Grant (IAMCR)"
         description: "Viktor Chagas é contemplado pelo projeto \"Overlapping Webs: An Analytical Model for Use in Works on the Political Economy of Printed Media\"."
+      - title: "Projeto Escritório de Big Data"
+        description: "Um novo projeto de extensão é criado, ainda no escopo do Polo de Produção e Pesquisa Aplicada em Jogos Eletrônicos e Redes Colaborativas (P3). O projeto tinha como objetivo constituir uma agência de inovação e inteligência digital, que mais tarde viria a se tornar o Escritório-Modelo de Memes."
+      - title: "Primeiros estudos sobre memes e eleições"
+        description: "Pesquisadores do coLAB desenvolvem seus primeiros estudos sobre memes e eleições. Resultados preliminares são apresentados no ano seguinte na Compolítica, e, mais adiante, em outros congressos da área."
   - year: 2015
     events:
       - title: "Criação do #MUSEUdeMEMES"
@@ -34,10 +52,20 @@ years:
     events:
       - title: "Prêmio Destaque na Iniciação Científica e Tecnológica (CNPq)"
         description: "Luan Dutra (PIBITI/CNPq) e Viktor Chagas (orientador) recebem o 1º lugar na categoria Humanidades, pelo projeto \"Jogos de Cooperação: Dinâmicas de Conflito e Negociação em Materiais Educativos para Jovens em Idade Universitária\"."
+      - title: "Dissertação de Mestrado"
+        description: "Fernanda Freire defende sua dissertação sobre os memes das eleições de 2014 e o caso Eduardo Jorge, sob orientação de Alessandra Aldé (Uerj) e co-orientação de Viktor Chagas."
+      - title: "Exposição virtual \"As Olimpíadas dos Memes\""
+        description: "Com apoio da Fundação Casa Rui Barbosa e da Fundação Getulio Vargas, e como parte integrante do projeto \"Preservação da Memória das Olimpíadas: processos e ações\", é inaugurada a exposição virtual \"As Olimpíadas dos Memes\", com curadoria do #MUSEUdeMEMES."
+  - year: 2018
+    events:
+      - title: "O coLAB se associa ao INCT.DD"
+        description: "Como decorrência das atividades realizadas durante o estágio pós-doutoral de Viktor Chagas sob a supervisão do professor Wilson Gomes, na Universidade Federal da Bahia, o coLAB passa a se associar ao Instituto Nacional de Ciência e Tecnologia em Democracia Digital, sediado em Salvador, BA."
   - year: 2019
     events:
       - title: "Prêmio IX Semana de Iniciação Científica e Tecnológica/PIBITI-CNPq (UFF)"
         description: "Carlos Bonifácio (PIBINOVA/UFF) e Viktor Chagas (orientador) recebem o 3º lugar na categoria Ciências Humanas/Sociais/Linguística, pelo projeto \"Escritório Modelo de Memes\"."
+      - title: "Simpósio+Exposição #MUSEUdeMEMES"
+        description: "Em maio, o coLAB realiza um simpósio internacional conjugado ao lançamento da exposição \"A política dos memes e os memes da política\", que recebeu milhares de visitantes no Palácio do Catete, Museu da República. O simpósio contou com a participação de cerca de 200 pesquisadores de todo o Brasil e convidados internacionais, como Whitney Phillips (Syracuse University) e Ryan Milner (College of Charleston)."
   - year: 2021
     events:
       - title: "Criação do DDoS Lab"
