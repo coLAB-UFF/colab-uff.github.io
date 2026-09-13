@@ -56,6 +56,8 @@ years:
         description: "Fernanda Freire defende sua dissertação sobre os memes das eleições de 2014 e o caso Eduardo Jorge, sob orientação de Alessandra Aldé (Uerj) e co-orientação de Viktor Chagas."
       - title: "Exposição virtual \"As Olimpíadas dos Memes\""
         description: "Com apoio da Fundação Casa Rui Barbosa e da Fundação Getulio Vargas, e como parte integrante do projeto \"Preservação da Memória das Olimpíadas: processos e ações\", é inaugurada a exposição virtual \"As Olimpíadas dos Memes\", com curadoria do #MUSEUdeMEMES."
+      - title: "Escritório-Modelo de Memes"
+        description: "O projeto Escritório de Big Data é convertido em Escritório-Modelo de Memes, uma agência de inovação e inteligência digital voltada ao estudo da memesfera e com olhar sobre a atuação de influenciadores digitais, ações coordenadas e mais."
   - year: 2018
     events:
       - title: "O coLAB se associa ao INCT.DD"
@@ -66,8 +68,30 @@ years:
         description: "Carlos Bonifácio (PIBINOVA/UFF) e Viktor Chagas (orientador) recebem o 3º lugar na categoria Ciências Humanas/Sociais/Linguística, pelo projeto \"Escritório Modelo de Memes\"."
       - title: "Simpósio+Exposição #MUSEUdeMEMES"
         description: "Em maio, o coLAB realiza um simpósio internacional conjugado ao lançamento da exposição \"A política dos memes e os memes da política\", que recebeu milhares de visitantes no Palácio do Catete, Museu da República. O simpósio contou com a participação de cerca de 200 pesquisadores de todo o Brasil e convidados internacionais, como Whitney Phillips (Syracuse University) e Ryan Milner (College of Charleston)."
+      - title: "O #MUSEUdeMEMES ganha cara nova"
+        description: "Um novo site é desenvolvido para hospedar o projeto #MUSEUdeMEMES."
+      - title: "Compolítica"
+        description: "O professor Viktor Chagas assume a secretaria executiva da Associação Brasileira de Pesquisadores de Comunicação e Política (Compolítica) na gestão 2019-2021, ao lado dos colegas Rafael Cardoso Sampaio (presidente) e Rayza Sarmento (vice)."
+  - year: 2020
+    events:
+      - title: "Livro A Cultura dos Memes (Edufba)"
+        description: "Viktor Chagas organiza a primeira coletânea a enfatizar a cultura dos memes no Brasil, com textos traduzidos e inéditos predominantemente de autores internacionais."
   - year: 2021
     events:
       - title: "Criação do DDoS Lab"
         description: "É criado o DDoS Lab, laboratório de combate à desinformação e ao discurso de ódio em sistemas de comunicação em rede, com apoio de emenda parlamentar e da Chamada Interna de Equipamentos do INCT.dd."
         image: "/assets/img/projects/ddoslab-featured.png"
+  - year: 2024
+    events:
+      - title: "Livro A Cultura dos Memes no Brasil (Edufba)"
+        description: "Segundo volume da coletânea A Cultura dos Memes, agora com foco em casos brasileiros, e predominantemente com textos de autores nacionais, é lançado, também sob organização de Viktor Chagas."
+      - title: "Inauguração do DADOS"
+        description: "O laboratório DADOS, sede física do coLAB (e também do MiDICom, outro grupo associado ao PPGCOM UFF), no Instituto de Arte e Comunicação Social, é inaugurado."
+  - year: 2025
+    events:
+      - title: "Exposição MEME: No Br@sil da Memeficação"
+        description: "A exposição MEME: No Br@sil da Memeficação, com curadoria de Clarissa Diniz e Ismael Monticelli, estreia no Centro Cultural Banco do Brasil São Paulo (CCBB-SP). No mesmo ano, ela cumpre itinerância em Brasília, e, em seguida, em Belo Horizonte e Rio de Janeiro, já em 2026. O #MUSEUdeMEMES e o coLAB participam como curadores convidados de um dos núcleos da exposição, realizando entrevistas com humoristas, comediantes, influenciadores digitais e memeiros."
+  - year: 2026
+    events:
+      - title: "36th International Society for Humor Studies Conference (ISHS)"
+        description: "Em julho, a 36ª edição anual da mais longeva e importante conferência de estudos do humor é realizada pela primeira vez no Sul Global e na América Latina, em Niterói, na Universidade Federal Fluminense. O coLAB é o anfitrião do congresso, que contou com a participação de 200 participantes de 35 países diferentes, 166 trabalhos apresentados, divididos em 56 sessões. Ao todo, foram 13 convidados nacionais e internacionais, incluindo Raúl Pérez (La Verne University), Héctor Fernández L'Hoeste (Georgia State University), Daniel Kupermann (USP), Helen Fernandes (Malfeitona), e as atrizes do Porta dos Fundos Clarice Falcão, Adriana Falcão, Dida Camero e Bella Camera, entre outros."
