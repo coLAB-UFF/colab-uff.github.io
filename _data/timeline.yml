@@ -46,8 +46,8 @@ years:
         description: "Pesquisadores do coLAB desenvolvem seus primeiros estudos sobre memes e eleições. Resultados preliminares são apresentados no ano seguinte na Compolítica, e, mais adiante, em outros congressos da área."
   - year: 2015
     events:
-      - title: "Criação do #MUSEUdeMEMES"
-        description: "Tem início o #MUSEUdeMEMES, projeto de extensão do coLAB dedicado à preservação e ao estudo da cultura de memes como patrimônio digital."
+      - title: "Lançamento do #MUSEUdeMEMES"
+        description: "O #MUSEUdeMEMES é inaugurado em junho de 2015, após anos de pesquisa e desenvolvimento. O projeto de extensão é, desde a sua origem, dedicado à preservação e ao estudo da cultura de memes como patrimônio digital."
   - year: 2016
     events:
       - title: "Prêmio Destaque na Iniciação Científica e Tecnológica (CNPq)"
@@ -79,7 +79,7 @@ years:
   - year: 2021
     events:
       - title: "Criação do DDoS Lab"
-        description: "É criado o DDoS Lab, laboratório de combate à desinformação e ao discurso de ódio em sistemas de comunicação em rede, com apoio de emenda parlamentar e da Chamada Interna de Equipamentos do INCT.dd."
+        description: "O coLAB inaugura um novo projeto de agência de inovação e inteligência digital, para servir como um laboratório de combate à desinformação e ao discurso de ódio em sistemas de comunicação em rede. O DDoS Lab incorpora e rebatiza o antigo projeto Escritório-Modelo de Memes, que, por sua vez, é fruto de acúmulo de experiências do Escritório de Big Data. O DDoS Lab recebe apoio de emenda parlamentar do então deputado federal Alessandro Molon (PSB-RJ) e de chamada interna de equipamentos do INCT.DD. Os recursos dão origem às instalações laboratoriais do DADOS, espaço físico que atualmente sedia o coLAB, e oportunizam a publicação de uma série de relatórios de pesquisa com análises de conjuntura sobre temas concernentes ao escopo do grupo."
         image: "/assets/img/projects/ddoslab-featured.png"
   - year: 2024
     events:
