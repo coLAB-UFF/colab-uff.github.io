@@ -1,5 +1,5 @@
 ---
-title: "Aplicativos coLAB"
+title: "Apps do coLAB"
 category: "Inovação Tecnológica"
 excerpt: >
   Família de aplicativos leves, desenvolvidos pelo coLAB/UFF, para apoiar a
@@ -14,4 +14,4 @@ equipe: "Viktor Chagas e Arthur Araujo"
 
 O coLAB desenvolve um conjunto de aplicativos leves, voltados à gestão do próprio laboratório, todos com dados armazenados diretamente em repositórios privados do GitHub — sem depender de servidores ou bancos de dados externos. A família reúne, atualmente, o SucupiraLAB (gestão acadêmica), o pqLAB (rotinas de pesquisa), o xoxoLAB e o KrippLAB (gestão editorial colaborativa) e o CodLAB (codificação manual para análise de conteúdo).
 
-<p><a href="/apps/" class="btn-lab">Ver todos os Apps</a></p>
+[Ver todos os Apps do coLAB](/apps/)
