@@ -19,7 +19,7 @@ config:
   # "random"       -> ordem embaralhada a cada carregamento da página.
   # Em qualquer modo, os perfis com "featured: true" sempre aparecem
   # primeiro (realçados), na ordem em que estão em "members".
-  order: "manual"
+  order: "alphabetical"
 
 intro:
   eyebrow: "Quem Somos"
