@@ -9,6 +9,8 @@ layout: default
        title        (obrigatório)
        excerpt      (obrigatório) — resumo curto, usado aqui e no card da listagem
        order        (obrigatório) — ordem de exibição na listagem
+       image        (opcional) — imagem featured, exibida no hero (mesma
+                                  estrutura .work-head de _layouts/projeto.html)
        demo_url     (opcional) — botão "Demo {title}"
        install_url  (opcional) — botão "Instalar {title}" (normalmente o repo GitHub)
        access_url   (opcional) — botão único "Acesse o {title}", para apps sem
@@ -17,24 +19,42 @@ layout: default
      O corpo do arquivo (Créditos, Como citar este aplicativo) segue o mesmo
      padrão já usado em _projects/apps-colab.md.
      ========================================================================== -->
-<div class="page-section-head container">
-  <h1 class="page-title">{{ page.title }}</h1>
-  <p class="page-description">{{ page.excerpt }}</p>
+<div class="work-head">
+  <div class="container">
+    <div class="row">
+      {% if page.image %}
+      <div class="col-12 col-lg-5">
+        <div class="work-head__left">
+          <div class="work-head__image">
+            <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      <div class="col-12 {% if page.image %}col-lg-7{% endif %}">
+        <div class="work-head__right">
+          <h1 class="page-title">{{ page.title }}</h1>
+          <p class="page-description">{{ page.excerpt }}</p>
+
+          <div class="lab-actions d-flex flex-wrap align-items-center gap-3 mt-4">
+            {% if page.demo_url %}<a href="{{ page.demo_url }}" class="btn-lab" target="_blank" rel="noopener">Demo {{ page.title }}</a>{% endif %}
+            {% if page.install_url %}<a href="{{ page.install_url }}" class="btn-lab" target="_blank" rel="noopener">Instalar {{ page.title }}</a>{% endif %}
+            {% if page.access_url %}<a href="{{ page.access_url }}" class="btn-lab" target="_blank" rel="noopener">Acesse o {{ page.title }}</a>{% endif %}
+            {% if page.doi %}
+            <a href="https://doi.org/{{ page.doi }}" class="doi-pill" target="_blank" rel="noopener">
+              <span class="doi-pill__label">DOI</span>
+              <span class="doi-pill__value">{{ page.doi }}</span>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="container animate">
-  <div class="lab-actions d-flex flex-wrap align-items-center gap-3 mb-4">
-    {% if page.demo_url %}<a href="{{ page.demo_url }}" class="btn-lab" target="_blank" rel="noopener">Demo {{ page.title }}</a>{% endif %}
-    {% if page.install_url %}<a href="{{ page.install_url }}" class="btn-lab" target="_blank" rel="noopener">Instalar {{ page.title }}</a>{% endif %}
-    {% if page.access_url %}<a href="{{ page.access_url }}" class="btn-lab" target="_blank" rel="noopener">Acesse o {{ page.title }}</a>{% endif %}
-    {% if page.doi %}
-    <a href="https://doi.org/{{ page.doi }}" class="doi-pill" target="_blank" rel="noopener">
-      <span class="doi-pill__label">DOI</span>
-      <span class="doi-pill__value">{{ page.doi }}</span>
-    </a>
-    {% endif %}
-  </div>
-
   <div class="page">
     {{ content }}
   </div>
