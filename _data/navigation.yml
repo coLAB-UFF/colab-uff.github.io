@@ -12,10 +12,12 @@ main:
     url: "/projetos/"
   - text: "Publicações"
     url: "/publicacoes/"
-  - text: "Clipping"
-    url: "/clipping/"
   - text: "Dados Abertos"
     url: "/data/"
+  - text: "Apps"
+    url: "/apps/"
+  - text: "Clipping"
+    url: "/clipping/"
 
 # Links rápidos exibidos no rodapé.
 footer_links:

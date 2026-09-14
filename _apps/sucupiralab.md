@@ -7,6 +7,7 @@ order: 1
 demo_url: "https://sucupiralab.ombudsmanviktor.me/"
 install_url: "https://github.com/ombudsmanviktor/sucupiralab"
 doi: "10.0000/PENDENTE"
+image: "/assets/img/apps/sucupiralab-featured.png"
 ---
 
 ### Créditos

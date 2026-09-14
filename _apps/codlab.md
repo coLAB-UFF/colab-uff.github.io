@@ -4,6 +4,7 @@ excerpt: >
   Ferramenta de codificação manual para análise de conteúdo.
 order: 5
 access_url: "https://colab.meme/codlab/"
+image: "/assets/img/apps/codlab-featured.png"
 ---
 
 ### Créditos

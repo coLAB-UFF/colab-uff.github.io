@@ -21,6 +21,9 @@
      endpoint/planilha, via assets/js/newsletter.js (liga em qualquer
      ".hero__form" da página, sem JS extra). Omitir para não exibir o form
      (padrão em todas as páginas list que já usam este include).
+     "single_image"/"single_image_alt" exibe uma única imagem na coluna
+     direita (ex.: banner de divulgação), em vez da grade de 3 colunas de
+     "images" — usar um ou outro, nunca os dois (ver /apps/, /lab/).
      ========================================================================== -->
 <section class="hero hero--page">
   <div class="container">
@@ -52,6 +55,12 @@
           <div class="hero-images__col3">
             <img src="{{ include.images.col3.src | relative_url }}" alt="{{ include.images.col3.alt }}">
           </div>
+        </div>
+      </div>
+      {% elsif include.single_image %}
+      <div class="col-lg-6">
+        <div class="hero-images hero-images--single">
+          <img src="{{ include.single_image | relative_url }}" alt="{{ include.single_image_alt }}">
         </div>
       </div>
       {% endif %}

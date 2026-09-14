@@ -298,6 +298,16 @@ footer.bg-navy .newsletter-form__message.is-error {
 .hero-images__col2 img:last-child { height: 215px; }
 .hero-images__col3 img { height: 100%; }
 
+.hero-images--single {
+  display: block;
+  height: auto;
+}
+.hero-images--single img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+}
+
 @media (max-width: 991.98px) {
   .hero-images { display: none; }
 }
@@ -977,7 +987,7 @@ footer.bg-navy .logo-mark {
 }
 
 /* Botões de ação dos Aplicativos coLAB (Demo/Instalar/Acesse em
-   _projects/projeto-labs.md) — cantos na mesma proporção do .doi-pill
+   _projects/apps-colab.md) — cantos na mesma proporção do .doi-pill
    (8px), fundo âmbar, texto branco, preto ao pressionar. */
 .btn-lab {
   display: inline-flex;
@@ -1009,7 +1019,7 @@ footer.bg-navy .logo-mark {
 
 /* .doi-pill tem margem vertical própria (pensada para uso solto no corpo
    do texto); zerada aqui para alinhar com os .btn-lab na mesma linha
-   (ver _projects/projeto-labs.md). */
+   (ver _projects/apps-colab.md). */
 .lab-actions .doi-pill {
   margin: 0;
 }
@@ -1794,8 +1804,22 @@ footer.bg-navy .logo-mark {
   flex-direction: column;
   background: #fff;
   border-radius: 1.25rem;
-  padding: 1.75rem;
+  overflow: hidden;
   box-shadow: 0 15px 35px -20px rgba(30, 33, 48, 0.35);
+}
+.app-card__image { display: block; }
+.app-card__image img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.app-card__image:hover img { transform: scale(1.05); }
+.app-card__body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 1.75rem;
 }
 .app-card__title {
   font-family: var(--font-heading);

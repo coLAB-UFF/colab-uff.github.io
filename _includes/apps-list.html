@@ -9,9 +9,16 @@
     {% for app in apps %}
     <div class="col-12 col-md-6 col-lg-4">
       <article class="app-card">
-        <h3 class="app-card__title"><a href="{{ app.url | relative_url }}">{{ app.title }}</a></h3>
-        <p class="app-card__excerpt">{{ app.excerpt }}</p>
-        <a href="{{ app.url | relative_url }}" class="btn-lab">Ver detalhes</a>
+        {% if app.image %}
+        <a href="{{ app.url | relative_url }}" class="app-card__image">
+          <img src="{{ app.image | relative_url }}" alt="{{ app.title }}">
+        </a>
+        {% endif %}
+        <div class="app-card__body">
+          <h3 class="app-card__title"><a href="{{ app.url | relative_url }}">{{ app.title }}</a></h3>
+          <p class="app-card__excerpt">{{ app.excerpt }}</p>
+          <a href="{{ app.url | relative_url }}" class="btn-lab">Ver detalhes</a>
+        </div>
       </article>
     </div>
     {% endfor %}
