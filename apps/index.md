@@ -11,14 +11,24 @@ hero_description: >
   inteligência artificial, para facilitar tarefas de pesquisa, gestão
   acadêmica, gestão de mídias sociais, e outras atividades da rotina
   investigativa, todas disponibilizadas livremente a interessados.
-hero_image: "/assets/img/apps/apps-featured.png"
+hero_images:
+  col1:
+    src: "/assets/img/apps/kripplab-featured.png"
+    alt: "KrippLAB — confiabilidade entre codificadores"
+  col2:
+    - src: "/assets/img/apps/sucupiralab-featured.png"
+      alt: "SucupiraLAB — gestão acadêmica"
+    - src: "/assets/img/apps/codlab-featured.png"
+      alt: "CodLAB — codificação manual para análise de conteúdo"
+  col3:
+    src: "/assets/img/apps/apps-featured.png"
+    alt: "Aplicativos coLAB"
 ---
 {% include page-hero.html
    eyebrow=page.hero_eyebrow
    title=page.hero_title
    description=page.hero_description
-   single_image=page.hero_image
-   single_image_alt="Aplicativos coLAB"
+   images=page.hero_images
    newsletter_label=site.data.hero.newsletter_label
    newsletter_placeholder=site.data.hero.form.placeholder
    newsletter_button=site.data.hero.form.button_text
