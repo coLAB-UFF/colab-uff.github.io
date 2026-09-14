@@ -982,13 +982,17 @@ footer.bg-navy .logo-mark {
 .btn-lab {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 2.5875rem;
   background-color: var(--colab-accent);
   color: #fff;
   border-radius: 8px;
-  padding: 0.55rem 1rem;
+  padding: 0 1rem;
   font-family: var(--font-heading);
   font-weight: 600;
   font-size: 0.85rem;
+  line-height: 1;
   transition: background-color 0.2s ease;
 }
 .btn-lab:hover { background-color: var(--colab-accent-dark); color: #fff; }
@@ -997,6 +1001,7 @@ footer.bg-navy .logo-mark {
   font-family: "FontAwesome";
   content: "\f08e";
   display: inline-block;
+  line-height: 1;
   margin-left: 0.4em;
   font-weight: normal;
   font-size: 0.8em;
