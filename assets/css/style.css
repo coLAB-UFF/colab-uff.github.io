@@ -956,22 +956,48 @@ footer.bg-navy .logo-mark {
 }
 /* Links no corpo do texto (Markdown) e nos metadados (.work-meta, ex.: o
    "Líder" da página /sobre/ linkando para o integrante) — exclui
-   .doi-pill/.orcid-icon, que já têm estilo próprio de pílula/ícone. */
-.page a:not(.doi-pill):not(.orcid-icon),
-.work-meta a:not(.doi-pill):not(.orcid-icon) {
+   .doi-pill/.orcid-icon/.btn-lab, que já têm estilo próprio de pílula/ícone/botão. */
+.page a:not(.doi-pill):not(.orcid-icon):not(.btn-lab),
+.work-meta a:not(.doi-pill):not(.orcid-icon):not(.btn-lab) {
   color: var(--colab-accent);
   font-weight: 600;
 }
-.page a:not(.doi-pill):not(.orcid-icon):hover,
-.work-meta a:not(.doi-pill):not(.orcid-icon):hover {
+.page a:not(.doi-pill):not(.orcid-icon):not(.btn-lab):hover,
+.work-meta a:not(.doi-pill):not(.orcid-icon):not(.btn-lab):hover {
   color: var(--colab-accent-dark);
 }
-.page a:not(.doi-pill):not(.orcid-icon)::after,
-.work-meta a:not(.doi-pill):not(.orcid-icon)::after {
+.page a:not(.doi-pill):not(.orcid-icon):not(.btn-lab)::after,
+.work-meta a:not(.doi-pill):not(.orcid-icon):not(.btn-lab)::after {
   font-family: "FontAwesome";
   content: "\f08e";
   display: inline-block;
   margin-left: 0.35em;
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+/* Botões de ação dos Aplicativos coLAB (Demo/Instalar/Acesse em
+   _projects/projeto-labs.md) — cantos na mesma proporção do .doi-pill
+   (8px), fundo âmbar, texto branco, preto ao pressionar. */
+.btn-lab {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--colab-accent);
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.55rem 1rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease;
+}
+.btn-lab:hover { background-color: var(--colab-accent-dark); color: #fff; }
+.btn-lab:active { background-color: #000; color: #fff; }
+.btn-lab::after {
+  font-family: "FontAwesome";
+  content: "\f08e";
+  display: inline-block;
+  margin-left: 0.4em;
   font-weight: normal;
   font-size: 0.8em;
 }
