@@ -19,13 +19,5 @@ Realização: coLAB/UFF
 ### Como citar este aplicativo
 
 ```
-CHAGAS, V. KrippLAB (Software). Niterói: coLAB/UFF, 2026.
+CHAGAS, V. KrippLAB (Software). Niterói: coLAB/UFF, 2026. {% if page.doi and page.doi != "10.0000/PENDENTE" %}DOI: https://doi.org/{{ page.doi }}.{% elsif page.demo_url %}Disponível em: {{ page.demo_url }}.{% elsif page.access_url %}Disponível em: {{ page.access_url }}.{% endif %}
 ```
-
-{% if page.doi and page.doi != "10.0000/PENDENTE" %}
-Link: [https://doi.org/{{ page.doi }}](https://doi.org/{{ page.doi }})
-{% elsif page.demo_url %}
-Link: [{{ page.demo_url }}]({{ page.demo_url }})
-{% elsif page.access_url %}
-Link: [{{ page.access_url }}]({{ page.access_url }})
-{% endif %}
