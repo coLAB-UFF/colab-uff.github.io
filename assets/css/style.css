@@ -1007,6 +1007,13 @@ footer.bg-navy .logo-mark {
   font-size: 0.8em;
 }
 
+/* .doi-pill tem margem vertical própria (pensada para uso solto no corpo
+   do texto); zerada aqui para alinhar com os .btn-lab na mesma linha
+   (ver _projects/projeto-labs.md). */
+.lab-actions .doi-pill {
+  margin: 0;
+}
+
 /* Botão de destaque dentro do corpo do texto (ex.: "Ler o estudo completo") */
 .btn-report {
   display: inline-block;
