@@ -9,6 +9,7 @@ year: 2026
 demo_url: "https://pqlab.ombudsmanviktor.me/"
 install_url: "https://github.com/ombudsmanviktor/pqlab"
 doi: "10.0000/PENDENTE"
+image: "/assets/img/apps/pqlab-featured.png"
 ---
 
 ### Créditos

@@ -9,6 +9,7 @@ year: 2026
 demo_url: "https://xoxolab.ombudsmanviktor.me/"
 install_url: "https://github.com/ombudsmanviktor/xoxolab"
 doi: "10.0000/PENDENTE"
+image: "/assets/img/apps/xoxolab-featured.png"
 ---
 
 ### Créditos
