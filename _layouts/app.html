@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<!-- ==========================================================================
+     Página single de App (coleção _apps) — usada pelos Aplicativos coLAB
+     (SucupiraLAB, pqLAB, xoxoLAB, KrippLAB, CodLAB), listados em /apps/
+     (espelhada em /lab/, ver _includes/apps-list.html).
+     Front matter de cada app (_apps/*.md):
+       title        (obrigatório)
+       excerpt      (obrigatório) — resumo curto, usado aqui e no card da listagem
+       order        (obrigatório) — ordem de exibição na listagem
+       demo_url     (opcional) — botão "Demo {title}"
+       install_url  (opcional) — botão "Instalar {title}" (normalmente o repo GitHub)
+       access_url   (opcional) — botão único "Acesse o {title}", para apps sem
+                                  demo/instalação separados (ex.: KrippLAB, CodLAB)
+       doi          (opcional) — exibe o .doi-pill
+     O corpo do arquivo (Créditos, Como citar este aplicativo) segue o mesmo
+     padrão já usado em _projects/projeto-labs.md.
+     ========================================================================== -->
+<div class="page-section-head container">
+  <h1 class="page-title">{{ page.title }}</h1>
+  <p class="page-description">{{ page.excerpt }}</p>
+</div>
+
+<div class="container animate">
+  <div class="lab-actions d-flex flex-wrap align-items-center gap-3 mb-4">
+    {% if page.demo_url %}<a href="{{ page.demo_url }}" class="btn-lab" target="_blank" rel="noopener">Demo {{ page.title }}</a>{% endif %}
+    {% if page.install_url %}<a href="{{ page.install_url }}" class="btn-lab" target="_blank" rel="noopener">Instalar {{ page.title }}</a>{% endif %}
+    {% if page.access_url %}<a href="{{ page.access_url }}" class="btn-lab" target="_blank" rel="noopener">Acesse o {{ page.title }}</a>{% endif %}
+    {% if page.doi %}
+    <a href="https://doi.org/{{ page.doi }}" class="doi-pill" target="_blank" rel="noopener">
+      <span class="doi-pill__label">DOI</span>
+      <span class="doi-pill__value">{{ page.doi }}</span>
+    </a>
+    {% endif %}
+  </div>
+
+  <div class="page">
+    {{ content }}
+  </div>
+</div>

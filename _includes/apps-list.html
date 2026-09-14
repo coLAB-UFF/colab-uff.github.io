@@ -1,0 +1,19 @@
+<!-- ==========================================================================
+     Listagem dos Apps coLAB — usada em /apps/ e /lab/ (páginas espelhadas,
+     ver apps/index.md e lab/index.md). Lista dinâmica: cada arquivo da
+     coleção _apps vira um card, ordenado pelo campo "order" no front matter.
+     ========================================================================== -->
+{% assign apps = site.apps | sort: "order" %}
+<div class="container animate">
+  <div class="row gy-4 pb-5">
+    {% for app in apps %}
+    <div class="col-12 col-md-6 col-lg-4">
+      <article class="app-card">
+        <h3 class="app-card__title"><a href="{{ app.url | relative_url }}">{{ app.title }}</a></h3>
+        <p class="app-card__excerpt">{{ app.excerpt }}</p>
+        <a href="{{ app.url | relative_url }}" class="btn-lab">Ver detalhes</a>
+      </article>
+    </div>
+    {% endfor %}
+  </div>
+</div>

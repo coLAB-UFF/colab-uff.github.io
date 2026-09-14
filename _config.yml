@@ -35,6 +35,9 @@ collections:
   integrantes:
     output: true
     permalink: /integrantes/:path/
+  apps:
+    output: true
+    permalink: /apps/:path/
 
 defaults:
   - scope:
@@ -52,6 +55,11 @@ defaults:
       type: "integrantes"
     values:
       layout: integrante
+  - scope:
+      path: ""
+      type: "apps"
+    values:
+      layout: app
 
 exclude:
   - Gemfile
