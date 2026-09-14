@@ -42,7 +42,8 @@ layout: default
     {{ content }}
 
     {% if page.doi %}
-    <a href="https://doi.org/{{ page.doi }}" class="doi-pill" target="_blank" rel="noopener">
+    {% if page.doi_url %}{% assign doi_href = page.doi_url %}{% else %}{% assign doi_href = "https://doi.org/" | append: page.doi %}{% endif %}
+    <a href="{{ doi_href }}" class="doi-pill" target="_blank" rel="noopener">
       <span class="doi-pill__label">DOI</span>
       <span class="doi-pill__value">{{ page.doi }}</span>
     </a>
