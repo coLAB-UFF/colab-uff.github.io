@@ -2,25 +2,31 @@
      Listagem dos Apps coLAB — usada em /apps/ e /lab/ (páginas espelhadas,
      ver apps/index.md e lab/index.md). Lista dinâmica: cada arquivo da
      coleção _apps vira um card, ordenado pelo campo "order" no front matter.
+     Reutiliza o mesmo card de _layouts/publicacoes-list.html (.pub-card /
+     .pub-list) — mesmo layout usado em /ddoslab/ para os relatórios (ver
+     _includes/ddoslab-reports.html) — sem botão, o título é o próprio link.
      ========================================================================== -->
 {% assign apps = site.apps | sort: "order" %}
-<div class="container animate">
-  <div class="row gy-4 pb-5">
+<div class="pub-list container animate">
+  <h2 class="section__title display-6 mb-4">Apps do coLAB</h2>
+  <div class="row">
     {% for app in apps %}
-    <div class="col-12 col-md-6 col-lg-4">
-      <article class="app-card">
-        {% if app.image %}
-        <a href="{{ app.url | relative_url }}" class="app-card__image">
-          <img src="{{ app.image | relative_url }}" alt="{{ app.title }}">
-        </a>
-        {% endif %}
-        <div class="app-card__body">
-          <h3 class="app-card__title"><a href="{{ app.url | relative_url }}">{{ app.title }}</a></h3>
-          <p class="app-card__excerpt">{{ app.excerpt }}</p>
-          <a href="{{ app.url | relative_url }}" class="btn-lab">Ver detalhes</a>
-        </div>
-      </article>
-    </div>
+    <article class="pub-card col-12 col-md-6 col-lg-4">
+      {% if app.image %}
+      <a href="{{ app.url | relative_url }}" class="pub-card__image">
+        <img src="{{ app.image | relative_url }}" alt="{{ app.title }}">
+      </a>
+      {% endif %}
+      <div class="pub-card__info">
+        <div class="pub-card__category">App</div>
+        <h3 class="pub-card__title"><a href="{{ app.url | relative_url }}">{{ app.title }}</a></h3>
+        <p class="pub-card__description">{{ app.excerpt }}</p>
+        <p class="pub-card__meta">
+          {% if app.authors %}<span class="pub-card__authors">{{ app.authors }}</span>{% endif %}
+          {% if app.year %}<span class="pub-card__sep">·</span><span>{{ app.year }}</span>{% endif %}
+        </p>
+      </div>
+    </article>
     {% endfor %}
   </div>
 </div>

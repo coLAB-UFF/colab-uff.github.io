@@ -4,6 +4,8 @@ excerpt: >
   Aplicativo de gestão acadêmica do coLAB/UFF, utilizado para organizar
   informações relevantes à produção do grupo de pesquisa.
 order: 1
+authors: "Viktor Chagas e Arthur Araujo"
+year: 2026
 demo_url: "https://sucupiralab.ombudsmanviktor.me/"
 install_url: "https://github.com/ombudsmanviktor/sucupiralab"
 doi: "10.0000/PENDENTE"

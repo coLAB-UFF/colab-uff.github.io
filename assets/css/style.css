@@ -1794,44 +1794,6 @@ footer.bg-navy .logo-mark {
   .timeline-v__row--right .timeline-v__card { grid-column: 2; }
 }
 
-/* ==========================================================================
-   Apps coLAB (/apps/, espelhada em /lab/) — _includes/apps-list.html
-   Cards da listagem; página single de cada app usa _layouts/app.html.
-   ========================================================================== */
-.app-card {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  background: #fff;
-  border-radius: 1.25rem;
-  overflow: hidden;
-  box-shadow: 0 15px 35px -20px rgba(30, 33, 48, 0.35);
-}
-.app-card__image { display: block; }
-.app-card__image img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  transition: transform 0.4s ease;
-}
-.app-card__image:hover img { transform: scale(1.05); }
-.app-card__body {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  padding: 1.75rem;
-}
-.app-card__title {
-  font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 1.3rem;
-  margin-bottom: 0.6rem;
-}
-.app-card__title a { color: var(--colab-text); }
-.app-card__title a:hover { color: var(--colab-accent-dark); }
-.app-card__excerpt {
-  color: var(--colab-muted);
-  font-size: 0.95rem;
-  flex-grow: 1;
-  margin-bottom: 1.25rem;
-}
+/* Apps coLAB (/apps/, espelhada em /lab/) — _includes/apps-list.html reusa
+   .pub-card/.pub-list (mesmo card de _layouts/publicacoes-list.html e do
+   /ddoslab/); página single de cada app usa _layouts/app.html. */

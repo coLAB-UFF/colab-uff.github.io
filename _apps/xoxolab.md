@@ -4,6 +4,8 @@ excerpt: >
   Aplicativo de gestão editorial colaborativa do coLAB/UFF, pensado para
   organizar fluxos de produção e revisão de textos entre integrantes do grupo.
 order: 3
+authors: "Viktor Chagas e Arthur Araujo"
+year: 2026
 demo_url: "https://xoxolab.ombudsmanviktor.me/"
 install_url: "https://github.com/ombudsmanviktor/xoxolab"
 doi: "10.0000/PENDENTE"
