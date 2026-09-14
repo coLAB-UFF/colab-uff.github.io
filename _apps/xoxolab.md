@@ -8,7 +8,7 @@ authors: "Viktor Chagas"
 year: 2026
 demo_url: "https://xoxolab.colab.meme"
 install_url: "https://github.com/ombudsmanviktor/xoxolab"
-doi: "10.0000/PENDENTE"
+doi: "10.5281/zenodo.22756575"
 image: "/assets/img/apps/xoxolab-featured.png"
 ---
 

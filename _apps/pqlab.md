@@ -8,7 +8,7 @@ authors: "Viktor Chagas"
 year: 2026
 demo_url: "https://pqlab.colab.meme"
 install_url: "https://github.com/ombudsmanviktor/pqlab"
-doi: "10.0000/PENDENTE"
+doi: "10.5281/zenodo.22756527"
 image: "/assets/img/apps/pqlab-featured.png"
 ---
 

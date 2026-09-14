@@ -8,7 +8,7 @@ authors: "Viktor Chagas"
 year: 2026
 demo_url: "https://sucupiralab.colab.meme"
 install_url: "https://github.com/ombudsmanviktor/sucupiralab"
-doi: "10.0000/PENDENTE"
+doi: "10.5281/zenodo.22756632"
 image: "/assets/img/apps/sucupiralab-featured.png"
 ---
 
