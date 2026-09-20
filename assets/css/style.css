@@ -172,12 +172,15 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
-  font-family: var(--font-heading);
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   color: #9aa0b0;
   white-space: nowrap;
+}
+.lang-switch * {
+  font-family: inherit !important;
 }
 .lang-switch__icon {
   font-size: 1rem;
