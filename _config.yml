@@ -38,6 +38,20 @@ collections:
   apps:
     output: true
     permalink: /apps/:path/
+  # Versão em inglês do site (URLs sob /en/). Mesmos layouts das coleções em
+  # português; o idioma é detectado por page.lang (ver _includes/i18n.html).
+  projects_en:
+    output: true
+    permalink: /en/projects/:path/
+  publications_en:
+    output: true
+    permalink: /en/publications/:path/
+  members_en:
+    output: true
+    permalink: /en/members/:path/
+  apps_en:
+    output: true
+    permalink: /en/apps/:path/
 
 defaults:
   - scope:
@@ -60,6 +74,34 @@ defaults:
       type: "apps"
     values:
       layout: app
+  - scope:
+      path: ""
+      type: "projects_en"
+    values:
+      layout: projeto
+      lang: en
+  - scope:
+      path: ""
+      type: "publications_en"
+    values:
+      layout: publicacao
+      lang: en
+  - scope:
+      path: ""
+      type: "members_en"
+    values:
+      layout: integrante
+      lang: en
+  - scope:
+      path: ""
+      type: "apps_en"
+    values:
+      layout: app
+      lang: en
+  - scope:
+      path: "en"
+    values:
+      lang: en
 
 exclude:
   - Gemfile

@@ -12,6 +12,9 @@
 (function () {
   "use strict";
 
+  // Textos de interface do idioma da página (window.I18N, de _data/i18n.yml).
+  var I18N = window.I18N || {};
+
   var SHEETS_URL = "https://docs.google.com/spreadsheets/d/1qzCZkxj9AeJ8LKt5xJp_snYqXixoq93jK2trl3Xnj6Q/gviz/tq?tqx=out:csv";
   var GH_RAW_BASE = "https://raw.githubusercontent.com/colab-uff/clipping/main/";
   var PER_PAGE = 54;
@@ -81,7 +84,7 @@
     if (pais) meta += '<span><i class="uil uil-map-marker"></i>' + pais + "</span>";
 
     var btn = link
-      ? '<a href="' + esc(link) + '" target="_blank" rel="noopener noreferrer" class="btn-report">Ler matéria completa</a>'
+      ? '<a href="' + esc(link) + '" target="_blank" rel="noopener noreferrer" class="btn-report">' + (I18N.read_more || "Ler matéria completa") + '</a>'
       : "";
 
     return (
@@ -110,10 +113,10 @@
       return;
     }
 
-    var html = '<nav aria-label="Paginação de notícias"><ul class="pagination">';
+    var html = '<nav aria-label="' + (I18N.pagination_label || "Paginação de notícias") + '"><ul class="pagination">';
     html +=
       '<li class="page-item' + (page === 1 ? " disabled" : "") + '">' +
-      '<a class="page-link" href="#noticias" data-page="' + (page - 1) + '" aria-label="Anterior">‹</a></li>';
+      '<a class="page-link" href="#noticias" data-page="' + (page - 1) + '" aria-label="' + (I18N.prev || "Anterior") + '">‹</a></li>';
 
     for (var i = 1; i <= total; i++) {
       html +=
@@ -123,7 +126,7 @@
 
     html +=
       '<li class="page-item' + (page === total ? " disabled" : "") + '">' +
-      '<a class="page-link" href="#noticias" data-page="' + (page + 1) + '" aria-label="Próximo">›</a></li>';
+      '<a class="page-link" href="#noticias" data-page="' + (page + 1) + '" aria-label="' + (I18N.next || "Próximo") + '">›</a></li>';
     html += "</ul></nav>";
     pag.innerHTML = html;
 
@@ -148,11 +151,11 @@
     var paises = new Set(allItems.map(function (r) { return (r["País"] || "").trim(); }).filter(Boolean)).size;
 
     var txt =
-      "<strong>" + total + "</strong> " + (total === 1 ? "notícia" : "notícias") +
-      " de <strong>" + fontes + "</strong> " + (fontes === 1 ? "fonte noticiosa" : "fontes noticiosas diferentes");
+      "<strong>" + total + "</strong> " + (total === 1 ? (I18N.news_singular || "notícia") : (I18N.news_plural || "notícias")) +
+      " " + (I18N.of || "de") + " <strong>" + fontes + "</strong> " + (fontes === 1 ? (I18N.source_singular || "fonte noticiosa") : (I18N.source_plural || "fontes noticiosas diferentes"));
 
     if (paises > 0) {
-      txt += " em <strong>" + paises + "</strong> " + (paises === 1 ? "país" : "países");
+      txt += " " + (I18N.in || "em") + " <strong>" + paises + "</strong> " + (paises === 1 ? (I18N.country_singular || "país") : (I18N.country_plural || "países"));
     }
 
     var el = document.getElementById("clipping-summary");

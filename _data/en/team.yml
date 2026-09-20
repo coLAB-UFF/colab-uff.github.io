@@ -1,0 +1,12 @@
+# English version of the intro text of the "Members" block (the block's
+# behavior config — pagination and order — is shared with _data/team.yml).
+intro:
+  eyebrow: "Who We Are"
+  title: "Meet our members"
+  description: >
+    coLAB is made up of researchers at different stages of their careers.
+    Doctors, PhD candidates, master's degree holders, master's students and
+    undergraduate students make up our laboratory's team. Active members are
+    highlighted alongside.
+  button_text: "Entire team"
+  button_url: "/en/members/"

@@ -14,9 +14,10 @@ layout: default
    images=page.hero_images
 %}
 
+{% include i18n.html %}
 <div class="pub-list container animate">
   <div class="row">
-    {% assign publicacoes = site.publicacoes | sort: "date" | reverse %}
+    {% assign publicacoes = c_publications | sort: "date" | reverse %}
     {% for pub in publicacoes %}
     <article class="pub-card col-12 col-md-6 col-lg-4">
       <a href="{{ pub.url | relative_url }}" class="pub-card__image">

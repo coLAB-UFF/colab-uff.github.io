@@ -1,10 +1,10 @@
-<!doctype html>
-<html lang="{{ site.lang }}">
+{% include i18n.html %}<!doctype html>
+<html lang="{{ t.html_lang }}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ page.title | default: site.title }}</title>
-<meta name="description" content="{{ page.description | default: site.description }}">
+<title>{{ page.title | default: t.site_title }}</title>
+<meta name="description" content="{{ page.description | default: t.site_description }}">
 
 <!-- Favicon -->
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
@@ -27,7 +27,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-{% seo %}
+{% comment %} jekyll-seo-tag usa site.title/site.description (PT); em EN troca pelos textos em inglês. {% endcomment %}
+{% capture seo_out %}{% seo %}{% endcapture %}
+{% if lang == "en" %}{{ seo_out | replace: site.title, t.site_title | replace: site.description, t.site_description }}{% else %}{{ seo_out }}{% endif %}
+{% if alt_url != "" %}
+<!-- Versões do site por idioma (PT padrão, EN em /en/) -->
+<link rel="alternate" hreflang="{% if lang == 'en' %}pt-BR{% else %}en{% endif %}" href="{{ alt_url | absolute_url }}">
+<link rel="alternate" hreflang="{{ t.html_lang }}" href="{{ page.url | absolute_url }}">
+{% endif %}
 </head>
 <body>
 
@@ -40,6 +47,8 @@
   // Configuração do bloco "Board do coLAB", vinda de _data/team.yml — editável
   // sem tocar em código. Ver assets/js/main.js para a lógica de renderização.
   window.TEAM_CONFIG = {{ site.data.team.config | jsonify }};
+  // Textos de interface usados pelos scripts (idioma da página), de _data/i18n.yml.
+  window.I18N = {{ t.js | jsonify }};
 </script>
 <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 <script>

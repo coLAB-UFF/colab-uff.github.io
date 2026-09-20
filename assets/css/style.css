@@ -167,6 +167,58 @@ a {
   padding: 0.65rem 1.25rem;
   white-space: nowrap;
 }
+/* Seletor de idioma PT/EN — discreto, à direita de "Área Restrita" */
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #9aa0b0;
+  white-space: nowrap;
+}
+.lang-switch__icon {
+  font-size: 1rem;
+  line-height: 1;
+  color: #b3b8c6;
+}
+.lang-switch__item {
+  color: #9aa0b0;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+/* Desktop estreito (1200–1399px): compacta o menu para caber o seletor de idioma.
+   Abaixo de 1200px o menu vira "hambúrguer" (navbar-expand-xl em header.html). */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .site-header .nav-link {
+    padding: 0.5rem 0.45rem !important;
+    font-size: 0.9rem;
+  }
+  .site-header .nav-link::before {
+    right: 0.3rem;
+  }
+  .site-header .d-flex.align-items-center .btn {
+    padding: 0.55rem 0.95rem;
+    font-size: 0.9rem;
+  }
+  .site-header .d-flex.align-items-center .btn.me-3 {
+    margin-right: 0.25rem !important;
+  }
+  .site-header .lang-switch {
+    margin-left: 0.5rem !important;
+  }
+}
+a.lang-switch__item:hover {
+  color: var(--colab-navy);
+}
+.lang-switch__item.is-active {
+  color: var(--colab-navy);
+}
+.lang-switch__sep {
+  color: #d3d6de;
+}
 .site-header .nav-link::before {
   content: "";
   position: absolute;

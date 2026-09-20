@@ -17,18 +17,19 @@ layout: default
    images=page.hero_images
 %}
 
+{% include i18n.html %}
 <div class="clipping-list container animate" id="noticias">
   <p class="clipping-summary" id="clipping-summary" style="display:none;"></p>
 
   <div class="clipping-status" id="clipping-loading">
     <i class="uil uil-spinner-alt clipping-status__icon"></i>
-    <span>Carregando notícias…</span>
+    <span>{{ t.clipping_loading }}</span>
   </div>
   <div class="clipping-status" id="clipping-empty" style="display:none;">
-    Nenhuma notícia encontrada no momento.
+    {{ t.clipping_empty }}
   </div>
   <div class="clipping-status" id="clipping-error" style="display:none;">
-    Não foi possível carregar as notícias agora. Tente novamente mais tarde.
+    {{ t.clipping_error }}
   </div>
 
   <div class="row" id="clipping-list" style="display:none;"></div>

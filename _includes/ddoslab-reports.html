@@ -5,9 +5,10 @@
      Executivo"). Reutiliza o mesmo card de _layouts/publicacoes-list.html
      (.pub-card / .pub-list), sem CSS novo.
      ========================================================================== -->
-{% assign relatorios = site.publicacoes | where_exp: "pub", "pub.type contains 'Relatório'" | sort: "date" | reverse %}
+{% include i18n.html %}
+{% assign relatorios = c_publications | where_exp: "pub", "pub.type contains t.report_keyword" | sort: "date" | reverse %}
 <div class="pub-list container animate">
-  <h2 class="section__title display-6 mb-4">Relatórios do DDoS Lab</h2>
+  <h2 class="section__title display-6 mb-4">{{ t.ddos_reports_heading }}</h2>
   <div class="row">
     {% for pub in relatorios %}
     <article class="pub-card col-12 col-md-6 col-lg-4">

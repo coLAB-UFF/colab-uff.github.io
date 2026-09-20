@@ -1,0 +1,39 @@
+# English version of _data/site.yml (institutional info used in header, footer and CTAs).
+logo:
+  header_image: "/assets/img/logo/logo.svg"
+  footer_image: "/assets/img/logo/logo-white.svg"
+
+contact:
+  email: "colab@midia.uff.br"
+  address: "Universidade Federal Fluminense, IACS Gragoatá, Bl. J, Room J5, 2nd floor, DADOS, São Domingos, Niterói, Brazil"
+
+contact_form:
+  action: "https://formspree.io/f/xqknovgn"
+  email_subject: "[coLAB] Contact"
+
+social:
+  - name: "Directory of Research Groups in Brazil/CNPq"
+    icon: "/assets/img/social/logo_dgp.svg"
+    url: "http://dgp.cnpq.br/dgp/espelhogrupo/8743613284400394"
+  - name: "Figshare"
+    icon: "/assets/img/social/logo_figshare.svg"
+    url: "https://figshare.com/projects/Papers_coLAB/35102"
+  - name: "GitHub"
+    icon: "uil-github"
+    url: "https://colab-uff.github.io/data/"
+  - name: "Instagram"
+    icon: "uil-instagram"
+    url: "https://www.instagram.com/colab.uff"
+
+header:
+  cta_text: "Contact"
+  cta_url: "/en/contact/"
+  secondary_cta_text: "Restricted Area"
+  secondary_cta_url: "https://todo.colab.meme"
+
+footer:
+  cta_title: "Questions or requests for research and consulting services?"
+  cta_button_text: "Contact"
+  copyright: "© 2026 coLAB — UFF.<br>All rights reserved."
+  newsletter_title: "Get our news"
+  newsletter_text: "Subscribe to receive our publications and research calls."

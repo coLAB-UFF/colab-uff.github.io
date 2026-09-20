@@ -6,9 +6,10 @@
      .pub-list) — mesmo layout usado em /ddoslab/ para os relatórios (ver
      _includes/ddoslab-reports.html) — sem botão, o título é o próprio link.
      ========================================================================== -->
-{% assign apps = site.apps | sort: "order" %}
+{% include i18n.html %}
+{% assign apps = c_apps | sort: "order" %}
 <div class="pub-list container animate">
-  <h2 class="section__title display-6 mb-4">Apps do coLAB</h2>
+  <h2 class="section__title display-6 mb-4">{{ t.apps_heading }}</h2>
   <div class="row">
     {% for app in apps %}
     <article class="pub-card col-12 col-md-6 col-lg-4">
@@ -18,7 +19,7 @@
       </a>
       {% endif %}
       <div class="pub-card__info">
-        <div class="pub-card__category">App</div>
+        <div class="pub-card__category">{{ t.app_tag }}</div>
         <h3 class="pub-card__title"><a href="{{ app.url | relative_url }}">{{ app.title }}</a></h3>
         <p class="pub-card__description">{{ app.excerpt }}</p>
         <p class="pub-card__meta">

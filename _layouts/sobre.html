@@ -12,6 +12,7 @@ layout: default
      lider/ano_de_criacao) — a lista .work-meta só aparece quando pelo menos
      um desses campos está preenchido no front matter da página.
      ========================================================================== -->
+{% include i18n.html %}
 <div class="work-head">
   <div class="container">
     <div class="row">
@@ -34,17 +35,17 @@ layout: default
           <p class="page-description">{{ page.description }}</p>
           {% if page.linhas_de_pesquisa or page.lider or page.ano_de_criacao %}
           <ul class="work-meta list-reset">
-            {% if page.linhas_de_pesquisa %}<li class="work-meta__item"><strong>Linhas de Pesquisa:</strong> <span>{{ page.linhas_de_pesquisa | join: ", " }}</span></li>{% endif %}
+            {% if page.linhas_de_pesquisa %}<li class="work-meta__item"><strong>{{ t.research_lines }}:</strong> <span>{{ page.linhas_de_pesquisa | join: ", " }}</span></li>{% endif %}
             {% if page.lider %}
-            {% assign lider_page = site.integrantes | where: "name", page.lider | first %}
-            <li class="work-meta__item"><strong>Líder:</strong> <span>{% if lider_page %}<a href="{{ lider_page.url | relative_url }}">{{ page.lider }}</a>{% else %}{{ page.lider }}{% endif %}</span></li>
+            {% assign lider_page = c_members | where: "name", page.lider | first %}
+            <li class="work-meta__item"><strong>{{ t.leader }}:</strong> <span>{% if lider_page %}<a href="{{ lider_page.url | relative_url }}">{{ page.lider }}</a>{% else %}{{ page.lider }}{% endif %}</span></li>
             {% endif %}
-            {% if page.ano_de_criacao %}<li class="work-meta__item"><strong>Ano de Criação:</strong> <span>{{ page.ano_de_criacao }}</span></li>{% endif %}
+            {% if page.ano_de_criacao %}<li class="work-meta__item"><strong>{{ t.year_created }}:</strong> <span>{{ page.ano_de_criacao }}</span></li>{% endif %}
           </ul>
           {% endif %}
 
           <nav class="nav about-social">
-            {% for s in site.data.site.social %}
+            {% for s in d.site.social %}
             <a href="{{ s.url }}" target="_blank" rel="noopener" aria-label="{{ s.name }}" title="{{ s.name }}">
               {% include social-icon.html icon=s.icon %}
             </a>

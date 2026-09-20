@@ -25,6 +25,7 @@
      direita (ex.: banner de divulgação), em vez da grade de 3 colunas de
      "images" — usar um ou outro, nunca os dois (ver /apps/, /lab/).
      ========================================================================== -->
+{% include i18n.html %}
 <section class="hero hero--page">
   <div class="container">
     <div class="row align-items-center gy-5">
@@ -35,8 +36,8 @@
         {% if include.newsletter_label %}
         <p class="hero__newsletter-label">{{ include.newsletter_label }}</p>
         <form class="hero__form">
-          <input type="email" required placeholder="{{ include.newsletter_placeholder | default: "Seu e-mail" }}" aria-label="{{ include.newsletter_placeholder | default: "Seu e-mail" }}">
-          <button type="submit" class="btn btn-colab">{{ include.newsletter_button | default: "Inscrever-se" }}</button>
+          <input type="email" required placeholder="{{ include.newsletter_placeholder | default: t.your_email }}" aria-label="{{ include.newsletter_placeholder | default: t.your_email }}">
+          <button type="submit" class="btn btn-colab">{{ include.newsletter_button | default: t.subscribe }}</button>
         </form>
         {% endif %}
       </div>

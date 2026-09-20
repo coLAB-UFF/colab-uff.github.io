@@ -19,6 +19,7 @@ layout: default
      O corpo do arquivo (Créditos, Como citar este aplicativo) segue o mesmo
      padrão já usado em _projects/apps-colab.md.
      ========================================================================== -->
+{% include i18n.html %}
 <div class="work-head">
   <div class="container">
     <div class="row">
@@ -38,9 +39,9 @@ layout: default
           <p class="page-description">{{ page.excerpt }}</p>
 
           <div class="lab-actions d-flex flex-wrap align-items-center gap-3 mt-4">
-            {% if page.demo_url %}<a href="{{ page.demo_url }}" class="btn-lab" target="_blank" rel="noopener">Demo {{ page.title }}</a>{% endif %}
-            {% if page.install_url %}<a href="{{ page.install_url }}" class="btn-lab" target="_blank" rel="noopener">Instalar {{ page.title }}</a>{% endif %}
-            {% if page.access_url %}<a href="{{ page.access_url }}" class="btn-lab" target="_blank" rel="noopener">Acesse o {{ page.title }}</a>{% endif %}
+            {% if page.demo_url %}<a href="{{ page.demo_url }}" class="btn-lab" target="_blank" rel="noopener">{{ t.demo }} {{ page.title }}</a>{% endif %}
+            {% if page.install_url %}<a href="{{ page.install_url }}" class="btn-lab" target="_blank" rel="noopener">{{ t.install }} {{ page.title }}</a>{% endif %}
+            {% if page.access_url %}<a href="{{ page.access_url }}" class="btn-lab" target="_blank" rel="noopener">{{ t.access }} {{ page.title }}</a>{% endif %}
             {% if page.doi %}
             <a href="https://doi.org/{{ page.doi }}" class="doi-pill" target="_blank" rel="noopener">
               <span class="doi-pill__label">DOI</span>

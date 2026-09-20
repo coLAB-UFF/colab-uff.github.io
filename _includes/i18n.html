@@ -1,0 +1,52 @@
+{%- comment -%}
+  Contexto de idioma. Uso: {% include i18n.html %} no topo de qualquer layout/
+  include/página que tenha texto de interface ou consuma dados/coleções.
+  Define (no escopo do template que inclui):
+    lang        "pt" | "en"
+    t           textos de interface (_data/i18n.yml)
+    d           dados editoriais do idioma (_data/*.yml em PT, _data/en/*.yml em EN)
+    c_projects, c_publications, c_members, c_apps   coleções do idioma
+    alt_url     URL equivalente no outro idioma (seletor de idioma)
+  Páginas em inglês são identificadas por page.lang == "en" (definido por
+  "defaults" em _config.yml para /en/ e para as coleções *_en).
+{%- endcomment -%}
+{%- if page.lang == "en" -%}
+  {%- assign lang = "en" -%}
+  {%- assign d = site.data.en -%}
+  {%- assign c_projects = site.projects_en -%}
+  {%- assign c_publications = site.publications_en -%}
+  {%- assign c_members = site.members_en -%}
+  {%- assign c_apps = site.apps_en -%}
+{%- else -%}
+  {%- assign lang = "pt" -%}
+  {%- assign d = site.data -%}
+  {%- assign c_projects = site.projects -%}
+  {%- assign c_publications = site.publicacoes -%}
+  {%- assign c_members = site.integrantes -%}
+  {%- assign c_apps = site.apps -%}
+{%- endif -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign alt_url = "" -%}
+{%- if lang == "en" -%}
+  {%- if page.url == "/en/" -%}
+    {%- assign alt_url = "/" -%}
+  {%- else -%}
+    {%- for p in site.data.i18n_paths -%}
+      {%- assign pre = page.url | slice: 0, p.en.size -%}
+      {%- if pre == p.en and alt_url == "" -%}
+        {%- assign alt_url = page.url | replace_first: p.en, p.pt -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- else -%}
+  {%- if page.url == "/" -%}
+    {%- assign alt_url = "/en/" -%}
+  {%- else -%}
+    {%- for p in site.data.i18n_paths -%}
+      {%- assign pre = page.url | slice: 0, p.pt.size -%}
+      {%- if pre == p.pt and alt_url == "" -%}
+        {%- assign alt_url = page.url | replace_first: p.pt, p.en -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endif -%}

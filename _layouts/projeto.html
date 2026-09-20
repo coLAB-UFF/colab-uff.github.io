@@ -8,6 +8,7 @@ layout: default
      à direita. Todos os campos de metadados são opcionais no front matter —
      só aparecem quando preenchidos (ver _projects/*.md).
      ========================================================================== -->
+{% include i18n.html %}
 <div class="work-head">
   <div class="container">
     <div class="row">
@@ -29,12 +30,12 @@ layout: default
           <h1 class="page-title">{{ page.title }}</h1>
           <p class="page-description">{{ page.excerpt }}</p>
           <ul class="work-meta list-reset">
-            {% if page.vigente != nil %}<li class="work-meta__item"><strong>Situação:</strong> <span>{% if page.vigente %}Vigente{% else %}Encerrado{% endif %}</span></li>{% endif %}
-            {% if page.vigencia %}<li class="work-meta__item"><strong>Vigência:</strong> <span>{{ page.vigencia }}</span></li>{% endif %}
-            {% if page.financiamento %}<li class="work-meta__item"><strong>Financiamento:</strong> <span>{{ page.financiamento }}</span></li>{% endif %}
-            {% if page.valor_financiado %}<li class="work-meta__item"><strong>Valor Financiado:</strong> <span>{{ page.valor_financiado }}</span></li>{% endif %}
-            {% if page.proponente %}<li class="work-meta__item"><strong>Proponente:</strong> <span>{{ page.proponente }}</span></li>{% endif %}
-            {% if page.equipe %}<li class="work-meta__item"><strong>Equipe:</strong> <span>{{ page.equipe }}</span></li>{% endif %}
+            {% if page.vigente != nil %}<li class="work-meta__item"><strong>{{ t.status }}:</strong> <span>{% if page.vigente %}{{ t.active }}{% else %}{{ t.closed }}{% endif %}</span></li>{% endif %}
+            {% if page.vigencia %}<li class="work-meta__item"><strong>{{ t.period }}:</strong> <span>{{ page.vigencia }}</span></li>{% endif %}
+            {% if page.financiamento %}<li class="work-meta__item"><strong>{{ t.funding }}:</strong> <span>{{ page.financiamento }}</span></li>{% endif %}
+            {% if page.valor_financiado %}<li class="work-meta__item"><strong>{{ t.funded_amount }}:</strong> <span>{{ page.valor_financiado }}</span></li>{% endif %}
+            {% if page.proponente %}<li class="work-meta__item"><strong>{{ t.proposer }}:</strong> <span>{{ page.proponente }}</span></li>{% endif %}
+            {% if page.equipe %}<li class="work-meta__item"><strong>{{ t.team }}:</strong> <span>{{ page.equipe }}</span></li>{% endif %}
           </ul>
         </div>
       </div>

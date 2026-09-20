@@ -1,0 +1,31 @@
+# English version of _data/navigation.yml. The active item is computed
+# automatically in _includes/header.html.
+main:
+  - text: "Home"
+    url: "/en/"
+  - text: "About"
+    url: "/en/about/"
+  - text: "Members"
+    url: "/en/members/"
+  - text: "Projects"
+    url: "/en/projects/"
+  - text: "Publications"
+    url: "/en/publications/"
+  - text: "Open Data"
+    url: "/en/data/"
+  - text: "Apps"
+    url: "/en/apps/"
+  - text: "Clipping"
+    url: "/en/clipping/"
+
+footer_links:
+  - text: "About"
+    url: "/en/about/"
+  - text: "Projects"
+    url: "/en/projects/"
+  - text: "Members"
+    url: "/en/members/"
+  - text: "Scientific Publications"
+    url: "/en/publications/"
+  - text: "Open Data"
+    url: "/en/data/"

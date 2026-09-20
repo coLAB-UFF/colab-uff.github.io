@@ -6,36 +6,37 @@ layout: default
      (_includes/component__contact.html). Formulário integrado via Formspree
      (ver _data/site.yml -> contact_form.action).
      ========================================================================== -->
+{% include i18n.html %}
 <section class="contact-page container animate">
   <div class="contact-page__inner">
     <h1 class="contact-page__title">{{ page.title }}</h1>
     <p class="contact-page__subtitle">
-      Prefere usar o email? Diga oi pra gente em
-      <a href="mailto:{{ site.data.site.contact.email }}">{{ site.data.site.contact.email }}</a>
+      {{ t.contact_prefer_email }}
+      <a href="mailto:{{ d.site.contact.email }}">{{ d.site.contact.email }}</a>
     </p>
 
-    <form method="POST" action="{{ site.data.site.contact_form.action }}" class="contact-page__form">
+    <form method="POST" action="{{ d.site.contact_form.action }}" class="contact-page__form">
       <div class="form-field">
-        <label for="name">Seu Nome</label>
-        <input type="text" name="name" id="name" placeholder="Como devemos te chamar?" required>
+        <label for="name">{{ t.contact_name }}</label>
+        <input type="text" name="name" id="name" placeholder="{{ t.contact_name_ph }}" required>
       </div>
 
       <div class="form-field">
-        <label for="email">Seu Email</label>
-        <input type="email" name="email" id="email" placeholder="Qual o seu email?" required>
+        <label for="email">{{ t.contact_email }}</label>
+        <input type="email" name="email" id="email" placeholder="{{ t.contact_email_ph }}" required>
       </div>
 
       <div class="form-field">
-        <label for="message">Sua Mensagem</label>
-        <textarea name="message" id="message" rows="4" placeholder="O que está em sua mente?" required></textarea>
+        <label for="message">{{ t.contact_message }}</label>
+        <textarea name="message" id="message" rows="4" placeholder="{{ t.contact_message_ph }}" required></textarea>
       </div>
 
-      <input type="hidden" name="_next" value="{{ '/fale-conosco/obrigado/' | absolute_url }}">
-      <input type="hidden" name="_subject" value="{{ site.data.site.contact_form.email_subject }}">
+      <input type="hidden" name="_next" value="{{ t.contact_thanks_url | absolute_url }}">
+      <input type="hidden" name="_subject" value="{{ d.site.contact_form.email_subject }}">
       <input type="text" name="_gotcha" class="contact-page__gotcha" tabindex="-1" autocomplete="off">
 
       <div class="contact-page__submit">
-        <button type="submit" class="btn btn-colab-accent">Fale Conosco</button>
+        <button type="submit" class="btn btn-colab-accent">{{ t.contact_send }}</button>
       </div>
     </form>
   </div>

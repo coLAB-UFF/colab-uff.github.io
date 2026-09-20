@@ -19,11 +19,12 @@
      preenchidas aparecem aqui também, na mesma ordem) — assim as redes
      exibidas são sempre as mesmas em qualquer lugar do site.
      ========================================================================== -->
-{% assign team = site.data.team %}
-{% assign integrantes = site.integrantes | sort: "order" %}
+{% include i18n.html %}
+{% assign team = d.team %}
+{% assign integrantes = c_members | sort: "order" %}
 {% assign social_keys = "lattes,orcid,google_scholar,academia,researchgate,instagram,twitter" | split: "," %}
-{% assign pagination_mode = include.pagination_mode | default: team.config.pagination_mode %}
-{% assign order = include.order | default: team.config.order %}
+{% assign pagination_mode = include.pagination_mode | default: site.data.team.config.pagination_mode %}
+{% assign order = include.order | default: site.data.team.config.order %}
 <section class="wrapper team-block section-gap" id="time">
   <div class="container py-16 py-md-20">
     <div class="row gy-8 gx-lg-6 align-items-start">
@@ -35,7 +36,7 @@
         {% if include.show_button != false %}
         <a href="{{ team.intro.button_url | relative_url }}" class="btn btn-colab">{{ team.intro.button_text }}</a>
         <br>
-        <a href="http://dgp.cnpq.br/dgp/espelhogrupo/8743613284400394" target="_blank" rel="noopener" class="btn btn-colab mt-3">Diretório do CNPq</a>
+        <a href="http://dgp.cnpq.br/dgp/espelhogrupo/8743613284400394" target="_blank" rel="noopener" class="btn btn-colab mt-3">{{ t.cnpq_directory }}</a>
         {% endif %}
       </div>
 

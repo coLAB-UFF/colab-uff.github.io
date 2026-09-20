@@ -1,0 +1,27 @@
+eyebrow: "Research lines"
+title: "The investigations carried out by coLAB relate to the following fields and interests."
+
+items:
+  - icon: "uil-presentation-lines-alt"
+    color: "accent"
+    title: "Communication Strategies and Public Opinion"
+    description: >
+      Investigations into the rhetorical and discursive strategies employed by
+      political actors and institutions, with a particular emphasis on studies of
+      electoral campaigns and problems underlying the relationship between
+      journalism and the political universe.
+  - icon: "uil-user-arrows"
+    color: "navy"
+    title: "Political Cultures and Collective Action"
+    description: >
+      Brings together studies on political cultures and political activism,
+      focusing on approaches that investigate models of organization and
+      experiences of collective action, as well as the emergence of new forms of
+      political engagement.
+  - icon: "uil-comment-alt-lines"
+    color: "accent"
+    title: "Humor and Political Discussion"
+    description: >
+      Dedicated to research on public debate and political conversation, with
+      approaches aimed at understanding the role of humor and entertainment in
+      political literacy and the interface between politics and popular culture.

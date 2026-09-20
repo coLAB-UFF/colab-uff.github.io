@@ -7,6 +7,7 @@ layout: default
      (nome, titulação, interesses de pesquisa) + minibio + redes acadêmicas
      e sociais à direita/abaixo.
      ========================================================================== -->
+{% include i18n.html %}
 <div class="work-head">
   <div class="container">
     <div class="row">
@@ -21,18 +22,18 @@ layout: default
 
       <div class="col-12 col-lg-7">
         <div class="work-head__right">
-          {% if page.featured %}<div class="work-category">{{ page.badge | default: "Destaque" }}</div>{% endif %}
+          {% if page.featured %}<div class="work-category">{{ page.badge | default: t.featured_badge }}</div>{% endif %}
           <h1 class="page-title">{{ page.name }}</h1>
           {% if page.degree %}<p class="page-description">{{ page.degree }}</p>{% endif %}
           <ul class="work-meta list-reset">
-            {% if page.role %}<li class="work-meta__item"><strong>Função:</strong> <span>{{ page.role }}</span></li>{% endif %}
-            {% if page.research_interests %}<li class="work-meta__item"><strong>Interesses de pesquisa:</strong> <span>{{ page.research_interests | join: ", " }}</span></li>{% endif %}
+            {% if page.role %}<li class="work-meta__item"><strong>{{ t.role }}:</strong> <span>{{ page.role }}</span></li>{% endif %}
+            {% if page.research_interests %}<li class="work-meta__item"><strong>{{ t.research_interests }}:</strong> <span>{{ page.research_interests | join: ", " }}</span></li>{% endif %}
           </ul>
 
           {% if page.social_links %}
           <nav class="nav author-social">
             {% if page.social_links.lattes %}
-            <a href="{{ page.social_links.lattes }}" target="_blank" rel="noopener" aria-label="Currículo Lattes" title="Lattes"><i class="uil uil-file-alt"></i></a>
+            <a href="{{ page.social_links.lattes }}" target="_blank" rel="noopener" aria-label="{{ t.lattes_cv }}" title="Lattes"><i class="uil uil-file-alt"></i></a>
             {% endif %}
             {% if page.social_links.orcid %}
             <a href="{{ page.social_links.orcid }}" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID">{% include icon-orcid.html %}</a>

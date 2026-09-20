@@ -22,13 +22,14 @@ hero_images:
     src: "/assets/img/projects/ddoslab-featured.png"
     alt: "DDoS Lab — Laboratório de Combate à Desinformação e ao Discurso de Ódio"
 ---
+{% include i18n.html %}
 {% include page-hero.html
    eyebrow=page.hero_eyebrow
    title=page.hero_title
    description=page.hero_description
    images=page.hero_images
-   newsletter_label=site.data.hero.newsletter_label
-   newsletter_placeholder=site.data.hero.form.placeholder
-   newsletter_button=site.data.hero.form.button_text
+   newsletter_label=d.hero.newsletter_label
+   newsletter_placeholder=d.hero.form.placeholder
+   newsletter_button=d.hero.form.button_text
 %}
 {% include ddoslab-reports.html %}

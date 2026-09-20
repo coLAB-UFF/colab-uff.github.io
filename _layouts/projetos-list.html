@@ -20,8 +20,9 @@ layout: default
    images=page.hero_images
 %}
 
+{% include i18n.html %}
 <div class="project-list container animate">
-  {% assign active_projects = site.projects | where: "vigente", true | sort: "order" %}
+  {% assign active_projects = c_projects | where: "vigente", true | sort: "order" %}
   {% for project in active_projects %}
   <article class="project-row row align-items-center gy-4">
     <div class="col-12 col-lg-auto">
@@ -38,21 +39,21 @@ layout: default
   {% endfor %}
 </div>
 
-{% assign closed_projects = site.projects | where: "vigente", false | sort: "order" %}
+{% assign closed_projects = c_projects | where: "vigente", false | sort: "order" %}
 {% if closed_projects.size > 0 %}
 <div class="container animate">
   <hr class="projects-divider">
-  <h2 class="projects-encerrados-title">Projetos Encerrados</h2>
+  <h2 class="projects-encerrados-title">{{ t.closed_projects }}</h2>
   <div class="closed-project-list">
     {% for project in closed_projects %}
     <article class="closed-project-row">
       <h3 class="closed-project-row__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
       <ul class="closed-project-row__meta list-reset">
-        {% if project.vigencia %}<li><strong>Vigência:</strong> {{ project.vigencia }}</li>{% endif %}
-        {% if project.financiamento %}<li><strong>Financiamento:</strong> {{ project.financiamento }}</li>{% endif %}
-        {% if project.valor_financiado %}<li><strong>Valor Financiado:</strong> {{ project.valor_financiado }}</li>{% endif %}
-        {% if project.proponente %}<li><strong>Proponente:</strong> {{ project.proponente }}</li>{% endif %}
-        {% if project.equipe %}<li><strong>Equipe:</strong> {{ project.equipe }}</li>{% endif %}
+        {% if project.vigencia %}<li><strong>{{ t.period }}:</strong> {{ project.vigencia }}</li>{% endif %}
+        {% if project.financiamento %}<li><strong>{{ t.funding }}:</strong> {{ project.financiamento }}</li>{% endif %}
+        {% if project.valor_financiado %}<li><strong>{{ t.funded_amount }}:</strong> {{ project.valor_financiado }}</li>{% endif %}
+        {% if project.proponente %}<li><strong>{{ t.proposer }}:</strong> {{ project.proponente }}</li>{% endif %}
+        {% if project.equipe %}<li><strong>{{ t.team }}:</strong> {{ project.equipe }}</li>{% endif %}
       </ul>
     </article>
     {% endfor %}

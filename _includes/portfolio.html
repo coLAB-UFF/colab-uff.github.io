@@ -2,9 +2,10 @@
      7. BLOCO PORTFOLIO6 — referência: sandbox.tortoizthemes.com/docs/blocks/portfolio
      Conteúdo: _data/portfolio.yml (intro) + coleção _projects (section: portfolio)
      ========================================================================== -->
-{% assign portfolio = site.data.portfolio %}
-{% assign featured_projects = site.projects | where: "section", "portfolio" | where: "size", "featured" | where: "vigente", true | sort: "order" %}
-{% assign small_projects = site.projects | where: "section", "portfolio" | where: "size", "small" | where: "vigente", true | sort: "order" %}
+{% include i18n.html %}
+{% assign portfolio = d.portfolio %}
+{% assign featured_projects = c_projects | where: "section", "portfolio" | where: "size", "featured" | where: "vigente", true | sort: "order" %}
+{% assign small_projects = c_projects | where: "section", "portfolio" | where: "size", "small" | where: "vigente", true | sort: "order" %}
 
 <section class="wrapper portfolio6 section-gap" id="projetos">
   <div class="container portfolio6__container">
@@ -27,7 +28,7 @@
             <div class="post-category text-{% if project.color == 'accent' %}navy{% else %}accent{% endif %}">{{ project.category }}</div>
             <h3 class="h1 post-title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
             <p>{{ project.excerpt }}</p>
-            <a href="{{ project.url | relative_url }}" class="more link-{% if project.color == 'accent' %}navy{% else %}accent{% endif %}">Ver projeto <i class="uil uil-arrow-right"></i></a>
+            <a href="{{ project.url | relative_url }}" class="more link-{% if project.color == 'accent' %}navy{% else %}accent{% endif %}">{{ t.view_project }} <i class="uil uil-arrow-right"></i></a>
           </div>
           <div class="col-lg-6">
             <img class="img-fluid portfolio-card__image" src="{{ project.image }}" alt="{{ project.title }}">
@@ -45,7 +46,7 @@
             <div class="post-category text-{% if project.color == 'accent' %}navy{% else %}accent{% endif %}">{{ project.category }}</div>
             <h3 class="h1 post-title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
             <p>{{ project.excerpt }}</p>
-            <a href="{{ project.url | relative_url }}" class="more link-{% if project.color == 'accent' %}navy{% else %}accent{% endif %}">Ver projeto <i class="uil uil-arrow-right"></i></a>
+            <a href="{{ project.url | relative_url }}" class="more link-{% if project.color == 'accent' %}navy{% else %}accent{% endif %}">{{ t.view_project }} <i class="uil uil-arrow-right"></i></a>
           </div>
           <img class="card-img-bottom" src="{{ project.image }}" alt="{{ project.title }}">
         </div>

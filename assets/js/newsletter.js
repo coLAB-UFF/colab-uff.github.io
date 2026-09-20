@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   var endpoint = window.NEWSLETTER_ENDPOINT;
+  var I18N = window.I18N || {};
   var forms = document.querySelectorAll(".hero__form, .newsletter-form");
 
   forms.forEach(function (form) {
@@ -22,11 +23,11 @@ document.addEventListener("DOMContentLoaded", function () {
       var email = (input.value || "").trim();
 
       if (!email || !input.checkValidity()) {
-        setMessage("Digite um e-mail válido.", true);
+        setMessage(I18N.newsletter_invalid || "Digite um e-mail válido.", true);
         return;
       }
       if (!endpoint) {
-        setMessage("Inscrição indisponível no momento.", true);
+        setMessage(I18N.newsletter_unavailable || "Inscrição indisponível no momento.", true);
         return;
       }
 
@@ -36,11 +37,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
       fetch(endpoint, { method: "POST", mode: "no-cors", body: formData })
         .then(function () {
-          setMessage("Inscrição confirmada. Obrigado!", false);
+          setMessage(I18N.newsletter_ok || "Inscrição confirmada. Obrigado!", false);
           input.value = "";
         })
         .catch(function () {
-          setMessage("Não foi possível concluir a inscrição. Tente novamente.", true);
+          setMessage(I18N.newsletter_fail || "Não foi possível concluir a inscrição. Tente novamente.", true);
         })
         .finally(function () {
           button.disabled = false;

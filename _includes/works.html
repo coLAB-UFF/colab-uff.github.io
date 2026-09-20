@@ -5,8 +5,9 @@
      abaixo, nesta ordem fixa: Artigo, Capítulo de Livro, Relatório, Livro.
      Cada card leva à página single da tipologia Publicações (_layouts/publicacao.html).
      ========================================================================== -->
-{% assign works = site.data.works %}
-{% assign home_categories = "Artigo|Capítulo de Livro|Relatório|Livro" | split: "|" %}
+{% include i18n.html %}
+{% assign works = d.works %}
+{% if lang == "en" %}{% assign home_categories = "Article|Book Chapter|Report|Book" | split: "|" %}{% else %}{% assign home_categories = "Artigo|Capítulo de Livro|Relatório|Livro" | split: "|" %}{% endif %}
 <section class="section works animate section-gap">
   <div class="container">
     <div class="row reveal">
@@ -23,7 +24,7 @@
       <div class="col-lg-8">
         <div class="row">
           {% for cat in home_categories %}
-          {% assign pub = site.publicacoes | where: "category", cat | sort: "date" | last %}
+          {% assign pub = c_publications | where: "category", cat | sort: "date" | last %}
           {% if pub %}
           <div class="col-md-6">
             <article class="work">

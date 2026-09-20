@@ -2,23 +2,24 @@
      1. HEADER — referência: nuntu.netlify.app
      Conteúdo: _data/navigation.yml (menu) e _data/site.yml (logo, CTA)
      ========================================================================== -->
+{% include i18n.html %}
 <header class="site-header">
-  <nav class="navbar navbar-expand-lg py-3">
+  <nav class="navbar navbar-expand-xl py-3">
     <div class="container">
-      <a class="navbar-brand" href="{{ '/' | relative_url }}">
-        <img src="{{ site.data.site.logo.header_image | relative_url }}" alt="coLAB">
+      <a class="navbar-brand" href="{{ t.home_url | relative_url }}">
+        <img src="{{ d.site.logo.header_image | relative_url }}" alt="coLAB">
       </a>
 
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu">
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="{{ t.menu_label }}">
         <i class="uil uil-bars fs-3"></i>
       </button>
 
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav mx-auto">
-          {% for item in site.data.navigation.main %}
+          {% for item in d.navigation.main %}
           {% assign is_active = false %}
-          {% if item.url == "/" %}
-            {% if page.url == "/" %}{% assign is_active = true %}{% endif %}
+          {% if item.url == "/" or item.url == "/en/" %}
+            {% if page.url == item.url %}{% assign is_active = true %}{% endif %}
           {% elsif item.url contains "/" %}
             {% if page.url contains item.url %}{% assign is_active = true %}{% endif %}
           {% endif %}
@@ -27,9 +28,23 @@
           </li>
           {% endfor %}
         </ul>
-        <div class="d-flex align-items-center gap-2 mt-3 mt-lg-0">
-          <a href="{{ site.data.site.header.cta_url }}" class="btn btn-colab-accent me-3">{{ site.data.site.header.cta_text }}</a>
-          <a href="{{ site.data.site.header.secondary_cta_url }}" class="btn btn-colab">{{ site.data.site.header.secondary_cta_text }}</a>
+        <div class="d-flex align-items-center gap-2 mt-3 mt-xl-0">
+          <a href="{{ d.site.header.cta_url }}" class="btn btn-colab-accent me-3">{{ d.site.header.cta_text }}</a>
+          <a href="{{ d.site.header.secondary_cta_url }}" class="btn btn-colab">{{ d.site.header.secondary_cta_text }}</a>
+          {% comment %} Seletor de idioma (PT padrão / EN em /en/). alt_url vem de _includes/i18n.html. {% endcomment %}
+          {% if alt_url == "" %}{% if lang == "en" %}{% assign alt_url = "/" %}{% else %}{% assign alt_url = "/en/" %}{% endif %}{% endif %}
+          <div class="lang-switch ms-2 ms-xl-3" role="group" aria-label="{{ t.lang_label }}">
+            <i class="uil uil-globe lang-switch__icon" aria-hidden="true"></i>
+            {% if lang == "pt" %}
+            <span class="lang-switch__item is-active" aria-current="true" lang="pt">PT</span>
+            <span class="lang-switch__sep" aria-hidden="true">/</span>
+            <a class="lang-switch__item" href="{{ alt_url | relative_url }}" hreflang="en" lang="en" title="English">EN</a>
+            {% else %}
+            <a class="lang-switch__item" href="{{ alt_url | relative_url }}" hreflang="pt-BR" lang="pt" title="Português">PT</a>
+            <span class="lang-switch__sep" aria-hidden="true">/</span>
+            <span class="lang-switch__item is-active" aria-current="true" lang="en">EN</span>
+            {% endif %}
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,28 @@
+eyebrow: "Hello, we are coLAB/UFF"
+title: "coLAB - Research Laboratory for Communication, Political Cultures and Economies of Collaboration."
+description: >
+  The Research Laboratory for Communication, Political Cultures and Economies of
+  Collaboration (coLAB/UFF) is a research center specialized in investigations
+  aimed at understanding the interfaces between digital culture and political
+  culture, with an emphasis on studies of online politics, digital methods,
+  disinformation and hate speech, humor and democracy, political violence on
+  digital platforms, digital activism, contentious repertoires and the strategic
+  uses of affordances on digital platforms, influence operations, and online
+  participation, among other topics.
+newsletter_label: "Want to receive our news?"
+form:
+  placeholder: "Your e-mail"
+  button_text: "Subscribe"
+
+images:
+  col1:
+    src: "/assets/img/hero/data-tiktok-report.jpg"
+    alt: "Data report on TikTok produced by coLAB"
+  col2:
+    - src: "/assets/img/hero/cta-img.png"
+      alt: "coLAB visual call"
+    - src: "/assets/img/hero/museum.png"
+      alt: "#MUSEUdeMEMES, coLAB's outreach project"
+  col3:
+    src: "/assets/img/hero/data-genderviolence-report.png"
+    alt: "Data report on gender-based violence produced by coLAB"

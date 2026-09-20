@@ -1,0 +1,105 @@
+# coLAB Timeline — /en/about/ page (_includes/timeline.html). English version of
+# _data/timeline.yml. "years" is the list of milestones in chronological order.
+# Each event accepts: title (required), description (required), image (optional).
+title: "coLAB timeline"
+description: "An overview of the main milestones in the laboratory's history, from its founding to the present day. Click on an event to read the details."
+years:
+  - year: 2010
+    events:
+      - title: "Founding of coLAB"
+        description: "The Research Laboratory for Communication, Political Cultures and Economies of Collaboration (coLAB) is founded in November at the Fluminense Federal University, under the leadership of Viktor Chagas."
+  - year: 2011
+    events:
+      - title: "Creation of the Center for Applied Production and Research in Electronic Games and Collaborative Networks (P3)"
+        description: "The P3 outreach program brought together the outreach activities of the research groups coLAB (coordinated by Viktor Chagas) and Media Ludens (coordinated by Emmanoel Ferreira), including a film club and a series of workshops on digital culture."
+      - title: "First undergraduate thesis on memes"
+        description: "Before any other research and outreach activities associated with the topic emerged, Tsai Yi Jing defends her undergraduate thesis in Media Studies, supervised by Viktor Chagas."
+  - year: 2012
+    events:
+      - title: "Vasconcelos Torres Scientific Initiation Award (UFF)"
+        description: "Milena Pereira (PIBIC/CNPq) and Viktor Chagas (advisor) receive 2nd place in the Applied Social Sciences category for the project \"The Statute of Collaboration: Appropriations of the Web for Processes of Collective Construction of Narratives\"."
+      - title: "First #memeclube"
+        description: "In June 2012, the #memeclube emerges, a mix between a film club and an academic seminar, featuring a thematic curatorship and small exhibition clusters on the Brazilian memesphere. At its debut, the event was organized around a debate on the LOLcat genre and the community producing memes around the theme."
+  - year: 2013
+    events:
+      - title: "New outreach project!"
+        description: "The #MUSEUdeMEMES emerges as an outreach project, still without a platform or an established collection."
+      - title: "Wikipedia at the University Program"
+        description: "coLAB joins the Wikipedia at the University Program, in which students and professors come together to create content for Wikipedia."
+  - year: 2014
+    events:
+      - title: "Adelmo Genro Filho Journalism Research Award (SBPJor)"
+        description: "Viktor Chagas receives 1st place in the Best Doctoral Dissertation category, with the dissertation \"Extra! Extra! Newsstand Vendors and Newsstands as a Space of Disputes over the Control of Press Distribution and the Political Economy of the Media\"."
+      - title: "Scientific and Technological Initiation Week Award/PIBITI-CNPq (UFF)"
+        description: "Luan Dutra (PIBITI/CNPq) and Viktor Chagas (advisor) receive 1st place in the General category for the project \"Cooperation Games: Dynamics of Conflict and Negotiation in Educational Materials for University-Age Youth\"."
+      - title: "XII Josué de Castro Outreach Award (UFF)"
+        description: "Janderson Pereira Santa Clara (outreach scholarship holder) and Viktor Chagas (advisor) receive 1st place in the Communication category for the project \"Big Data Office: Study and Application of Big Data Analysis on Wikipedia\"."
+      - title: "Early-Stage Scholars Grant, Travel Grant (IAMCR)"
+        description: "Viktor Chagas is awarded for the project \"Overlapping Webs: An Analytical Model for Use in Works on the Political Economy of Printed Media\"."
+      - title: "Big Data Office Project"
+        description: "A new outreach project is created, still within the scope of the Center for Applied Production and Research in Electronic Games and Collaborative Networks (P3). The project aimed to establish an innovation and digital intelligence agency, which would later become the Model Memes Office."
+      - title: "First studies on memes and elections"
+        description: "coLAB researchers develop their first studies on memes and elections. Preliminary results are presented the following year at Compolítica and, later, at other conferences in the field."
+  - year: 2015
+    events:
+      - title: "Launch of #MUSEUdeMEMES"
+        description: "The #MUSEUdeMEMES is inaugurated in June 2015, after years of research and development. From its origin, the outreach project has been dedicated to the preservation and study of meme culture as digital heritage."
+  - year: 2016
+    events:
+      - title: "Highlight in Scientific and Technological Initiation Award (CNPq)"
+        description: "Luan Dutra (PIBITI/CNPq) and Viktor Chagas (advisor) receive 1st place in the Humanities category for the project \"Cooperation Games: Dynamics of Conflict and Negotiation in Educational Materials for University-Age Youth\"."
+      - title: "Master's Thesis"
+        description: "Fernanda Freire defends her thesis on the memes of the 2014 elections and the Eduardo Jorge case, supervised by Alessandra Aldé (Uerj) and co-supervised by Viktor Chagas."
+      - title: "Virtual exhibition \"The Memes' Olympics\""
+        description: "With the support of the Casa de Rui Barbosa Foundation and the Getulio Vargas Foundation, and as an integral part of the project \"Preserving the Memory of the Olympics: Processes and Actions\", the virtual exhibition \"The Memes' Olympics\" is inaugurated, curated by #MUSEUdeMEMES."
+      - title: "Model Memes Office"
+        description: "The Big Data Office project is converted into the Model Memes Office, an innovation and digital intelligence agency devoted to the study of the memesphere, with a focus on the activity of digital influencers, coordinated actions, and more."
+  - year: 2018
+    events:
+      - title: "coLAB joins INCT.DD"
+        description: "As a result of the activities carried out during Viktor Chagas's postdoctoral fellowship under the supervision of Professor Wilson Gomes at the Federal University of Bahia, coLAB becomes associated with the National Institute of Science and Technology in Digital Democracy, based in Salvador, BA."
+  - year: 2019
+    events:
+      - title: "IX Scientific and Technological Initiation Week Award/PIBITI-CNPq (UFF)"
+        description: "Carlos Bonifácio (PIBINOVA/UFF) and Viktor Chagas (advisor) receive 3rd place in the Human/Social Sciences/Linguistics category for the project \"Model Memes Office\"."
+      - title: "#MUSEUdeMEMES Symposium + Exhibition"
+        description: "In May, coLAB holds an international symposium combined with the launch of the exhibition \"The politics of memes and the memes of politics\", which received thousands of visitors at the Catete Palace, Museum of the Republic. The symposium brought together about 200 researchers from across Brazil and international guests such as Whitney Phillips (Syracuse University) and Ryan Milner (College of Charleston)."
+      - title: "#MUSEUdeMEMES gets a new look"
+        description: "A new website is developed to host the #MUSEUdeMEMES project."
+      - title: "Compolítica"
+        description: "Professor Viktor Chagas takes over as executive secretary of the Brazilian Association of Communication and Politics Researchers (Compolítica) for the 2019-2021 term, alongside colleagues Rafael Cardoso Sampaio (president) and Rayza Sarmento (vice-president)."
+      - title: "Project \"Deliberative democracy in the face of the crisis of democracy: contributions, dilemmas and paths\""
+        description: "Start of the activities of the project \"Deliberative democracy in the face of the crisis of democracy: contributions, dilemmas and paths\", led by Ricardo Fabrino Mendonça (UFMG), in partnership with professors Viktor Chagas (UFF), Rayza Sarmento (UFV), Franck Tavares (UFG), Camilo Aggio (UFMG) and Filipe Motta (UFMG)."
+  - year: 2020
+    events:
+      - title: "Book A Cultura dos Memes (Edufba)"
+        description: "Viktor Chagas edits the first collection to emphasize meme culture in Brazil, with translated and previously unpublished texts, predominantly by international authors."
+      - title: "Project \"The circulation of dangerous speech in the 2020 Brazilian elections\""
+        description: "Start of the activities of the project \"The circulation of dangerous speech in the 2020 Brazilian elections\", led by the Getulio Vargas Foundation. The proposal won a Facebook Research call on disinformation. Viktor Chagas takes part as a project member."
+  - year: 2021
+    events:
+      - title: "Creation of DDoS Lab"
+        description: "coLAB inaugurates a new innovation and digital intelligence agency project, serving as a laboratory to combat disinformation and hate speech in networked communication systems. DDoS Lab incorporates and renames the former Model Memes Office project, which in turn grew out of the accumulated experience of the Big Data Office. DDoS Lab receives support from a parliamentary amendment by then federal deputy Alessandro Molon (PSB-RJ) and from an internal equipment call by INCT.DD. The funds gave rise to the laboratory facilities of DADOS, the physical space that currently hosts coLAB, and made it possible to publish a series of research reports with situational analyses on topics within the group's scope."
+        image: "/assets/img/projects/ddoslab-featured.png"
+  - year: 2024
+    events:
+      - title: "Book A Cultura dos Memes no Brasil (Edufba)"
+        description: "The second volume of the A Cultura dos Memes collection, now focusing on Brazilian cases and predominantly featuring texts by national authors, is released, also edited by Viktor Chagas."
+      - title: "Inauguration of DADOS"
+        description: "The DADOS laboratory, the physical home of coLAB (and also of MiDICom, another group associated with PPGCOM UFF), at the Institute of Art and Social Communication, is inaugurated."
+      - title: "Project \"Restoring Trust in Journalism: A Cross-Country Investigation into the Impact of Journalistic Repair Strategies\""
+        description: "Start of the activities of the project \"Restoring Trust in Journalism\", led by professors Mark Boukes and David Blanco Herrero (Universiteit van Amsterdam), together with 33 other countries."
+      - title: "Online informational panel for detecting anti-vaccine narratives (DNA)"
+        description: "Start of the activities of the DNA project, led by IBICT. Viktor Chagas takes part as a researcher associated with the partner group Labic/Ufes."
+  - year: 2025
+    events:
+      - title: "Exhibition MEME: No Br@sil da Memeficação"
+        description: "The exhibition MEME: No Br@sil da Memeficação (MEME: In Br@zil's Memefication), curated by Clarissa Diniz and Ismael Monticelli, premieres at the Banco do Brasil Cultural Center São Paulo (CCBB-SP). In the same year, it tours Brasília and then Belo Horizonte and Rio de Janeiro, already in 2026. #MUSEUdeMEMES and coLAB take part as guest curators of one of the exhibition's sections, conducting interviews with humorists, comedians, digital influencers and meme makers."
+  - year: 2026
+    events:
+      - title: "36th International Society for Humor Studies Conference (ISHS)"
+        description: "In July, the 36th annual edition of the longest-running and most important humor studies conference is held for the first time in the Global South and Latin America, in Niterói, at the Fluminense Federal University. coLAB is the host of the conference, which brought together 200 participants from 35 different countries, 166 papers presented across 56 sessions. In all, there were 13 national and international guests, including Raúl Pérez (La Verne University), Héctor Fernández L'Hoeste (Georgia State University), Daniel Kupermann (USP), Helen Fernandes (Malfeitona), and Porta dos Fundos actresses Clarice Falcão, Adriana Falcão, Dida Camero and Bella Camera, among others."
+      - title: "International Society for Humor Studies Service Award"
+        description: "For organizing the 36th edition of its annual conference, the ISHS grants co-organizers Viktor Chagas and João Paulo Capelotti the ISHS Service Award."
+      - title: "Special issue \"Dark and Unethical Visual Politics\""
+        description: "Viktor Chagas is the guest editor of the special issue of the Journal of Visual Political Communication, with the dossier Dark and Unethical Visual Politics."

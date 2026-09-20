@@ -16,8 +16,10 @@ var SOCIAL_ICONS = {
   instagram: "uil-instagram",
   twitter: "uil-twitter"
 };
+// Textos de interface do idioma da página (window.I18N, de _data/i18n.yml).
+var I18N = window.I18N || {};
 var SOCIAL_LABELS = {
-  lattes: "Currículo Lattes",
+  lattes: (I18N.social && I18N.social.lattes) || "Currículo Lattes",
   orcid: "ORCID",
   google_scholar: "Google Scholar",
   academia: "Academia.edu",
@@ -198,7 +200,7 @@ function readTeamMembersFromDOM() {
 function buildTeamCardHTML(member) {
   var classes = "team-card" + (member.featured ? " team-card--featured" : "");
   var badge = member.featured
-    ? '<span class="team-card__badge">' + (member.badge || "Destaque") + "</span>"
+    ? '<span class="team-card__badge">' + (member.badge || I18N.badge_default || "Destaque") + "</span>"
     : "";
   var social = member.social || {};
   var socialLinks = Object.keys(social)
@@ -291,7 +293,7 @@ function renderTeamBlock() {
       ? pages
           .map(function (_, i) {
             return (
-              '<button type="button" class="' + (i === 0 ? "is-active" : "") + '" data-team-dot aria-label="Página ' + (i + 1) + '"></button>'
+              '<button type="button" class="' + (i === 0 ? "is-active" : "") + '" data-team-dot aria-label="' + (I18N.page_label || "Página") + ' ' + (i + 1) + '"></button>'
             );
           })
           .join("")

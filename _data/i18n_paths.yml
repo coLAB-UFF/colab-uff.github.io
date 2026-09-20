@@ -1,0 +1,16 @@
+# Mapa de URLs PT <-> EN, usado pelo seletor de idioma (_includes/i18n.html).
+# A troca de idioma substitui o prefixo da URL atual pelo prefixo equivalente
+# no outro idioma; as páginas individuais (projetos, publicações, integrantes,
+# apps) mantêm o mesmo slug nos dois idiomas. Coloque as entradas mais
+# específicas antes das mais genéricas.
+- { pt: "/fale-conosco/obrigado/", en: "/en/contact/thank-you/" }
+- { pt: "/fale-conosco/", en: "/en/contact/" }
+- { pt: "/sobre/", en: "/en/about/" }
+- { pt: "/integrantes/", en: "/en/members/" }
+- { pt: "/projetos/", en: "/en/projects/" }
+- { pt: "/publicacoes/", en: "/en/publications/" }
+- { pt: "/data/", en: "/en/data/" }
+- { pt: "/apps/", en: "/en/apps/" }
+- { pt: "/lab/", en: "/en/lab/" }
+- { pt: "/clipping/", en: "/en/clipping/" }
+- { pt: "/ddoslab/", en: "/en/ddoslab/" }
