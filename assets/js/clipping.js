@@ -16,7 +16,9 @@
   var I18N = window.I18N || {};
 
   var SHEETS_URL = "https://docs.google.com/spreadsheets/d/1qzCZkxj9AeJ8LKt5xJp_snYqXixoq93jK2trl3Xnj6Q/gviz/tq?tqx=out:csv";
-  var GH_RAW_BASE = "https://raw.githubusercontent.com/colab-uff/clipping/main/";
+  // As imagens das notícias ficam neste próprio site, em /clipping/images/
+  // (pasta clipping/images/ do repositório).
+  var IMAGES_BASE = "/clipping/images/";
   var PER_PAGE = 54;
 
   var allItems = [];
@@ -24,11 +26,20 @@
 
   /* ── Utilitários ─────────────────────────────────────────── */
 
+  // Converte o valor da coluna "Imagem da Notícia" no endereço da imagem.
+  // Vazio -> null (o card usa o placeholder amarelo). Aceita:
+  //   https://...                 URL externa, usada como está
+  //   clippingNNNNN.png           só o nome do arquivo
+  //   clipping/images/NNN.png     caminho no site (com ou sem "/" inicial)
+  //   images/projects/NNN.png     formato antigo (repositório clipping_oldsite)
   function resolveImage(val) {
     if (!val || val.trim() === "") return null;
     val = val.trim();
-    if (/^https?:\/\//i.test(val)) return val; // URL externa — usar como está
-    return GH_RAW_BASE + val.replace(/^\//, ""); // path relativo -> raw GitHub
+    if (/^https?:\/\//i.test(val)) return val;
+    var rest = val.replace(/^\/+/, "")
+      .replace(/^clipping\//i, "")
+      .replace(/^images\/(projects\/)?/i, "");
+    return rest ? IMAGES_BASE + encodeURI(rest) : null;
   }
 
   // A coluna "Data" da planilha já vem no formato DD/MM/YYYY — só exibimos
@@ -62,6 +73,10 @@
 
   /* ── Renderização de card ────────────────────────────────── */
 
+  // Placeholder (bloco inteiro em #FFB351) usado quando a notícia não tem
+  // imagem na planilha ou quando o arquivo indicado não carrega.
+  var PLACEHOLDER_HTML = '<div class="clipping-card__placeholder"></div>';
+
   function renderCard(row) {
     var imgUrl = resolveImage(row["Imagem da Notícia"]);
     var titulo = esc(row["Título da Notícia"] || "");
@@ -75,7 +90,7 @@
 
     var imgHtml = imgUrl
       ? '<img src="' + esc(imgUrl) + '" alt="' + titulo + '" loading="lazy">'
-      : '<div class="clipping-card__placeholder"><i class="uil uil-newspaper"></i></div>';
+      : PLACEHOLDER_HTML;
 
     var meta = "";
     if (fonte) meta += '<span><i class="uil uil-newspaper"></i>' + fonte + "</span>";
@@ -174,6 +189,16 @@
     list.innerHTML = slice.map(renderCard).join("");
     list.style.display = "";
 
+    // Imagem indicada na planilha mas inexistente/quebrada: troca pelo placeholder.
+    list.querySelectorAll(".clipping-card__image img").forEach(function (img) {
+      img.addEventListener("error", function () {
+        if (img.parentNode) img.parentNode.innerHTML = PLACEHOLDER_HTML;
+      });
+      if (img.complete && img.naturalWidth === 0 && img.getAttribute("src")) {
+        if (img.parentNode) img.parentNode.innerHTML = PLACEHOLDER_HTML;
+      }
+    });
+
     renderPagination(page);
   }
 
@@ -185,7 +210,7 @@
     var error = document.getElementById("clipping-error");
     if (!loading) return;
 
-    fetch(SHEETS_URL)
+    fetch(SHEETS_URL + "&_=" + Date.now(), { cache: "no-store" })
       .then(function (r) { return r.text(); })
       .then(function (text) {
         var result = Papa.parse(text, { header: true, skipEmptyLines: true });

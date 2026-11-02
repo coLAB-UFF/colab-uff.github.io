@@ -1503,17 +1503,11 @@ footer.bg-navy .logo-mark {
   height: auto;
   object-fit: cover;
 }
+/* Placeholder de notícia sem imagem: bloco inteiro na cor da marca (#FFB351) */
 .clipping-card__placeholder {
   width: 100%;
   aspect-ratio: 16 / 10;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.clipping-card__placeholder i {
-  font-size: 2.25rem;
-  color: var(--colab-muted);
-  opacity: 0.4;
+  background-color: #FFB351;
 }
 .clipping-card__info {
   display: flex;
