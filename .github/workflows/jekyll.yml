@@ -17,9 +17,38 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # permite gravar de volta no repositório as imagens do Clipping já comprimidas
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      # Clipping: comprime automaticamente imagens novas/pesadas em clipping/images/
+      # (ver .github/scripts/compress_clipping_images.py). O site publicado já sai
+      # com as versões comprimidas e, se algo mudou, elas são gravadas de volta no
+      # repositório (esse commit feito pelo workflow não dispara novo deploy).
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Comprimir imagens do Clipping
+        run: |
+          python3 -m pip install --quiet pillow
+          python3 .github/scripts/compress_clipping_images.py clipping/images
+      - name: Gravar imagens comprimidas no repositório
+        continue-on-error: true   # se falhar (ex.: outro push no meio), o deploy segue normalmente
+        run: |
+          if [ -n "$(git status --porcelain -- clipping/images)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add clipping/images
+            git commit -m "Comprime imagens do Clipping (automático)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo "Nenhuma imagem nova para comprimir."
+          fi
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
